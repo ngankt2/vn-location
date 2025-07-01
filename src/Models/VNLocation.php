@@ -1,5 +1,5 @@
 <?php
-namespace Wiz\VNLocation\Models;
+namespace Ngankt2\VNLocation\Models;
 
 use Illuminate\Database\Eloquent\Model;
 /**

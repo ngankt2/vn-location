@@ -1,6 +1,6 @@
 {
     "name": "ngankt2/vn-location",
-    "description": "Tỉnh thành phường xã của Việt nam",
+    "description": "Tỉnh thành phường xã của Việt nam theo chuẩn mới từ ngày 01/07/2025",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -29,6 +29,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
