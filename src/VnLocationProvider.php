@@ -2,17 +2,12 @@
 
 namespace Ngankt2\VNLocation;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class VnLocationProvider extends PackageServiceProvider
+class VnLocationProvider extends ServiceProvider
 {
-    public function configurePackage(Package $package): void
+    public function boot(): void
     {
-        $package
-            ->name('vn-location');
-
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 }

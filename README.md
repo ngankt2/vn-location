@@ -36,16 +36,21 @@ The data is sourced from official announcements by the Vietnamese government, in
 - `vn_locations.json`: JSON file with structured data for programmatic use.
 
 ## Usage
-1. **SQL**:
+**COMPOSER**: 
+     ```
+     composer require ngankt2/vn-location
+     ```
+
+**SQL**:
    - Execute `vn_locations.sql` in your database (e.g., MySQL, PostgreSQL) to create the table and import data.
    - Example:
      ```bash
      mysql -u username -p database_name < vn_locations.sql
      ```
-2. **CSV**:
+**CSV**:
    - Import `vn_locations.csv` into your database or spreadsheet software.
    - Ensure the database table structure matches the fields described above.
-3. **JSON**:
+**JSON**:
    - Use `vn_locations.json` for applications requiring JSON data.
 
 ## License

@@ -1,6 +1,6 @@
 {
     "name": "ngankt2/vn-location",
-    "description": "Tỉnh thành phường xã của Việt nam theo chuẩn mới từ ngày 01/07/2025",
+    "description": "Tỉnh thành phường xã của Việt Nam (2 cấp), cập nhật theo thông tin mới từ ngày 01/07/2025",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -19,8 +19,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "spatie/laravel-package-tools": "^1.9"
+        "php": "^8.2"
     },
     "extra": {
         "laravel": {
