@@ -26,6 +26,10 @@ return new class extends Migration
         $sqlFile = __DIR__ . '/vn_locations.sql';
         if (file_exists($sqlFile)) {
             DB::unprepared(file_get_contents($sqlFile));
+
+            DB::table('vn_locations')
+                ->whereNull('full_path')
+                ->update(['full_path' => DB::raw('full_name')]);
         }
     }
 
