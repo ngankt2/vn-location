@@ -53,6 +53,14 @@ The data is sourced from official announcements by the Vietnamese government, in
 **JSON**:
    - Use `vn_locations.json` for applications requiring JSON data.
 
+
+**Filament Panel**
+
+    ```
+      ->plugin(FilamentVnLocationPlugins::make())
+     ```
+            
+
 ## License
 This dataset is provided under the MIT License. Feel free to use, modify, and distribute it for non-commercial and commercial purposes, with attribution to this repository.
 
