@@ -36,8 +36,7 @@ enum VNLocationType: string implements HasLabel, HasColor, HasIcon
     public function getIcon(): ?string
     {
         return match ($this) {
-            self::TINH => 'heroicon-o-building-library',
-            self::THANH_PHO => 'heroicon-o-city',
+            self::TINH,self::THANH_PHO => 'heroicon-o-building-library',
             self::XA => 'heroicon-o-home-modern',
             self::PHUONG => 'heroicon-o-map-pin',
         };
