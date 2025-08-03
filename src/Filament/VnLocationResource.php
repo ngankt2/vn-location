@@ -2,8 +2,8 @@
 
 namespace Ngankt2\VNLocation\Filament;
 
-use App\Filament\Exports\VnLocationExporter;
 use Ngankt2\VNLocation\Enums\VNLocationType;
+use Ngankt2\VNLocation\Exports\VnLocationExporter;
 use Ngankt2\VNLocation\Filament\VnLocationResource\Pages;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -15,7 +15,7 @@ use Ngankt2\VNLocation\Models\VNLocation;
 class VnLocationResource extends Resource
 {
     protected static ?string $model = VnLocation::class;
-    protected static ?string $navigationIcon = 'heroicon-o-map-pin';
+    protected static string|null|\BackedEnum $navigationIcon = 'heroicon-o-map-pin';
 
     protected static ?int $navigationSort = 5;
 
@@ -135,7 +135,6 @@ class VnLocationResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\ExportAction::make()->exporter(VnLocationExporter::class)
-
                 ]),
             ]);
     }
