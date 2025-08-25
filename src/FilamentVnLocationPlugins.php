@@ -4,8 +4,7 @@ namespace Ngankt2\VNLocation;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use Ngankt2\FilamentRecruitment\Filament\RecruitmentPositionResource;
-use Ngankt2\VNLocation\Filament\VnLocationResource;
+use Ngankt2\VNLocation\Filament\Resources\VNLocations\VNLocationResource;
 
 class FilamentVnLocationPlugins implements Plugin
 {

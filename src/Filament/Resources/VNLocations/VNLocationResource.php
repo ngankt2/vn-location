@@ -1,25 +1,27 @@
 <?php
+namespace Ngankt2\VNLocation\Filament\Resources\VNLocations;
 
-namespace Ngankt2\VNLocation\Filament;
-
-use Ngankt2\VNLocation\Enums\VNLocationType;
-use Ngankt2\VNLocation\Exports\VnLocationExporter;
-use Ngankt2\VNLocation\Filament\VnLocationResource\Pages;
+use BackedEnum;
+use Filament\Actions\ViewAction;
 use Filament\Forms;
-use Filament\Forms\Form;
 use Filament\Resources\Resource;
+use Filament\Schemas\Schema;
+use Filament\Support\Icons\Heroicon;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Ngankt2\VNLocation\Enums\VNLocationType;
+use Ngankt2\VNLocation\Filament\Resources\VNLocations\Pages\ManageVNLocations;
 use Ngankt2\VNLocation\Models\VNLocation;
 
-class VnLocationResource extends Resource
+class VNLocationResource extends Resource
 {
-    protected static ?string $model = VnLocation::class;
-    protected static string|null|\BackedEnum $navigationIcon = 'heroicon-o-map-pin';
+    protected static ?string $model = VNLocation::class;
 
-    protected static ?int $navigationSort = 5;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedMapPin;
 
-    // 1. Thêm icon phù hợp (dùng heroicons)
+    protected static ?string $recordTitleAttribute = 'name';
+
+    protected static bool $hasTitleCaseModelLabel = false;
 
     public static function getNavigationGroup(): ?string
     {
@@ -32,17 +34,25 @@ class VnLocationResource extends Resource
         return __('Tỉnh thành/Xã phường');
     }
 
+    public static function getPluralLabel(): string
+    {
+        return __('Tỉnh thành/Xã phường');
+    }
+
     // 3. Thêm navigation label để hiển thị bên sidebar
     public static function getNavigationLabel(): string
     {
         return __('Tỉnh thành/Xã phường');
     }
 
-    public static function form(Form $form): Form
+
+    /**
+     * @throws \Exception
+     */
+    public static function form(Schema $schema): Schema
     {
-        return $form
-            ->schema([
-                // Tên địa điểm
+        return $schema
+            ->components([
                 Forms\Components\TextInput::make('name')
                     ->label(__('Tên'))
                     ->required()->inlineLabel()
@@ -75,9 +85,8 @@ class VnLocationResource extends Resource
                     ->inlineLabel()
                     ->nullable()
                     ->maxLength(512),
-            ])->columns(1);
+            ]);
     }
-
 
     public static function table(Table $table): Table
     {
@@ -129,20 +138,18 @@ class VnLocationResource extends Resource
                     ->options(VNLocationType::class)
 
             ])
-            ->actions([
-                Tables\Actions\ViewAction::make(),
+            ->recordActions([
+                ViewAction::make(),
             ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\ExportAction::make()->exporter(VnLocationExporter::class)
-                ]),
+            ->toolbarActions([
+
             ]);
     }
 
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageVnLocations::route('/'),
+            'index' => ManageVNLocations::route('/'),
         ];
     }
 }

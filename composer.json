@@ -19,7 +19,8 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "filament/filament": "^4.0"
     },
     "extra": {
         "laravel": {
