@@ -8,6 +8,8 @@ use Ngankt2\VNLocation\Filament\Resources\VNLocations\VNLocationResource;
 
 class FilamentVnLocationPlugins implements Plugin
 {
+
+    private bool $showNavigationIcon = true;
     public function getId(): string
     {
         return 'filament-vn-location-plugins';
@@ -18,7 +20,6 @@ class FilamentVnLocationPlugins implements Plugin
         $panel->resources([
             VnLocationResource::class
         ]);
-
     }
 
     public function boot(Panel $panel): void
@@ -29,5 +30,15 @@ class FilamentVnLocationPlugins implements Plugin
     public static function make(): static
     {
         return new static;
+    }
+
+    public function showNavigationIcon($bool=true): static
+    {
+        $this->showNavigationIcon = $bool;
+        return $this;
+    }
+    public function getShowNavigationIcon(): bool
+    {
+        return $this->showNavigationIcon;
     }
 }

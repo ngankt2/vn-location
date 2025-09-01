@@ -9,6 +9,7 @@ use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Contracts\Support\Htmlable;
 use Ngankt2\VNLocation\Enums\VNLocationType;
 use Ngankt2\VNLocation\Filament\Resources\VNLocations\Pages\ManageVNLocations;
 use Ngankt2\VNLocation\Models\VNLocation;
@@ -17,10 +18,12 @@ class VNLocationResource extends Resource
 {
     protected static ?string $model = VNLocation::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedMapPin;
-
     protected static ?string $recordTitleAttribute = 'name';
 
+    public static function getNavigationIcon(): string|BackedEnum|Htmlable|null
+    {
+        return filament('filament-vn-location-plugins')->getShowNavigationIcon() ? Heroicon::OutlinedMapPin : null;
+    }
     protected static bool $hasTitleCaseModelLabel = false;
 
     public static function getNavigationGroup(): ?string
