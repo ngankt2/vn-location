@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('full_name', 255)->nullable();
             $table->string('full_path', 100)->nullable();
             $table->string('code', 20)->unique();
-            $table->string('type', 20)->nullable();
+            $table->string('group', 20)->nullable();
             $table->string('parent_code', 20)->nullable();
         });
 

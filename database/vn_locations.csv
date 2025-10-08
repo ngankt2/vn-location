@@ -1,4 +1,4 @@
-name,type,full_name,full_path,code,parent_code
+name,group,full_name,full_path,code,parent_code
 Minh Châu,xa,Xã Minh Châu,"Xã Minh Châu, Thành phố Hà Nội",267,11
 Ngọc Hồi,xa,Xã Ngọc Hồi,"Xã Ngọc Hồi, Thành phố Hà Nội",523,11
 Tây Mỗ,phuong,Phường Tây Mỗ,"Phường Tây Mỗ, Thành phố Hà Nội",779,11

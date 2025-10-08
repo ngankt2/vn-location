@@ -10,6 +10,7 @@ use Filament\Support\Icons\Heroicon;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Contracts\Support\Htmlable;
+use Ngankt2\VNLocation\Enums\VNLocationGroup;
 use Ngankt2\VNLocation\Enums\VNLocationType;
 use Ngankt2\VNLocation\Filament\Resources\VNLocations\Pages\ManageVNLocations;
 use Ngankt2\VNLocation\Models\VNLocation;
@@ -69,10 +70,10 @@ class VNLocationResource extends Resource
                     ->maxLength(20),
 
                 // Loại địa điểm (tỉnh, huyện, xã,...)
-                Forms\Components\TextInput::make('type')
+                Forms\Components\TextInput::make('group')
                     ->label(__('Loại'))
-                    ->formatStateUsing(fn($state)=>  VNLocationType::tryFrom($state)?->getLabel() ?? __('Không xác định'))
-                    ->prefixIcon(fn($state)=>  VNLocationType::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
+                    ->formatStateUsing(fn($state)=>  VNLocationGroup::tryFrom($state)?->getLabel() ?? __('Không xác định'))
+                    ->prefixIcon(fn($state)=>  VNLocationGroup::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
                     ->nullable()->inlineLabel()
                     ->maxLength(50),
 
@@ -94,7 +95,7 @@ class VNLocationResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->defaultSort('type')
+            ->defaultSort('group')
             ->paginationPageOptions([10, 25, 50, 100])
             ->columns([
                 // Mã địa điểm
@@ -116,12 +117,12 @@ class VNLocationResource extends Resource
 
 
                 // Loại (tỉnh, huyện, xã,...)
-                Tables\Columns\TextColumn::make('type')
+                Tables\Columns\TextColumn::make('group')
                     ->label(__('Loại')) // Label: "Loại"
                     ->badge()
-                    ->formatStateUsing(fn($state) => VNLocationType::tryFrom($state)?->getLabel() ?? __('Không xác định'))
-                    ->color(fn($state) => VNLocationType::tryFrom($state)?->getColor() ?? VNLocationType::XA->getColor())
-                    ->icon(fn($state) => VNLocationType::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
+                    ->formatStateUsing(fn($state) => VNLocationGroup::tryFrom($state)?->getLabel() ?? __('Không xác định'))
+                    ->color(fn($state) => VNLocationGroup::tryFrom($state)?->getColor() ?? VNLocationGroup::XA->getColor())
+                    ->icon(fn($state) => VNLocationGroup::tryFrom($state)?->getIcon() ?? VNLocationGroup::XA->getIcon())
                     ->searchable(), // Cho phép tìm kiếm theo loại
 
 
@@ -136,9 +137,9 @@ class VNLocationResource extends Resource
                     ->searchable()
                     ->options(VNLocation::query()->whereNull('parent_code')->pluck('full_name', 'code')),
 
-                Tables\Filters\SelectFilter::make('type')
+                Tables\Filters\SelectFilter::make('group')
                     ->label(__('Loại'))
-                    ->options(VNLocationType::class)
+                    ->options(VNLocationGroup::class)
 
             ])
             ->recordActions([

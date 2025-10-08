@@ -6,7 +6,7 @@ use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 
-enum VNLocationType: string implements HasLabel, HasColor, HasIcon
+enum VNLocationGroup: string implements HasLabel, HasColor, HasIcon
 {
     case TINH = 'tinh';
     case THANH_PHO = 'thanh-pho';

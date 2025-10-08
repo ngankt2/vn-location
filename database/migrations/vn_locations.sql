@@ -1,4 +1,4 @@
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hà Nội','Thành phố Hà Nội',NULL,'11','thanh-pho',NULL),
                                                                                 ('Hồ Chí Minh','Thành phố Hồ Chí Minh',NULL,'12','thanh-pho',NULL),
                                                                                 ('Đà Nẵng','Thành phố Đà Nẵng',NULL,'13','thanh-pho',NULL),
@@ -9,7 +9,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bắc Ninh','Tỉnh Bắc Ninh',NULL,'18','tinh',NULL),
                                                                                 ('Cà Mau','Tỉnh Cà Mau',NULL,'19','tinh',NULL),
                                                                                 ('Cao Bằng','Tỉnh Cao Bằng',NULL,'20','tinh',NULL);
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đắk Lắk','Tỉnh Đắk Lắk',NULL,'21','tinh',NULL),
                                                                                 ('Điện Biên','Tỉnh Điện Biên',NULL,'22','tinh',NULL),
                                                                                 ('Đồng Nai','Tỉnh Đồng Nai',NULL,'23','tinh',NULL),
@@ -20,7 +20,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khánh Hòa','Tỉnh Khánh Hòa',NULL,'28','tinh',NULL),
                                                                                 ('Lai Châu','Tỉnh Lai Châu',NULL,'29','tinh',NULL),
                                                                                 ('Lâm Đồng','Tỉnh Lâm Đồng',NULL,'30','tinh',NULL);
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lạng Sơn','Tỉnh Lạng Sơn',NULL,'31','tinh',NULL),
                                                                                 ('Lào Cai','Tỉnh Lào Cai',NULL,'32','tinh',NULL),
                                                                                 ('Nghệ An','Tỉnh Nghệ An',NULL,'33','tinh',NULL),
@@ -31,7 +31,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Trị','Tỉnh Quảng Trị',NULL,'38','tinh',NULL),
                                                                                 ('Sơn La','Tỉnh Sơn La',NULL,'39','tinh',NULL),
                                                                                 ('Tây Ninh','Tỉnh Tây Ninh',NULL,'40','tinh',NULL);
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thái Nguyên','Tỉnh Thái Nguyên',NULL,'41','tinh',NULL),
                                                                                 ('Thanh Hóa','Tỉnh Thanh Hóa',NULL,'42','tinh',NULL),
                                                                                 ('Tuyên Quang','Tỉnh Tuyên Quang',NULL,'43','tinh',NULL),
@@ -42,7 +42,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Diễn','Phường Phú Diễn','Phường Phú Diễn, Thành phố Hà Nội','1035','phuong','11'),
                                                                                 ('Tây Tựu','Phường Tây Tựu','Phường Tây Tựu, Thành phố Hà Nội','1291','phuong','11'),
                                                                                 ('Thượng Cát','Phường Thượng Cát','Phường Thượng Cát, Thành phố Hà Nội','1547','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Đỉnh','Phường Xuân Đỉnh','Phường Xuân Đỉnh, Thành phố Hà Nội','1803','phuong','11'),
                                                                                 ('Xuân Phương','Phường Xuân Phương','Phường Xuân Phương, Thành phố Hà Nội','2059','phuong','11'),
                                                                                 ('Đại Xuyên','Xã Đại Xuyên','Xã Đại Xuyên, Thành phố Hà Nội','2315','xa','11'),
@@ -53,7 +53,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Suối Hai','Xã Suối Hai','Xã Suối Hai, Thành phố Hà Nội','3595','xa','11'),
                                                                                 ('Ba Vì','Xã Ba Vì','Xã Ba Vì, Thành phố Hà Nội','3851','xa','11'),
                                                                                 ('Cổ Đô','Xã Cổ Đô','Xã Cổ Đô, Thành phố Hà Nội','4107','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hoàng Liệt','Phường Hoàng Liệt','Phường Hoàng Liệt, Thành phố Hà Nội','4363','phuong','11'),
                                                                                 ('Lĩnh Nam','Phường Lĩnh Nam','Phường Lĩnh Nam, Thành phố Hà Nội','4619','phuong','11'),
                                                                                 ('Tương Mai','Phường Tương Mai','Phường Tương Mai, Thành phố Hà Nội','4875','phuong','11'),
@@ -64,7 +64,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Bị','Xã Quảng Bị','Xã Quảng Bị, Thành phố Hà Nội','6155','xa','11'),
                                                                                 ('Trần Phú','Xã Trần Phú','Xã Trần Phú, Thành phố Hà Nội','6411','xa','11'),
                                                                                 ('Liên Minh','Xã Liên Minh','Xã Liên Minh, Thành phố Hà Nội','6667','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thư Lâm','Xã Thư Lâm','Xã Thư Lâm, Thành phố Hà Nội','6923','xa','11'),
                                                                                 ('Đông Anh','Xã Đông Anh','Xã Đông Anh, Thành phố Hà Nội','7179','xa','11'),
                                                                                 ('Phú Xuyên','Xã Phú Xuyên','Xã Phú Xuyên, Thành phố Hà Nội','7435','xa','11'),
@@ -75,7 +75,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiên Lộc','Xã Thiên Lộc','Xã Thiên Lộc, Thành phố Hà Nội','8715','xa','11'),
                                                                                 ('Quang Minh','Xã Quang Minh','Xã Quang Minh, Thành phố Hà Nội','8971','xa','11'),
                                                                                 ('Hương Sơn','Xã Hương Sơn','Xã Hương Sơn, Thành phố Hà Nội','9227','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mê Linh','Xã Mê Linh','Xã Mê Linh, Thành phố Hà Nội','9483','xa','11'),
                                                                                 ('Tiến Thắng','Xã Tiến Thắng','Xã Tiến Thắng, Thành phố Hà Nội','9739','xa','11'),
                                                                                 ('Yên Lãng','Xã Yên Lãng','Xã Yên Lãng, Thành phố Hà Nội','9995','xa','11'),
@@ -86,7 +86,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Bài','Xã Yên Bài','Xã Yên Bài, Thành phố Hà Nội','11275','xa','11'),
                                                                                 ('Chương Mỹ','Phường Chương Mỹ','Phường Chương Mỹ, Thành phố Hà Nội','11531','phuong','11'),
                                                                                 ('Xuân Mai','Xã Xuân Mai','Xã Xuân Mai, Thành phố Hà Nội','11787','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Nghĩa','Xã Phú Nghĩa','Xã Phú Nghĩa, Thành phố Hà Nội','12043','xa','11'),
                                                                                 ('Yên Xuân','Xã Yên Xuân','Xã Yên Xuân, Thành phố Hà Nội','12299','xa','11'),
                                                                                 ('Phúc Lợi','Phường Phúc Lợi','Phường Phúc Lợi, Thành phố Hà Nội','12555','phuong','11'),
@@ -97,7 +97,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Dân Hòa','Xã Dân Hòa','Xã Dân Hòa, Thành phố Hà Nội','13835','xa','11'),
                                                                                 ('Ba Đình','Phường Ba Đình','Phường Ba Đình, Thành phố Hà Nội','14091','phuong','11'),
                                                                                 ('Giảng Võ','Phường Giảng Võ','Phường Giảng Võ, Thành phố Hà Nội','14347','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngọc Hà','Phường Ngọc Hà','Phường Ngọc Hà, Thành phố Hà Nội','14603','phuong','11'),
                                                                                 ('Cầu Giấy','Phường Cầu Giấy','Phường Cầu Giấy, Thành phố Hà Nội','14859','phuong','11'),
                                                                                 ('Nghĩa Đô','Phường Nghĩa Đô','Phường Nghĩa Đô, Thành phố Hà Nội','15115','phuong','11'),
@@ -108,7 +108,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sơn Đồng','Xã Sơn Đồng','Xã Sơn Đồng, Thành phố Hà Nội','16395','xa','11'),
                                                                                 ('Chuyên Mỹ','Xã Chuyên Mỹ','Xã Chuyên Mỹ, Thành phố Hà Nội','16651','xa','11'),
                                                                                 ('Vĩnh Tuy','Phường Vĩnh Tuy','Phường Vĩnh Tuy, Thành phố Hà Nội','16907','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hồng Hà','Phường Hồng Hà','Phường Hồng Hà, Thành phố Hà Nội','17163','phuong','11'),
                                                                                 ('Cửa Nam','Phường Cửa Nam','Phường Cửa Nam, Thành phố Hà Nội','17419','phuong','11'),
                                                                                 ('Yên Nghĩa','Phường Yên Nghĩa','Phường Yên Nghĩa, Thành phố Hà Nội','17675','phuong','11'),
@@ -119,7 +119,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Cát','Xã Phú Cát','Xã Phú Cát, Thành phố Hà Nội','18955','xa','11'),
                                                                                 ('Sóc Sơn','Xã Sóc Sơn','Xã Sóc Sơn, Thành phố Hà Nội','19211','xa','11'),
                                                                                 ('Kim Anh','Xã Kim Anh','Xã Kim Anh, Thành phố Hà Nội','19467','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nội Bài','Xã Nội Bài','Xã Nội Bài, Thành phố Hà Nội','19723','xa','11'),
                                                                                 ('Trung Giã','Xã Trung Giã','Xã Trung Giã, Thành phố Hà Nội','19979','xa','11'),
                                                                                 ('Quốc Oai','Xã Quốc Oai','Xã Quốc Oai, Thành phố Hà Nội','20235','xa','11'),
@@ -130,7 +130,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Kiến Hưng','Phường Kiến Hưng','Phường Kiến Hưng, Thành phố Hà Nội','21515','phuong','11'),
                                                                                 ('Hà Đông','Phường Hà Đông','Phường Hà Đông, Thành phố Hà Nội','21771','phuong','11'),
                                                                                 ('Hai Bà Trưng','Phường Hai Bà Trưng','Phường Hai Bà Trưng, Thành phố Hà Nội','22027','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thượng Phúc','Xã Thượng Phúc','Xã Thượng Phúc, Thành phố Hà Nội','22283','xa','11'),
                                                                                 ('Thạch Thất','Xã Thạch Thất','Xã Thạch Thất, Thành phố Hà Nội','22539','xa','11'),
                                                                                 ('Hạ Bằng','Xã Hạ Bằng','Xã Hạ Bằng, Thành phố Hà Nội','22795','xa','11'),
@@ -141,7 +141,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Hòa','Phường Yên Hòa','Phường Yên Hòa, Thành phố Hà Nội','24075','phuong','11'),
                                                                                 ('Ô Chợ Dừa','Phường Ô Chợ Dừa','Phường Ô Chợ Dừa, Thành phố Hà Nội','24331','phuong','11'),
                                                                                 ('Kim Liên','Phường Kim Liên','Phường Kim Liên, Thành phố Hà Nội','24587','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Láng','Phường Láng','Phường Láng, Thành phố Hà Nội','24843','phuong','11'),
                                                                                 ('Đống Đa','Phường Đống Đa','Phường Đống Đa, Thành phố Hà Nội','25099','phuong','11'),
                                                                                 ('Văn Miếu-Quốc Tử Giám','Phường Văn Miếu-Quốc Tử Giám','Phường Văn Miếu-Quốc Tử Giám, Thành phố Hà Nội','25355','phuong','11'),
@@ -152,7 +152,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hòa Phú','Xã Hòa Phú','Xã Hòa Phú, Thành phố Hà Nội','26635','xa','11'),
                                                                                 ('Tây Phương','Xã Tây Phương','Xã Tây Phương, Thành phố Hà Nội','26891','xa','11'),
                                                                                 ('Hòa Xá','Xã Hòa Xá','Xã Hòa Xá, Thành phố Hà Nội','27147','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bát Tràng','Xã Bát Tràng','Xã Bát Tràng, Thành phố Hà Nội','27403','xa','11'),
                                                                                 ('Thuận An','Xã Thuận An','Xã Thuận An, Thành phố Hà Nội','27659','xa','11'),
                                                                                 ('Bạch Mai','Phường Bạch Mai','Phường Bạch Mai, Thành phố Hà Nội','27915','phuong','11'),
@@ -163,7 +163,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phượng Dực','Xã Phượng Dực','Xã Phượng Dực, Thành phố Hà Nội','29195','xa','11'),
                                                                                 ('Ứng Thiên','Xã Ứng Thiên','Xã Ứng Thiên, Thành phố Hà Nội','29451','xa','11'),
                                                                                 ('Hồng Sơn','Xã Hồng Sơn','Xã Hồng Sơn, Thành phố Hà Nội','29707','xa','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hưng Đạo','Xã Hưng Đạo','Xã Hưng Đạo, Thành phố Hà Nội','29963','xa','11'),
                                                                                 ('Tam Hưng','Xã Tam Hưng','Xã Tam Hưng, Thành phố Hà Nội','30219','xa','11'),
                                                                                 ('Ứng Hòa','Xã Ứng Hòa','Xã Ứng Hòa, Thành phố Hà Nội','30475','xa','11'),
@@ -174,7 +174,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hoàn Kiếm','Phường Hoàn Kiếm','Phường Hoàn Kiếm, Thành phố Hà Nội','31755','phuong','11'),
                                                                                 ('Yên Sở','Phường Yên Sở','Phường Yên Sở, Thành phố Hà Nội','32011','phuong','11'),
                                                                                 ('Tây Hồ','Phường Tây Hồ','Phường Tây Hồ, Thành phố Hà Nội','32267','phuong','11');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạnh An','Xã Thạnh An','Xã Thạnh An, Thành phố Hồ Chí Minh','268','xa','12'),
                                                                                 ('Xóm Chiếu','Phường Xóm Chiếu','Phường Xóm Chiếu, Thành phố Hồ Chí Minh','524','phuong','12'),
                                                                                 ('Vĩnh Hội','Phường Vĩnh Hội','Phường Vĩnh Hội, Thành phố Hồ Chí Minh','780','phuong','12'),
@@ -185,7 +185,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Thới Đông','Xã An Thới Đông','Xã An Thới Đông, Thành phố Hồ Chí Minh','2060','xa','12'),
                                                                                 ('Bình Khánh','Xã Bình Khánh','Xã Bình Khánh, Thành phố Hồ Chí Minh','2316','xa','12'),
                                                                                 ('Bàn Cờ','Phường Bàn Cờ','Phường Bàn Cờ, Thành phố Hồ Chí Minh','2572','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Hòa','Phường Xuân Hòa','Phường Xuân Hòa, Thành phố Hồ Chí Minh','2828','phuong','12'),
                                                                                 ('Bình Đông','Phường Bình Đông','Phường Bình Đông, Thành phố Hồ Chí Minh','3084','phuong','12'),
                                                                                 ('Phú Thuận','Phường Phú Thuận','Phường Phú Thuận, Thành phố Hồ Chí Minh','3340','phuong','12'),
@@ -196,7 +196,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tăng Nhơn Phú','Phường Tăng Nhơn Phú','Phường Tăng Nhơn Phú, Thành phố Hồ Chí Minh','4620','phuong','12'),
                                                                                 ('Bình Tân','Phường Bình Tân','Phường Bình Tân, Thành phố Hồ Chí Minh','4876','phuong','12'),
                                                                                 ('Bình Trị Đông','Phường Bình Trị Đông','Phường Bình Trị Đông, Thành phố Hồ Chí Minh','5132','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Giáo','Xã Phú Giáo','Xã Phú Giáo, Thành phố Hồ Chí Minh','5388','xa','12'),
                                                                                 ('Bình Hưng','Xã Bình Hưng','Xã Bình Hưng, Thành phố Hồ Chí Minh','5644','xa','12'),
                                                                                 ('Thường Tân','Xã Thường Tân','Xã Thường Tân, Thành phố Hồ Chí Minh','5900','xa','12'),
@@ -207,7 +207,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Định','Phường Tân Định','Phường Tân Định, Thành phố Hồ Chí Minh','7180','phuong','12'),
                                                                                 ('Cầu Ông Lãnh','Phường Cầu Ông Lãnh','Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh','7436','phuong','12'),
                                                                                 ('Sài Gòn','Phường Sài Gòn','Phường Sài Gòn, Thành phố Hồ Chí Minh','7692','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bến Thành','Phường Bến Thành','Phường Bến Thành, Thành phố Hồ Chí Minh','7948','phuong','12'),
                                                                                 ('Diên Hồng','Phường Diên Hồng','Phường Diên Hồng, Thành phố Hồ Chí Minh','8204','phuong','12'),
                                                                                 ('Hòa Hưng','Phường Hòa Hưng','Phường Hòa Hưng, Thành phố Hồ Chí Minh','8460','phuong','12'),
@@ -218,7 +218,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tây Thạnh','Phường Tây Thạnh','Phường Tây Thạnh, Thành phố Hồ Chí Minh','9740','phuong','12'),
                                                                                 ('Thủ Đức','Phường Thủ Đức','Phường Thủ Đức, Thành phố Hồ Chí Minh','9996','phuong','12'),
                                                                                 ('Hiệp Bình','Phường Hiệp Bình','Phường Hiệp Bình, Thành phố Hồ Chí Minh','10252','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Linh Xuân','Phường Linh Xuân','Phường Linh Xuân, Thành phố Hồ Chí Minh','10508','phuong','12'),
                                                                                 ('Bình Trưng','Phường Bình Trưng','Phường Bình Trưng, Thành phố Hồ Chí Minh','10764','phuong','12'),
                                                                                 ('An Khánh','Phường An Khánh','Phường An Khánh, Thành phố Hồ Chí Minh','11020','phuong','12'),
@@ -229,7 +229,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lái Thiêu','Phường Lái Thiêu','Phường Lái Thiêu, Thành phố Hồ Chí Minh','12300','phuong','12'),
                                                                                 ('An Phú','Phường An Phú','Phường An Phú, Thành phố Hồ Chí Minh','12556','phuong','12'),
                                                                                 ('Rạch Dừa','Phường Rạch Dừa','Phường Rạch Dừa, Thành phố Hồ Chí Minh','12812','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Hòa','Xã Long Hòa','Xã Long Hòa, Thành phố Hồ Chí Minh','13068','xa','12'),
                                                                                 ('Minh Thạnh','Xã Minh Thạnh','Xã Minh Thạnh, Thành phố Hồ Chí Minh','13324','xa','12'),
                                                                                 ('Tân Tạo','Phường Tân Tạo','Phường Tân Tạo, Thành phố Hồ Chí Minh','13580','phuong','12'),
@@ -240,7 +240,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Khánh','Phường Tân Khánh','Phường Tân Khánh, Thành phố Hồ Chí Minh','14860','phuong','12'),
                                                                                 ('Tân Uyên','Phường Tân Uyên','Phường Tân Uyên, Thành phố Hồ Chí Minh','15116','phuong','12'),
                                                                                 ('Phước Hòa','Xã Phước Hòa','Xã Phước Hòa, Thành phố Hồ Chí Minh','15372','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chánh Hiệp','Phường Chánh Hiệp','Phường Chánh Hiệp, Thành phố Hồ Chí Minh','15628','phuong','12'),
                                                                                 ('Thới Hòa','Phường Thới Hòa','Phường Thới Hòa, Thành phố Hồ Chí Minh','15884','phuong','12'),
                                                                                 ('Tây Nam','Phường Tây Nam','Phường Tây Nam, Thành phố Hồ Chí Minh','16140','phuong','12'),
@@ -251,7 +251,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Lợi','Phường Phú Lợi','Phường Phú Lợi, Thành phố Hồ Chí Minh','17420','phuong','12'),
                                                                                 ('Đặc Khu Côn Đảo','Xã Đặc Khu Côn Đảo','Xã Đặc Khu Côn Đảo, Thành phố Hồ Chí Minh','17676','xa','12'),
                                                                                 ('Long Điền','Xã Long Điền','Xã Long Điền, Thành phố Hồ Chí Minh','17932','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Hưng Hòa','Phường Bình Hưng Hòa','Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh','18188','phuong','12'),
                                                                                 ('Nhiêu Lộc','Phường Nhiêu Lộc','Phường Nhiêu Lộc, Thành phố Hồ Chí Minh','18444','phuong','12'),
                                                                                 ('Chợ Quán','Phường Chợ Quán','Phường Chợ Quán, Thành phố Hồ Chí Minh','18700','phuong','12'),
@@ -262,7 +262,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Hưng','Phường Tân Hưng','Phường Tân Hưng, Thành phố Hồ Chí Minh','19980','phuong','12'),
                                                                                 ('Tân Thuận','Phường Tân Thuận','Phường Tân Thuận, Thành phố Hồ Chí Minh','20236','phuong','12'),
                                                                                 ('Vườn Lài','Phường Vườn Lài','Phường Vườn Lài, Thành phố Hồ Chí Minh','20492','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Minh Phụng','Phường Minh Phụng','Phường Minh Phụng, Thành phố Hồ Chí Minh','20748','phuong','12'),
                                                                                 ('Hòa Bình','Phường Hòa Bình','Phường Hòa Bình, Thành phố Hồ Chí Minh','21004','phuong','12'),
                                                                                 ('Đông Hưng Thuận','Phường Đông Hưng Thuận','Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh','21260','phuong','12'),
@@ -273,7 +273,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Gia Định','Phường Gia Định','Phường Gia Định, Thành phố Hồ Chí Minh','22540','phuong','12'),
                                                                                 ('Bình Thạnh','Phường Bình Thạnh','Phường Bình Thạnh, Thành phố Hồ Chí Minh','22796','phuong','12'),
                                                                                 ('Bình Lợi Trung','Phường Bình Lợi Trung','Phường Bình Lợi Trung, Thành phố Hồ Chí Minh','23052','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạnh Mỹ Tây','Phường Thạnh Mỹ Tây','Phường Thạnh Mỹ Tây, Thành phố Hồ Chí Minh','23308','phuong','12'),
                                                                                 ('Bình Quới','Phường Bình Quới','Phường Bình Quới, Thành phố Hồ Chí Minh','23564','phuong','12'),
                                                                                 ('An Lạc','Phường An Lạc','Phường An Lạc, Thành phố Hồ Chí Minh','23820','phuong','12'),
@@ -284,7 +284,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Hội Tây','Phường An Hội Tây','Phường An Hội Tây, Thành phố Hồ Chí Minh','25100','phuong','12'),
                                                                                 ('An Hội Đông','Phường An Hội Đông','Phường An Hội Đông, Thành phố Hồ Chí Minh','25356','phuong','12'),
                                                                                 ('Đức Nhuận','Phường Đức Nhuận','Phường Đức Nhuận, Thành phố Hồ Chí Minh','25612','phuong','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Sơn Hòa','Phường Tân Sơn Hòa','Phường Tân Sơn Hòa, Thành phố Hồ Chí Minh','25868','phuong','12'),
                                                                                 ('Tân Sơn Nhất','Phường Tân Sơn Nhất','Phường Tân Sơn Nhất, Thành phố Hồ Chí Minh','26124','phuong','12'),
                                                                                 ('Tân Hòa','Phường Tân Hòa','Phường Tân Hòa, Thành phố Hồ Chí Minh','26380','phuong','12'),
@@ -295,7 +295,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thái Mỹ','Xã Thái Mỹ','Xã Thái Mỹ, Thành phố Hồ Chí Minh','27660','xa','12'),
                                                                                 ('Nhuận Đức','Xã Nhuận Đức','Xã Nhuận Đức, Thành phố Hồ Chí Minh','27916','xa','12'),
                                                                                 ('Tân An Hội','Xã Tân An Hội','Xã Tân An Hội, Thành phố Hồ Chí Minh','28172','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Củ Chi','Xã Củ Chi','Xã Củ Chi, Thành phố Hồ Chí Minh','28428','xa','12'),
                                                                                 ('Phú Hòa Đông','Xã Phú Hòa Đông','Xã Phú Hòa Đông, Thành phố Hồ Chí Minh','28684','xa','12'),
                                                                                 ('Bình Mỹ','Xã Bình Mỹ','Xã Bình Mỹ, Thành phố Hồ Chí Minh','28940','xa','12'),
@@ -306,7 +306,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bà Điểm','Xã Bà Điểm','Xã Bà Điểm, Thành phố Hồ Chí Minh','30220','xa','12'),
                                                                                 ('Nhà Bè','Xã Nhà Bè','Xã Nhà Bè, Thành phố Hồ Chí Minh','30476','xa','12'),
                                                                                 ('Hiệp Phước','Xã Hiệp Phước','Xã Hiệp Phước, Thành phố Hồ Chí Minh','30732','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Bình','Phường Tam Bình','Phường Tam Bình, Thành phố Hồ Chí Minh','30988','phuong','12'),
                                                                                 ('Phước Long','Phường Phước Long','Phường Phước Long, Thành phố Hồ Chí Minh','31244','phuong','12'),
                                                                                 ('Long Phước','Phường Long Phước','Phường Long Phước, Thành phố Hồ Chí Minh','31500','phuong','12'),
@@ -317,7 +317,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Thọ Hòa','Phường Phú Thọ Hòa','Phường Phú Thọ Hòa, Thành phố Hồ Chí Minh','32780','phuong','12'),
                                                                                 ('Tân Phú','Phường Tân Phú','Phường Tân Phú, Thành phố Hồ Chí Minh','33036','phuong','12'),
                                                                                 ('Bàu Bàng','Xã Bàu Bàng','Xã Bàu Bàng, Thành phố Hồ Chí Minh','33292','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Thắng','Phường Tam Thắng','Phường Tam Thắng, Thành phố Hồ Chí Minh','33548','phuong','12'),
                                                                                 ('Phước Thắng','Phường Phước Thắng','Phường Phước Thắng, Thành phố Hồ Chí Minh','33804','phuong','12'),
                                                                                 ('Bà Rịa','Phường Bà Rịa','Phường Bà Rịa, Thành phố Hồ Chí Minh','34060','phuong','12'),
@@ -328,7 +328,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Phước','Phường Tân Phước','Phường Tân Phước, Thành phố Hồ Chí Minh','35340','phuong','12'),
                                                                                 ('Tân Hải','Phường Tân Hải','Phường Tân Hải, Thành phố Hồ Chí Minh','35596','phuong','12'),
                                                                                 ('Châu Pha','Xã Châu Pha','Xã Châu Pha, Thành phố Hồ Chí Minh','35852','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngãi Giao','Xã Ngãi Giao','Xã Ngãi Giao, Thành phố Hồ Chí Minh','36108','xa','12'),
                                                                                 ('Bình Giã','Xã Bình Giã','Xã Bình Giã, Thành phố Hồ Chí Minh','36364','xa','12'),
                                                                                 ('Kim Long','Xã Kim Long','Xã Kim Long, Thành phố Hồ Chí Minh','36620','xa','12'),
@@ -339,7 +339,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Xuyên Mộc','Xã Xuyên Mộc','Xã Xuyên Mộc, Thành phố Hồ Chí Minh','37900','xa','12'),
                                                                                 ('Hòa Hội','Xã Hòa Hội','Xã Hòa Hội, Thành phố Hồ Chí Minh','38156','xa','12'),
                                                                                 ('Bàu Lâm','Xã Bàu Lâm','Xã Bàu Lâm, Thành phố Hồ Chí Minh','38412','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đất Đỏ','Xã Đất Đỏ','Xã Đất Đỏ, Thành phố Hồ Chí Minh','38668','xa','12'),
                                                                                 ('Long Hải','Xã Long Hải','Xã Long Hải, Thành phố Hồ Chí Minh','38924','xa','12'),
                                                                                 ('Phước Hải','Xã Phước Hải','Xã Phước Hải, Thành phố Hồ Chí Minh','39180','xa','12'),
@@ -350,7 +350,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Cơ','Phường Bình Cơ','Phường Bình Cơ, Thành phố Hồ Chí Minh','40460','phuong','12'),
                                                                                 ('Bắc Tân Uyên','Xã Bắc Tân Uyên','Xã Bắc Tân Uyên, Thành phố Hồ Chí Minh','40716','xa','12'),
                                                                                 ('An Long','Xã An Long','Xã An Long, Thành phố Hồ Chí Minh','40972','xa','12');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phước Thành','Xã Phước Thành','Xã Phước Thành, Thành phố Hồ Chí Minh','41228','xa','12'),
                                                                                 ('Đắc Pring','Xã Đắc Pring','Xã Đắc Pring, Thành phố Đà Nẵng','14861','xa','13'),
                                                                                 ('Bình Dương','Phường Bình Dương','Phường Bình Dương, Thành phố Hồ Chí Minh','41484','phuong','12'),
@@ -361,7 +361,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đông Hòa','Phường Đông Hòa','Phường Đông Hòa, Thành phố Hồ Chí Minh','42764','phuong','12'),
                                                                                 ('Thuận An','Phường Thuận An','Phường Thuận An, Thành phố Hồ Chí Minh','43020','phuong','12'),
                                                                                 ('Tam Hải','Xã Tam Hải','Xã Tam Hải, Thành phố Đà Nẵng','269','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Núi Thành','Xã Núi Thành','Xã Núi Thành, Thành phố Đà Nẵng','525','xa','13'),
                                                                                 ('Hải Vân','Phường Hải Vân','Phường Hải Vân, Thành phố Đà Nẵng','781','phuong','13'),
                                                                                 ('Thạnh Mỹ','Xã Thạnh Mỹ','Xã Thạnh Mỹ, Thành phố Đà Nẵng','1037','xa','13'),
@@ -372,7 +372,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bàn Thạch','Phường Bàn Thạch','Phường Bàn Thạch, Thành phố Đà Nẵng','2317','phuong','13'),
                                                                                 ('Tây Hồ','Xã Tây Hồ','Xã Tây Hồ, Thành phố Đà Nẵng','2573','xa','13'),
                                                                                 ('Chiên Đàn','Xã Chiên Đàn','Xã Chiên Đàn, Thành phố Đà Nẵng','2829','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Ninh','Xã Phú Ninh','Xã Phú Ninh, Thành phố Đà Nẵng','3085','xa','13'),
                                                                                 ('Lãnh Ngọc','Xã Lãnh Ngọc','Xã Lãnh Ngọc, Thành phố Đà Nẵng','3341','xa','13'),
                                                                                 ('Tiên Phước','Xã Tiên Phước','Xã Tiên Phước, Thành phố Đà Nẵng','3597','xa','13'),
@@ -383,7 +383,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trà Tân','Xã Trà Tân','Xã Trà Tân, Thành phố Đà Nẵng','4877','xa','13'),
                                                                                 ('Trà Đốc','Xã Trà Đốc','Xã Trà Đốc, Thành phố Đà Nẵng','5133','xa','13'),
                                                                                 ('Trà My','Xã Trà My','Xã Trà My, Thành phố Đà Nẵng','5389','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trà Mai','Xã Trà Mai','Xã Trà Mai, Thành phố Đà Nẵng','5645','xa','13'),
                                                                                 ('Trà Tập','Xã Trà Tập','Xã Trà Tập, Thành phố Đà Nẵng','5901','xa','13'),
                                                                                 ('Trà Vân','Xã Trà Vân','Xã Trà Vân, Thành phố Đà Nẵng','6157','xa','13'),
@@ -394,7 +394,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thăng Trường','Xã Thăng Trường','Xã Thăng Trường, Thành phố Đà Nẵng','7437','xa','13'),
                                                                                 ('Thăng Điền','Xã Thăng Điền','Xã Thăng Điền, Thành phố Đà Nẵng','7693','xa','13'),
                                                                                 ('Thăng Phú','Xã Thăng Phú','Xã Thăng Phú, Thành phố Đà Nẵng','7949','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đồng Dương','Xã Đồng Dương','Xã Đồng Dương, Thành phố Đà Nẵng','8205','xa','13'),
                                                                                 ('Quế Sơn Trung','Xã Quế Sơn Trung','Xã Quế Sơn Trung, Thành phố Đà Nẵng','8461','xa','13'),
                                                                                 ('Quế Sơn','Xã Quế Sơn','Xã Quế Sơn, Thành phố Đà Nẵng','8717','xa','13'),
@@ -405,7 +405,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Phước','Xã Nam Phước','Xã Nam Phước, Thành phố Đà Nẵng','9997','xa','13'),
                                                                                 ('Duy Xuyên','Xã Duy Xuyên','Xã Duy Xuyên, Thành phố Đà Nẵng','10253','xa','13'),
                                                                                 ('Thu Bồn','Xã Thu Bồn','Xã Thu Bồn, Thành phố Đà Nẵng','10509','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Điện Bàn','Phường Điện Bàn','Phường Điện Bàn, Thành phố Đà Nẵng','10765','phuong','13'),
                                                                                 ('Điện Bàn Đông','Phường Điện Bàn Đông','Phường Điện Bàn Đông, Thành phố Đà Nẵng','11021','phuong','13'),
                                                                                 ('An Thắng','Phường An Thắng','Phường An Thắng, Thành phố Đà Nẵng','11277','phuong','13'),
@@ -416,7 +416,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hội An Đông','Phường Hội An Đông','Phường Hội An Đông, Thành phố Đà Nẵng','12557','phuong','13'),
                                                                                 ('Hội An Tây','Phường Hội An Tây','Phường Hội An Tây, Thành phố Đà Nẵng','12813','phuong','13'),
                                                                                 ('Đại Lộc','Xã Đại Lộc','Xã Đại Lộc, Thành phố Đà Nẵng','13069','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hà Nha','Xã Hà Nha','Xã Hà Nha, Thành phố Đà Nẵng','13325','xa','13'),
                                                                                 ('Thượng Đức','Xã Thượng Đức','Xã Thượng Đức, Thành phố Đà Nẵng','13581','xa','13'),
                                                                                 ('Vu Gia','Xã Vu Gia','Xã Vu Gia, Thành phố Đà Nẵng','13837','xa','13'),
@@ -427,7 +427,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Laêê','Xã Laêê','Xã Laêê, Thành phố Đà Nẵng','15373','xa','13'),
                                                                                 ('Sông Vàng','Xã Sông Vàng','Xã Sông Vàng, Thành phố Đà Nẵng','15629','xa','13'),
                                                                                 ('Sông Kôn','Xã Sông Kôn','Xã Sông Kôn, Thành phố Đà Nẵng','15885','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Giang','Xã Đông Giang','Xã Đông Giang, Thành phố Đà Nẵng','16141','xa','13'),
                                                                                 ('Bến Hiên','Xã Bến Hiên','Xã Bến Hiên, Thành phố Đà Nẵng','16397','xa','13'),
                                                                                 ('A Vương','Xã A Vương','Xã A Vương, Thành phố Đà Nẵng','16653','xa','13'),
@@ -438,7 +438,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phước Trà','Xã Phước Trà','Xã Phước Trà, Thành phố Đà Nẵng','17933','xa','13'),
                                                                                 ('Khâm Đức','Xã Khâm Đức','Xã Khâm Đức, Thành phố Đà Nẵng','18189','xa','13'),
                                                                                 ('Phước Năng','Xã Phước Năng','Xã Phước Năng, Thành phố Đà Nẵng','18445','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phước Chánh','Xã Phước Chánh','Xã Phước Chánh, Thành phố Đà Nẵng','18701','xa','13'),
                                                                                 ('Phước Thành','Xã Phước Thành','Xã Phước Thành, Thành phố Đà Nẵng','18957','xa','13'),
                                                                                 ('Phước Hiệp','Xã Phước Hiệp','Xã Phước Hiệp, Thành phố Đà Nẵng','19213','xa','13'),
@@ -449,7 +449,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Hải','Phường An Hải','Phường An Hải, Thành phố Đà Nẵng','20493','phuong','13'),
                                                                                 ('Sơn Trà','Phường Sơn Trà','Phường Sơn Trà, Thành phố Đà Nẵng','20749','phuong','13'),
                                                                                 ('Ngũ Hành Sơn','Phường Ngũ Hành Sơn','Phường Ngũ Hành Sơn, Thành phố Đà Nẵng','21005','phuong','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hòa Khánh','Phường Hòa Khánh','Phường Hòa Khánh, Thành phố Đà Nẵng','21261','phuong','13'),
                                                                                 ('Liên Chiểu','Phường Liên Chiểu','Phường Liên Chiểu, Thành phố Đà Nẵng','21517','phuong','13'),
                                                                                 ('Cẩm Lệ','Phường Cẩm Lệ','Phường Cẩm Lệ, Thành phố Đà Nẵng','21773','phuong','13'),
@@ -460,7 +460,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tam Mỹ','Xã Tam Mỹ','Xã Tam Mỹ, Thành phố Đà Nẵng','23053','xa','13'),
                                                                                 ('Tam Anh','Xã Tam Anh','Xã Tam Anh, Thành phố Đà Nẵng','23309','xa','13'),
                                                                                 ('Đức Phú','Xã Đức Phú','Xã Đức Phú, Thành phố Đà Nẵng','23565','xa','13');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Xuân','Xã Tam Xuân','Xã Tam Xuân, Thành phố Đà Nẵng','23821','xa','13'),
                                                                                 ('Tam Kỳ','Phường Tam Kỳ','Phường Tam Kỳ, Thành phố Đà Nẵng','24077','phuong','13'),
                                                                                 ('Mao Điền','Xã Mao Điền','Xã Mao Điền, Thành phố Hải Phòng','270','xa','14'),
@@ -471,7 +471,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Khánh','Xã An Khánh','Xã An Khánh, Thành phố Hải Phòng','1550','xa','14'),
                                                                                 ('Tân Minh','Xã Tân Minh','Xã Tân Minh, Thành phố Hải Phòng','1806','xa','14'),
                                                                                 ('Hải An','Phường Hải An','Phường Hải An, Thành phố Hải Phòng','2062','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Đồ Sơn','Phường Nam Đồ Sơn','Phường Nam Đồ Sơn, Thành phố Hải Phòng','2318','phuong','14'),
                                                                                 ('Dương Kinh','Phường Dương Kinh','Phường Dương Kinh, Thành phố Hải Phòng','2574','phuong','14'),
                                                                                 ('Đông Hải','Phường Đông Hải','Phường Đông Hải, Thành phố Hải Phòng','2830','phuong','14'),
@@ -482,7 +482,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Lão','Xã An Lão','Xã An Lão, Thành phố Hải Phòng','4110','xa','14'),
                                                                                 ('Kiến Hải','Xã Kiến Hải','Xã Kiến Hải, Thành phố Hải Phòng','4366','xa','14'),
                                                                                 ('Kiến An','Phường Kiến An','Phường Kiến An, Thành phố Hải Phòng','4622','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phù Liễn','Phường Phù Liễn','Phường Phù Liễn, Thành phố Hải Phòng','4878','phuong','14'),
                                                                                 ('An Biên','Phường An Biên','Phường An Biên, Thành phố Hải Phòng','5134','phuong','14'),
                                                                                 ('Quyết Thắng','Xã Quyết Thắng','Xã Quyết Thắng, Thành phố Hải Phòng','5390','xa','14'),
@@ -493,7 +493,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Kỳ','Xã Tân Kỳ','Xã Tân Kỳ, Thành phố Hải Phòng','6670','xa','14'),
                                                                                 ('Nguyên Giáp','Xã Nguyên Giáp','Xã Nguyên Giáp, Thành phố Hải Phòng','6926','xa','14'),
                                                                                 ('Nam An Phụ','Xã Nam An Phụ','Xã Nam An Phụ, Thành phố Hải Phòng','7182','xa','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bắc An Phụ','Phường Bắc An Phụ','Phường Bắc An Phụ, Thành phố Hải Phòng','7438','phuong','14'),
                                                                                 ('Hà Nam','Xã Hà Nam','Xã Hà Nam, Thành phố Hải Phòng','7694','xa','14'),
                                                                                 ('Hà Tây','Xã Hà Tây','Xã Hà Tây, Thành phố Hải Phòng','7950','xa','14'),
@@ -504,7 +504,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đại Sơn','Xã Đại Sơn','Xã Đại Sơn, Thành phố Hải Phòng','9230','xa','14'),
                                                                                 ('Đặc Khu Bạch Long Vĩ','Xã Đặc Khu Bạch Long Vĩ','Xã Đặc Khu Bạch Long Vĩ, Thành phố Hải Phòng','9486','xa','14'),
                                                                                 ('An Hải','Phường An Hải','Phường An Hải, Thành phố Hải Phòng','9742','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kiến Hưng','Xã Kiến Hưng','Xã Kiến Hưng, Thành phố Hải Phòng','9998','xa','14'),
                                                                                 ('Gia Viên','Phường Gia Viên','Phường Gia Viên, Thành phố Hải Phòng','10254','phuong','14'),
                                                                                 ('Vĩnh Am','Xã Vĩnh Am','Xã Vĩnh Am, Thành phố Hải Phòng','10510','xa','14'),
@@ -515,7 +515,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiên Hương','Phường Thiên Hương','Phường Thiên Hương, Thành phố Hải Phòng','11790','phuong','14'),
                                                                                 ('Lưu Kiếm','Phường Lưu Kiếm','Phường Lưu Kiếm, Thành phố Hải Phòng','12046','phuong','14'),
                                                                                 ('Hòa Bình','Phường Hòa Bình','Phường Hòa Bình, Thành phố Hải Phòng','12302','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Triệu','Phường Nam Triệu','Phường Nam Triệu, Thành phố Hải Phòng','12558','phuong','14'),
                                                                                 ('Việt Khê','Xã Việt Khê','Xã Việt Khê, Thành phố Hải Phòng','12814','xa','14'),
                                                                                 ('Lê Ích Mộc','Phường Lê Ích Mộc','Phường Lê Ích Mộc, Thành phố Hải Phòng','13070','phuong','14'),
@@ -526,7 +526,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Quang','Xã An Quang','Xã An Quang, Thành phố Hải Phòng','14350','xa','14'),
                                                                                 ('An Trường','Xã An Trường','Xã An Trường, Thành phố Hải Phòng','14606','xa','14'),
                                                                                 ('Kiến Minh','Xã Kiến Minh','Xã Kiến Minh, Thành phố Hải Phòng','14862','xa','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nghi Dương','Xã Nghi Dương','Xã Nghi Dương, Thành phố Hải Phòng','15118','xa','14'),
                                                                                 ('Tiên Lãng','Xã Tiên Lãng','Xã Tiên Lãng, Thành phố Hải Phòng','15374','xa','14'),
                                                                                 ('Chấn Hưng','Xã Chấn Hưng','Xã Chấn Hưng, Thành phố Hải Phòng','15630','xa','14'),
@@ -537,7 +537,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Hòa','Xã Vĩnh Hòa','Xã Vĩnh Hòa, Thành phố Hải Phòng','16910','xa','14'),
                                                                                 ('Vĩnh Thịnh','Xã Vĩnh Thịnh','Xã Vĩnh Thịnh, Thành phố Hải Phòng','17166','xa','14'),
                                                                                 ('Vĩnh Thuận','Xã Vĩnh Thuận','Xã Vĩnh Thuận, Thành phố Hải Phòng','17422','xa','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bạch Đằng','Phường Bạch Đằng','Phường Bạch Đằng, Thành phố Hải Phòng','17678','phuong','14'),
                                                                                 ('Hải Dương','Phường Hải Dương','Phường Hải Dương, Thành phố Hải Phòng','17934','phuong','14'),
                                                                                 ('Thành Đông','Phường Thành Đông','Phường Thành Đông, Thành phố Hải Phòng','18190','phuong','14'),
@@ -548,7 +548,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Kinh Môn','Phường Kinh Môn','Phường Kinh Môn, Thành phố Hải Phòng','19470','phuong','14'),
                                                                                 ('Nguyễn Đại Năng','Phường Nguyễn Đại Năng','Phường Nguyễn Đại Năng, Thành phố Hải Phòng','19726','phuong','14'),
                                                                                 ('Phạm Sư Mạnh','Phường Phạm Sư Mạnh','Phường Phạm Sư Mạnh, Thành phố Hải Phòng','19982','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nhị Chiểu','Phường Nhị Chiểu','Phường Nhị Chiểu, Thành phố Hải Phòng','20238','phuong','14'),
                                                                                 ('Nam Sách','Xã Nam Sách','Xã Nam Sách, Thành phố Hải Phòng','20494','xa','14'),
                                                                                 ('Thái Tân','Xã Thái Tân','Xã Thái Tân, Thành phố Hải Phòng','20750','xa','14'),
@@ -559,7 +559,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cẩm Giang','Xã Cẩm Giang','Xã Cẩm Giang, Thành phố Hải Phòng','22030','xa','14'),
                                                                                 ('Tuệ Tĩnh','Xã Tuệ Tĩnh','Xã Tuệ Tĩnh, Thành phố Hải Phòng','22286','xa','14'),
                                                                                 ('Tứ Kỳ','Xã Tứ Kỳ','Xã Tứ Kỳ, Thành phố Hải Phòng','22542','xa','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chí Minh','Xã Chí Minh','Xã Chí Minh, Thành phố Hải Phòng','22798','xa','14'),
                                                                                 ('Ninh Giang','Xã Ninh Giang','Xã Ninh Giang, Thành phố Hải Phòng','23054','xa','14'),
                                                                                 ('Vĩnh Lại','Xã Vĩnh Lại','Xã Vĩnh Lại, Thành phố Hải Phòng','23310','xa','14'),
@@ -570,7 +570,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bắc Thanh Miện','Xã Bắc Thanh Miện','Xã Bắc Thanh Miện, Thành phố Hải Phòng','24590','xa','14'),
                                                                                 ('Hải Hưng','Xã Hải Hưng','Xã Hải Hưng, Thành phố Hải Phòng','24846','xa','14'),
                                                                                 ('Nam Thanh Miện','Xã Nam Thanh Miện','Xã Nam Thanh Miện, Thành phố Hải Phòng','25102','xa','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('An Thành','Xã An Thành','Xã An Thành, Thành phố Hải Phòng','25358','xa','14'),
                                                                                 ('Đặc Khu Cát Hải','Xã Đặc Khu Cát Hải','Xã Đặc Khu Cát Hải, Thành phố Hải Phòng','25614','xa','14'),
                                                                                 ('Kiến Thụy','Xã Kiến Thụy','Xã Kiến Thụy, Thành phố Hải Phòng','25870','xa','14'),
@@ -581,7 +581,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồ Sơn','Phường Đồ Sơn','Phường Đồ Sơn, Thành phố Hải Phòng','27150','phuong','14'),
                                                                                 ('Hưng Đạo','Phường Hưng Đạo','Phường Hưng Đạo, Thành phố Hải Phòng','27406','phuong','14'),
                                                                                 ('An Dương','Phường An Dương','Phường An Dương, Thành phố Hải Phòng','27662','phuong','14');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tứ Minh','Phường Tứ Minh','Phường Tứ Minh, Thành phố Hải Phòng','27918','phuong','14'),
                                                                                 ('Chu Văn An','Phường Chu Văn An','Phường Chu Văn An, Thành phố Hải Phòng','28174','phuong','14'),
                                                                                 ('Kẻ Sặt','Xã Kẻ Sặt','Xã Kẻ Sặt, Thành phố Hải Phòng','28430','xa','14'),
@@ -592,7 +592,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lai Hòa','Xã Lai Hòa','Xã Lai Hòa, Thành phố Cần Thơ','527','xa','15'),
                                                                                 ('Vĩnh Hải','Xã Vĩnh Hải','Xã Vĩnh Hải, Thành phố Cần Thơ','783','xa','15'),
                                                                                 ('Mỹ Phước','Xã Mỹ Phước','Xã Mỹ Phước, Thành phố Cần Thơ','1039','xa','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạnh Phú','Xã Thạnh Phú','Xã Thạnh Phú, Thành phố Cần Thơ','1295','xa','15'),
                                                                                 ('Thới Hưng','Xã Thới Hưng','Xã Thới Hưng, Thành phố Cần Thơ','1551','xa','15'),
                                                                                 ('Trường Long','Xã Trường Long','Xã Trường Long, Thành phố Cần Thơ','1807','xa','15'),
@@ -603,7 +603,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ninh Kiều','Phường Ninh Kiều','Phường Ninh Kiều, Thành phố Cần Thơ','3087','phuong','15'),
                                                                                 ('Tân An','Phường Tân An','Phường Tân An, Thành phố Cần Thơ','3343','phuong','15'),
                                                                                 ('Thới An Đông','Phường Thới An Đông','Phường Thới An Đông, Thành phố Cần Thơ','3599','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cái Răng','Phường Cái Răng','Phường Cái Răng, Thành phố Cần Thơ','3855','phuong','15'),
                                                                                 ('Hưng Phú','Phường Hưng Phú','Phường Hưng Phú, Thành phố Cần Thơ','4111','phuong','15'),
                                                                                 ('Ô Môn','Phường Ô Môn','Phường Ô Môn, Thành phố Cần Thơ','4367','phuong','15'),
@@ -614,7 +614,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nhơn Ái','Xã Nhơn Ái','Xã Nhơn Ái, Thành phố Cần Thơ','5647','xa','15'),
                                                                                 ('Thới Lai','Xã Thới Lai','Xã Thới Lai, Thành phố Cần Thơ','5903','xa','15'),
                                                                                 ('Đông Thuận','Xã Đông Thuận','Xã Đông Thuận, Thành phố Cần Thơ','6159','xa','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trường Xuân','Xã Trường Xuân','Xã Trường Xuân, Thành phố Cần Thơ','6415','xa','15'),
                                                                                 ('Trường Thành','Xã Trường Thành','Xã Trường Thành, Thành phố Cần Thơ','6671','xa','15'),
                                                                                 ('Cờ Đỏ','Xã Cờ Đỏ','Xã Cờ Đỏ, Thành phố Cần Thơ','6927','xa','15'),
@@ -625,7 +625,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thạnh An','Xã Thạnh An','Xã Thạnh An, Thành phố Cần Thơ','8207','xa','15'),
                                                                                 ('Thạnh Quới','Xã Thạnh Quới','Xã Thạnh Quới, Thành phố Cần Thơ','8463','xa','15'),
                                                                                 ('Vị Thanh','Phường Vị Thanh','Phường Vị Thanh, Thành phố Cần Thơ','8719','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vị Tân','Phường Vị Tân','Phường Vị Tân, Thành phố Cần Thơ','8975','phuong','15'),
                                                                                 ('Hỏa Lựu','Xã Hỏa Lựu','Xã Hỏa Lựu, Thành phố Cần Thơ','9231','xa','15'),
                                                                                 ('Vị Thủy','Xã Vị Thủy','Xã Vị Thủy, Thành phố Cần Thơ','9487','xa','15'),
@@ -636,7 +636,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Xà Phiên','Xã Xà Phiên','Xã Xà Phiên, Thành phố Cần Thơ','10767','xa','15'),
                                                                                 ('Lương Tâm','Xã Lương Tâm','Xã Lương Tâm, Thành phố Cần Thơ','11023','xa','15'),
                                                                                 ('Long Bình','Phường Long Bình','Phường Long Bình, Thành phố Cần Thơ','11279','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Mỹ','Phường Long Mỹ','Phường Long Mỹ, Thành phố Cần Thơ','11535','phuong','15'),
                                                                                 ('Long Phú 1','Phường Long Phú 1','Phường Long Phú 1, Thành phố Cần Thơ','11791','phuong','15'),
                                                                                 ('Thạnh Xuân','Xã Thạnh Xuân','Xã Thạnh Xuân, Thành phố Cần Thơ','12047','xa','15'),
@@ -647,7 +647,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Hữu','Xã Phú Hữu','Xã Phú Hữu, Thành phố Cần Thơ','13327','xa','15'),
                                                                                 ('Đại Thành','Phường Đại Thành','Phường Đại Thành, Thành phố Cần Thơ','13583','phuong','15'),
                                                                                 ('Ngã Bảy','Phường Ngã Bảy','Phường Ngã Bảy, Thành phố Cần Thơ','13839','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Bình','Xã Tân Bình','Xã Tân Bình, Thành phố Cần Thơ','14095','xa','15'),
                                                                                 ('Hòa An','Xã Hòa An','Xã Hòa An, Thành phố Cần Thơ','14351','xa','15'),
                                                                                 ('Phương Bình','Xã Phương Bình','Xã Phương Bình, Thành phố Cần Thơ','14607','xa','15'),
@@ -658,7 +658,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Thủy','Phường Bình Thủy','Phường Bình Thủy, Thành phố Cần Thơ','15887','phuong','15'),
                                                                                 ('Thốt Nốt','Phường Thốt Nốt','Phường Thốt Nốt, Thành phố Cần Thơ','16143','phuong','15'),
                                                                                 ('Thuận Hưng','Phường Thuận Hưng','Phường Thuận Hưng, Thành phố Cần Thơ','16399','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Tâm','Xã Phú Tâm','Xã Phú Tâm, Thành phố Cần Thơ','16655','xa','15'),
                                                                                 ('An Ninh','Xã An Ninh','Xã An Ninh, Thành phố Cần Thơ','16911','xa','15'),
                                                                                 ('Thuận Hòa','Xã Thuận Hòa','Xã Thuận Hòa, Thành phố Cần Thơ','17167','xa','15'),
@@ -669,7 +669,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Phước','Phường Vĩnh Phước','Phường Vĩnh Phước, Thành phố Cần Thơ','18447','phuong','15'),
                                                                                 ('Vĩnh Châu','Phường Vĩnh Châu','Phường Vĩnh Châu, Thành phố Cần Thơ','18703','phuong','15'),
                                                                                 ('Khánh Hòa','Phường Khánh Hòa','Phường Khánh Hòa, Thành phố Cần Thơ','18959','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngã Năm','Phường Ngã Năm','Phường Ngã Năm, Thành phố Cần Thơ','19215','phuong','15'),
                                                                                 ('Mỹ Quới','Phường Mỹ Quới','Phường Mỹ Quới, Thành phố Cần Thơ','19471','phuong','15'),
                                                                                 ('Tân Long','Xã Tân Long','Xã Tân Long, Thành phố Cần Thơ','19727','xa','15'),
@@ -680,7 +680,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tài Văn','Xã Tài Văn','Xã Tài Văn, Thành phố Cần Thơ','21007','xa','15'),
                                                                                 ('Liêu Tú','Xã Liêu Tú','Xã Liêu Tú, Thành phố Cần Thơ','21263','xa','15'),
                                                                                 ('Lịch Hội Thượng','Xã Lịch Hội Thượng','Xã Lịch Hội Thượng, Thành phố Cần Thơ','21519','xa','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trần Đề','Xã Trần Đề','Xã Trần Đề, Thành phố Cần Thơ','21775','xa','15'),
                                                                                 ('An Thạnh','Xã An Thạnh','Xã An Thạnh, Thành phố Cần Thơ','22031','xa','15'),
                                                                                 ('Cù Lao Dung','Xã Cù Lao Dung','Xã Cù Lao Dung, Thành phố Cần Thơ','22287','xa','15'),
@@ -691,7 +691,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Lợi','Phường Phú Lợi','Phường Phú Lợi, Thành phố Cần Thơ','23567','phuong','15'),
                                                                                 ('Sóc Trăng','Phường Sóc Trăng','Phường Sóc Trăng, Thành phố Cần Thơ','23823','phuong','15'),
                                                                                 ('Mỹ Xuyên','Phường Mỹ Xuyên','Phường Mỹ Xuyên, Thành phố Cần Thơ','24079','phuong','15');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hòa Tú','Xã Hòa Tú','Xã Hòa Tú, Thành phố Cần Thơ','24335','xa','15'),
                                                                                 ('Gia Hòa','Xã Gia Hòa','Xã Gia Hòa, Thành phố Cần Thơ','24591','xa','15'),
                                                                                 ('Nhu Gia','Xã Nhu Gia','Xã Nhu Gia, Thành phố Cần Thơ','24847','xa','15'),
@@ -702,7 +702,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thới An Hội','Xã Thới An Hội','Xã Thới An Hội, Thành phố Cần Thơ','26127','xa','15'),
                                                                                 ('Đại Hải','Xã Đại Hải','Xã Đại Hải, Thành phố Cần Thơ','26383','xa','15'),
                                                                                 ('Dương Nỗ','Phường Dương Nỗ','Phường Dương Nỗ, Thành phố Huế','272','phuong','16');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phong Điền','Phường Phong Điền','Phường Phong Điền, Thành phố Huế','528','phuong','16'),
                                                                                 ('Phong Thái','Phường Phong Thái','Phường Phong Thái, Thành phố Huế','784','phuong','16'),
                                                                                 ('Phong Dinh','Phường Phong Dinh','Phường Phong Dinh, Thành phố Huế','1040','phuong','16'),
@@ -713,7 +713,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hương Trà','Phường Hương Trà','Phường Hương Trà, Thành phố Huế','2320','phuong','16'),
                                                                                 ('Kim Trà','Phường Kim Trà','Phường Kim Trà, Thành phố Huế','2576','phuong','16'),
                                                                                 ('Bình Điền','Xã Bình Điền','Xã Bình Điền, Thành phố Huế','2832','xa','16');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kim Long','Phường Kim Long','Phường Kim Long, Thành phố Huế','3088','phuong','16'),
                                                                                 ('Hương An','Phường Hương An','Phường Hương An, Thành phố Huế','3344','phuong','16'),
                                                                                 ('Phú Xuân','Phường Phú Xuân','Phường Phú Xuân, Thành phố Huế','3600','phuong','16'),
@@ -724,7 +724,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thuận Hóa','Phường Thuận Hóa','Phường Thuận Hóa, Thành phố Huế','4880','phuong','16'),
                                                                                 ('An Cựu','Phường An Cựu','Phường An Cựu, Thành phố Huế','5136','phuong','16'),
                                                                                 ('Thủy Xuân','Phường Thủy Xuân','Phường Thủy Xuân, Thành phố Huế','5392','phuong','16');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Vinh','Xã Phú Vinh','Xã Phú Vinh, Thành phố Huế','5648','xa','16'),
                                                                                 ('Phú Hồ','Xã Phú Hồ','Xã Phú Hồ, Thành phố Huế','5904','xa','16'),
                                                                                 ('Phú Vang','Xã Phú Vang','Xã Phú Vang, Thành phố Huế','6160','xa','16'),
@@ -735,7 +735,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hưng Lộc','Xã Hưng Lộc','Xã Hưng Lộc, Thành phố Huế','7440','xa','16'),
                                                                                 ('Lộc An','Xã Lộc An','Xã Lộc An, Thành phố Huế','7696','xa','16'),
                                                                                 ('Phú Lộc','Xã Phú Lộc','Xã Phú Lộc, Thành phố Huế','7952','xa','16');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chân Mây-Lăng Cô','Xã Chân Mây-Lăng Cô','Xã Chân Mây-Lăng Cô, Thành phố Huế','8208','xa','16'),
                                                                                 ('Long Quảng','Xã Long Quảng','Xã Long Quảng, Thành phố Huế','8464','xa','16'),
                                                                                 ('Nam Đông','Xã Nam Đông','Xã Nam Đông, Thành phố Huế','8720','xa','16'),
@@ -746,7 +746,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('A Lưới 4','Xã A Lưới 4','Xã A Lưới 4, Thành phố Huế','10000','xa','16'),
                                                                                 ('A Lưới 5','Xã A Lưới 5','Xã A Lưới 5, Thành phố Huế','10256','xa','16'),
                                                                                 ('Hòn Nghệ','Xã Hòn Nghệ','Xã Hòn Nghệ, Tỉnh An Giang','273','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Hải','Xã Sơn Hải','Xã Sơn Hải, Tỉnh An Giang','529','xa','17'),
                                                                                 ('Hòa Điền','Xã Hòa Điền','Xã Hòa Điền, Tỉnh An Giang','785','xa','17'),
                                                                                 ('Vĩnh Thông','Phường Vĩnh Thông','Phường Vĩnh Thông, Tỉnh An Giang','1041','phuong','17'),
@@ -757,7 +757,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Sơn','Xã Bình Sơn','Xã Bình Sơn, Tỉnh An Giang','2321','xa','17'),
                                                                                 ('Mỹ Hòa Hưng','Xã Mỹ Hòa Hưng','Xã Mỹ Hòa Hưng, Tỉnh An Giang','2577','xa','17'),
                                                                                 ('Nhơn Hội','Xã Nhơn Hội','Xã Nhơn Hội, Tỉnh An Giang','2833','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Hữu','Xã Phú Hữu','Xã Phú Hữu, Tỉnh An Giang','3089','xa','17'),
                                                                                 ('Tiên Hải','Xã Tiên Hải','Xã Tiên Hải, Tỉnh An Giang','3345','xa','17'),
                                                                                 ('Long Xuyên','Phường Long Xuyên','Phường Long Xuyên, Tỉnh An Giang','3601','phuong','17'),
@@ -768,7 +768,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Châu','Phường Tân Châu','Phường Tân Châu, Tỉnh An Giang','4881','phuong','17'),
                                                                                 ('Long Phú','Phường Long Phú','Phường Long Phú, Tỉnh An Giang','5137','phuong','17'),
                                                                                 ('Tân An','Xã Tân An','Xã Tân An, Tỉnh An Giang','5393','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Phong','Xã Châu Phong','Xã Châu Phong, Tỉnh An Giang','5649','xa','17'),
                                                                                 ('Vĩnh Xương','Xã Vĩnh Xương','Xã Vĩnh Xương, Tỉnh An Giang','5905','xa','17'),
                                                                                 ('Phú Tân','Xã Phú Tân','Xã Phú Tân, Tỉnh An Giang','6161','xa','17'),
@@ -779,7 +779,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Lâm','Xã Phú Lâm','Xã Phú Lâm, Tỉnh An Giang','7441','xa','17'),
                                                                                 ('Mỹ Đức','Xã Mỹ Đức','Xã Mỹ Đức, Tỉnh An Giang','7697','xa','17'),
                                                                                 ('Vĩnh Thạnh Trung','Xã Vĩnh Thạnh Trung','Xã Vĩnh Thạnh Trung, Tỉnh An Giang','7953','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Phú','Xã Châu Phú','Xã Châu Phú, Tỉnh An Giang','8209','xa','17'),
                                                                                 ('Bình Mỹ','Xã Bình Mỹ','Xã Bình Mỹ, Tỉnh An Giang','8465','xa','17'),
                                                                                 ('Thạnh Mỹ Tây','Xã Thạnh Mỹ Tây','Xã Thạnh Mỹ Tây, Tỉnh An Giang','8721','xa','17'),
@@ -790,7 +790,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Núi Cấm','Xã Núi Cấm','Xã Núi Cấm, Tỉnh An Giang','10001','xa','17'),
                                                                                 ('Ba Chúc','Xã Ba Chúc','Xã Ba Chúc, Tỉnh An Giang','10257','xa','17'),
                                                                                 ('Tri Tôn','Xã Tri Tôn','Xã Tri Tôn, Tỉnh An Giang','10513','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ô Lâm','Xã Ô Lâm','Xã Ô Lâm, Tỉnh An Giang','10769','xa','17'),
                                                                                 ('Cô Tô','Xã Cô Tô','Xã Cô Tô, Tỉnh An Giang','11025','xa','17'),
                                                                                 ('Vĩnh Gia','Xã Vĩnh Gia','Xã Vĩnh Gia, Tỉnh An Giang','11281','xa','17'),
@@ -801,7 +801,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh An','Xã Vĩnh An','Xã Vĩnh An, Tỉnh An Giang','12561','xa','17'),
                                                                                 ('Cù Lao Giêng','Xã Cù Lao Giêng','Xã Cù Lao Giêng, Tỉnh An Giang','12817','xa','17'),
                                                                                 ('Hội An','Xã Hội An','Xã Hội An, Tỉnh An Giang','13073','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Điền','Xã Long Điền','Xã Long Điền, Tỉnh An Giang','13329','xa','17'),
                                                                                 ('Chợ Mới','Xã Chợ Mới','Xã Chợ Mới, Tỉnh An Giang','13585','xa','17'),
                                                                                 ('Nhơn Mỹ','Xã Nhơn Mỹ','Xã Nhơn Mỹ, Tỉnh An Giang','13841','xa','17'),
@@ -812,7 +812,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Hòa','Xã Phú Hòa','Xã Phú Hòa, Tỉnh An Giang','15121','xa','17'),
                                                                                 ('Vĩnh Trạch','Xã Vĩnh Trạch','Xã Vĩnh Trạch, Tỉnh An Giang','15377','xa','17'),
                                                                                 ('Tây Phú','Xã Tây Phú','Xã Tây Phú, Tỉnh An Giang','15633','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đặc Khu Thổ Châu','Xã Đặc Khu Thổ Châu','Xã Đặc Khu Thổ Châu, Tỉnh An Giang','15889','xa','17'),
                                                                                 ('Rạch Giá','Phường Rạch Giá','Phường Rạch Giá, Tỉnh An Giang','16145','phuong','17'),
                                                                                 ('Hà Tiên','Phường Hà Tiên','Phường Hà Tiên, Tỉnh An Giang','16401','phuong','17'),
@@ -823,7 +823,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sơn Kiên','Xã Sơn Kiên','Xã Sơn Kiên, Tỉnh An Giang','17681','xa','17'),
                                                                                 ('Mỹ Thuận','Xã Mỹ Thuận','Xã Mỹ Thuận, Tỉnh An Giang','17937','xa','17'),
                                                                                 ('Thạnh Lộc','Xã Thạnh Lộc','Xã Thạnh Lộc, Tỉnh An Giang','18193','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Thành','Xã Châu Thành','Xã Châu Thành, Tỉnh An Giang','18449','xa','17'),
                                                                                 ('Bình An','Xã Bình An','Xã Bình An, Tỉnh An Giang','18705','xa','17'),
                                                                                 ('Tân Hội','Xã Tân Hội','Xã Tân Hội, Tỉnh An Giang','18961','xa','17'),
@@ -834,7 +834,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Long Thạnh','Xã Long Thạnh','Xã Long Thạnh, Tỉnh An Giang','20241','xa','17'),
                                                                                 ('Hòa Hưng','Xã Hòa Hưng','Xã Hòa Hưng, Tỉnh An Giang','20497','xa','17'),
                                                                                 ('Ngọc Chúc','Xã Ngọc Chúc','Xã Ngọc Chúc, Tỉnh An Giang','20753','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hòa Thuận','Xã Hòa Thuận','Xã Hòa Thuận, Tỉnh An Giang','21009','xa','17'),
                                                                                 ('Định Hòa','Xã Định Hòa','Xã Định Hòa, Tỉnh An Giang','21265','xa','17'),
                                                                                 ('Gò Quao','Xã Gò Quao','Xã Gò Quao, Tỉnh An Giang','21521','xa','17'),
@@ -845,7 +845,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Biên','Xã An Biên','Xã An Biên, Tỉnh An Giang','22801','xa','17'),
                                                                                 ('Đông Hòa','Xã Đông Hòa','Xã Đông Hòa, Tỉnh An Giang','23057','xa','17'),
                                                                                 ('Tân Thạnh','Xã Tân Thạnh','Xã Tân Thạnh, Tỉnh An Giang','23313','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Hưng','Xã Đông Hưng','Xã Đông Hưng, Tỉnh An Giang','23569','xa','17'),
                                                                                 ('An Minh','Xã An Minh','Xã An Minh, Tỉnh An Giang','23825','xa','17'),
                                                                                 ('Vân Khánh','Xã Vân Khánh','Xã Vân Khánh, Tỉnh An Giang','24081','xa','17'),
@@ -856,7 +856,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Phong','Xã Vĩnh Phong','Xã Vĩnh Phong, Tỉnh An Giang','25361','xa','17'),
                                                                                 ('An Lão','Xã An Lão','Xã An Lão, Tỉnh Gia Lai','34329','xa','25'),
                                                                                 ('Đặc Khu Phú Quốc','Xã Đặc Khu Phú Quốc','Xã Đặc Khu Phú Quốc, Tỉnh An Giang','25617','xa','17');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đặc Khu Kiên Hải','Xã Đặc Khu Kiên Hải','Xã Đặc Khu Kiên Hải, Tỉnh An Giang','25873','xa','17'),
                                                                                 ('Kiên Lương','Xã Kiên Lương','Xã Kiên Lương, Tỉnh An Giang','26129','xa','17'),
                                                                                 ('Sa Lý','Xã Sa Lý','Xã Sa Lý, Tỉnh Bắc Ninh','274','xa','18'),
@@ -867,7 +867,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vũ Ninh','Phường Vũ Ninh','Phường Vũ Ninh, Tỉnh Bắc Ninh','1554','phuong','18'),
                                                                                 ('Hạp Lĩnh','Phường Hạp Lĩnh','Phường Hạp Lĩnh, Tỉnh Bắc Ninh','1810','phuong','18'),
                                                                                 ('Nam Sơn','Phường Nam Sơn','Phường Nam Sơn, Tỉnh Bắc Ninh','2066','phuong','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Từ Sơn','Phường Từ Sơn','Phường Từ Sơn, Tỉnh Bắc Ninh','2322','phuong','18'),
                                                                                 ('Tam Sơn','Phường Tam Sơn','Phường Tam Sơn, Tỉnh Bắc Ninh','2578','phuong','18'),
                                                                                 ('Đồng Nguyên','Phường Đồng Nguyên','Phường Đồng Nguyên, Tỉnh Bắc Ninh','2834','phuong','18'),
@@ -878,7 +878,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trí Quả','Phường Trí Quả','Phường Trí Quả, Tỉnh Bắc Ninh','4114','phuong','18'),
                                                                                 ('Song Liễu','Phường Song Liễu','Phường Song Liễu, Tỉnh Bắc Ninh','4370','phuong','18'),
                                                                                 ('Ninh Xá','Phường Ninh Xá','Phường Ninh Xá, Tỉnh Bắc Ninh','4626','phuong','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quế Võ','Phường Quế Võ','Phường Quế Võ, Tỉnh Bắc Ninh','4882','phuong','18'),
                                                                                 ('Phương Liễu','Phường Phương Liễu','Phường Phương Liễu, Tỉnh Bắc Ninh','5138','phuong','18'),
                                                                                 ('Nhân Hòa','Phường Nhân Hòa','Phường Nhân Hòa, Tỉnh Bắc Ninh','5394','phuong','18'),
@@ -889,7 +889,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Phong','Xã Yên Phong','Xã Yên Phong, Tỉnh Bắc Ninh','6674','xa','18'),
                                                                                 ('Văn Môn','Xã Văn Môn','Xã Văn Môn, Tỉnh Bắc Ninh','6930','xa','18'),
                                                                                 ('Tam Giang','Xã Tam Giang','Xã Tam Giang, Tỉnh Bắc Ninh','7186','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Trung','Xã Yên Trung','Xã Yên Trung, Tỉnh Bắc Ninh','7442','xa','18'),
                                                                                 ('Tam Đa','Xã Tam Đa','Xã Tam Đa, Tỉnh Bắc Ninh','7698','xa','18'),
                                                                                 ('Tiên Du','Xã Tiên Du','Xã Tiên Du, Tỉnh Bắc Ninh','7954','xa','18'),
@@ -900,7 +900,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Gia Bình','Xã Gia Bình','Xã Gia Bình, Tỉnh Bắc Ninh','9234','xa','18'),
                                                                                 ('Nhân Thắng','Xã Nhân Thắng','Xã Nhân Thắng, Tỉnh Bắc Ninh','9490','xa','18'),
                                                                                 ('Đại Lai','Xã Đại Lai','Xã Đại Lai, Tỉnh Bắc Ninh','9746','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cao Đức','Xã Cao Đức','Xã Cao Đức, Tỉnh Bắc Ninh','10002','xa','18'),
                                                                                 ('Đông Cứu','Xã Đông Cứu','Xã Đông Cứu, Tỉnh Bắc Ninh','10258','xa','18'),
                                                                                 ('Lương Tài','Xã Lương Tài','Xã Lương Tài, Tỉnh Bắc Ninh','10514','xa','18'),
@@ -911,7 +911,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đại Sơn','Xã Đại Sơn','Xã Đại Sơn, Tỉnh Bắc Ninh','11794','xa','18'),
                                                                                 ('Sơn Động','Xã Sơn Động','Xã Sơn Động, Tỉnh Bắc Ninh','12050','xa','18'),
                                                                                 ('Tây Yên Tử','Xã Tây Yên Tử','Xã Tây Yên Tử, Tỉnh Bắc Ninh','12306','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Dương Hưu','Xã Dương Hưu','Xã Dương Hưu, Tỉnh Bắc Ninh','12562','xa','18'),
                                                                                 ('Yên Định','Xã Yên Định','Xã Yên Định, Tỉnh Bắc Ninh','12818','xa','18'),
                                                                                 ('An Lạc','Xã An Lạc','Xã An Lạc, Tỉnh Bắc Ninh','13074','xa','18'),
@@ -922,7 +922,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sơn Hải','Xã Sơn Hải','Xã Sơn Hải, Tỉnh Bắc Ninh','14354','xa','18'),
                                                                                 ('Tân Sơn','Xã Tân Sơn','Xã Tân Sơn, Tỉnh Bắc Ninh','14610','xa','18'),
                                                                                 ('Nam Dương','Xã Nam Dương','Xã Nam Dương, Tỉnh Bắc Ninh','14866','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kiên Lao','Xã Kiên Lao','Xã Kiên Lao, Tỉnh Bắc Ninh','15122','xa','18'),
                                                                                 ('Chũ','Phường Chũ','Phường Chũ, Tỉnh Bắc Ninh','15378','phuong','18'),
                                                                                 ('Phượng Sơn','Phường Phượng Sơn','Phường Phượng Sơn, Tỉnh Bắc Ninh','15634','phuong','18'),
@@ -933,7 +933,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Vinh','Xã An Vinh','Xã An Vinh, Tỉnh Gia Lai','34585','xa','25'),
                                                                                 ('Nghĩa Phương','Xã Nghĩa Phương','Xã Nghĩa Phương, Tỉnh Bắc Ninh','16914','xa','18'),
                                                                                 ('Lục Nam','Xã Lục Nam','Xã Lục Nam, Tỉnh Bắc Ninh','17170','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bắc Lũng','Xã Bắc Lũng','Xã Bắc Lũng, Tỉnh Bắc Ninh','17426','xa','18'),
                                                                                 ('Bảo Đài','Xã Bảo Đài','Xã Bảo Đài, Tỉnh Bắc Ninh','17682','xa','18'),
                                                                                 ('Lạng Giang','Xã Lạng Giang','Xã Lạng Giang, Tỉnh Bắc Ninh','17938','xa','18'),
@@ -944,7 +944,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Thế','Xã Yên Thế','Xã Yên Thế, Tỉnh Bắc Ninh','19218','xa','18'),
                                                                                 ('Bố Hạ','Xã Bố Hạ','Xã Bố Hạ, Tỉnh Bắc Ninh','19474','xa','18'),
                                                                                 ('Xuân Lương','Xã Xuân Lương','Xã Xuân Lương, Tỉnh Bắc Ninh','19730','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Tiến','Xã Tam Tiến','Xã Tam Tiến, Tỉnh Bắc Ninh','19986','xa','18'),
                                                                                 ('Tân Yên','Xã Tân Yên','Xã Tân Yên, Tỉnh Bắc Ninh','20242','xa','18'),
                                                                                 ('Ngọc Thiện','Xã Ngọc Thiện','Xã Ngọc Thiện, Tỉnh Bắc Ninh','20498','xa','18'),
@@ -955,7 +955,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hiệp Hòa','Xã Hiệp Hòa','Xã Hiệp Hòa, Tỉnh Bắc Ninh','21778','xa','18'),
                                                                                 ('Hoàng Vân','Xã Hoàng Vân','Xã Hoàng Vân, Tỉnh Bắc Ninh','22034','xa','18'),
                                                                                 ('Xuân Cẩm','Xã Xuân Cẩm','Xã Xuân Cẩm, Tỉnh Bắc Ninh','22290','xa','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tự Lạn','Phường Tự Lạn','Phường Tự Lạn, Tỉnh Bắc Ninh','22546','phuong','18'),
                                                                                 ('Việt Yên','Phường Việt Yên','Phường Việt Yên, Tỉnh Bắc Ninh','22802','phuong','18'),
                                                                                 ('Nếnh','Phường Nếnh','Phường Nếnh, Tỉnh Bắc Ninh','23058','phuong','18'),
@@ -966,7 +966,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tiền Phong','Phường Tiền Phong','Phường Tiền Phong, Tỉnh Bắc Ninh','24338','phuong','18'),
                                                                                 ('Tân An','Phường Tân An','Phường Tân An, Tỉnh Bắc Ninh','24594','phuong','18'),
                                                                                 ('Yên Dũng','Phường Yên Dũng','Phường Yên Dũng, Tỉnh Bắc Ninh','24850','phuong','18');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Tiến','Phường Tân Tiến','Phường Tân Tiến, Tỉnh Bắc Ninh','25106','phuong','18'),
                                                                                 ('Cảnh Thụy','Phường Cảnh Thụy','Phường Cảnh Thụy, Tỉnh Bắc Ninh','25362','phuong','18'),
                                                                                 ('U Minh','Xã U Minh','Xã U Minh, Tỉnh Cà Mau','275','xa','19'),
@@ -977,7 +977,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sông Đốc','Xã Sông Đốc','Xã Sông Đốc, Tỉnh Cà Mau','1555','xa','19'),
                                                                                 ('Đất Mới','Xã Đất Mới','Xã Đất Mới, Tỉnh Cà Mau','1811','xa','19'),
                                                                                 ('Năm Căn','Xã Năm Căn','Xã Năm Căn, Tỉnh Cà Mau','2067','xa','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đầm Dơi','Xã Đầm Dơi','Xã Đầm Dơi, Tỉnh Cà Mau','2323','xa','19'),
                                                                                 ('Cái Nước','Xã Cái Nước','Xã Cái Nước, Tỉnh Cà Mau','2579','xa','19'),
                                                                                 ('Hưng Mỹ','Xã Hưng Mỹ','Xã Hưng Mỹ, Tỉnh Cà Mau','2835','xa','19'),
@@ -988,7 +988,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nguyễn Phích','Xã Nguyễn Phích','Xã Nguyễn Phích, Tỉnh Cà Mau','4115','xa','19'),
                                                                                 ('Khánh An','Xã Khánh An','Xã Khánh An, Tỉnh Cà Mau','4371','xa','19'),
                                                                                 ('Khánh Lâm','Xã Khánh Lâm','Xã Khánh Lâm, Tỉnh Cà Mau','4627','xa','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lý Văn Lâm','Phường Lý Văn Lâm','Phường Lý Văn Lâm, Tỉnh Cà Mau','4883','phuong','19'),
                                                                                 ('Hòa Thành','Phường Hòa Thành','Phường Hòa Thành, Tỉnh Cà Mau','5139','phuong','19'),
                                                                                 ('Tân Thành','Phường Tân Thành','Phường Tân Thành, Tỉnh Cà Mau','5395','phuong','19'),
@@ -999,7 +999,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Giá Rai','Phường Giá Rai','Phường Giá Rai, Tỉnh Cà Mau','6675','phuong','19'),
                                                                                 ('Láng Tròn','Phường Láng Tròn','Phường Láng Tròn, Tỉnh Cà Mau','6931','phuong','19'),
                                                                                 ('Phong Thạnh','Xã Phong Thạnh','Xã Phong Thạnh, Tỉnh Cà Mau','7187','xa','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hồng Dân','Xã Hồng Dân','Xã Hồng Dân, Tỉnh Cà Mau','7443','xa','19'),
                                                                                 ('Vĩnh Lộc','Xã Vĩnh Lộc','Xã Vĩnh Lộc, Tỉnh Cà Mau','7699','xa','19'),
                                                                                 ('Ninh Thạnh Lợi','Xã Ninh Thạnh Lợi','Xã Ninh Thạnh Lợi, Tỉnh Cà Mau','7955','xa','19'),
@@ -1010,7 +1010,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Long Điền','Xã Long Điền','Xã Long Điền, Tỉnh Cà Mau','9235','xa','19'),
                                                                                 ('Đông Hải','Xã Đông Hải','Xã Đông Hải, Tỉnh Cà Mau','9491','xa','19'),
                                                                                 ('Hòa Bình','Xã Hòa Bình','Xã Hòa Bình, Tỉnh Cà Mau','9747','xa','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vĩnh Mỹ','Xã Vĩnh Mỹ','Xã Vĩnh Mỹ, Tỉnh Cà Mau','10003','xa','19'),
                                                                                 ('Vĩnh Hậu','Xã Vĩnh Hậu','Xã Vĩnh Hậu, Tỉnh Cà Mau','10259','xa','19'),
                                                                                 ('Phước Long','Xã Phước Long','Xã Phước Long, Tỉnh Cà Mau','10515','xa','19'),
@@ -1021,7 +1021,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hưng Hội','Xã Hưng Hội','Xã Hưng Hội, Tỉnh Cà Mau','11795','xa','19'),
                                                                                 ('Châu Thới','Xã Châu Thới','Xã Châu Thới, Tỉnh Cà Mau','12051','xa','19'),
                                                                                 ('An Xuyên','Phường An Xuyên','Phường An Xuyên, Tỉnh Cà Mau','12307','phuong','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Thuận','Xã Tân Thuận','Xã Tân Thuận, Tỉnh Cà Mau','12563','xa','19'),
                                                                                 ('Tân Tiến','Xã Tân Tiến','Xã Tân Tiến, Tỉnh Cà Mau','12819','xa','19'),
                                                                                 ('Trần Phán','Xã Trần Phán','Xã Trần Phán, Tỉnh Cà Mau','13075','xa','19'),
@@ -1032,7 +1032,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khánh Hưng','Xã Khánh Hưng','Xã Khánh Hưng, Tỉnh Cà Mau','14355','xa','19'),
                                                                                 ('Thới Bình','Xã Thới Bình','Xã Thới Bình, Tỉnh Cà Mau','14611','xa','19'),
                                                                                 ('Trí Phải','Xã Trí Phải','Xã Trí Phải, Tỉnh Cà Mau','14867','xa','19');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Lộc','Xã Tân Lộc','Xã Tân Lộc, Tỉnh Cà Mau','15123','xa','19'),
                                                                                 ('Biển Bạch','Xã Biển Bạch','Xã Biển Bạch, Tỉnh Cà Mau','15379','xa','19'),
                                                                                 ('Tam Giang','Xã Tam Giang','Xã Tam Giang, Tỉnh Cà Mau','15635','xa','19'),
@@ -1043,7 +1043,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Giang','Phường Tân Giang','Phường Tân Giang, Tỉnh Cao Bằng','532','phuong','20'),
                                                                                 ('Nùng Trí Cao','Phường Nùng Trí Cao','Phường Nùng Trí Cao, Tỉnh Cao Bằng','788','phuong','20'),
                                                                                 ('Sơn Lộ','Xã Sơn Lộ','Xã Sơn Lộ, Tỉnh Cao Bằng','1044','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hưng Đạo','Xã Hưng Đạo','Xã Hưng Đạo, Tỉnh Cao Bằng','1300','xa','20'),
                                                                                 ('Bảo Lạc','Xã Bảo Lạc','Xã Bảo Lạc, Tỉnh Cao Bằng','1556','xa','20'),
                                                                                 ('Cốc Pàng','Xã Cốc Pàng','Xã Cốc Pàng, Tỉnh Cao Bằng','1812','xa','20'),
@@ -1054,7 +1054,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Lâm','Xã Quảng Lâm','Xã Quảng Lâm, Tỉnh Cao Bằng','3092','xa','20'),
                                                                                 ('Nam Quang','Xã Nam Quang','Xã Nam Quang, Tỉnh Cao Bằng','3348','xa','20'),
                                                                                 ('Lý Bôn','Xã Lý Bôn','Xã Lý Bôn, Tỉnh Cao Bằng','3604','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bảo Lâm','Xã Bảo Lâm','Xã Bảo Lâm, Tỉnh Cao Bằng','3860','xa','20'),
                                                                                 ('Yên Thổ','Xã Yên Thổ','Xã Yên Thổ, Tỉnh Cao Bằng','4116','xa','20'),
                                                                                 ('Hạ Lang','Xã Hạ Lang','Xã Hạ Lang, Tỉnh Cao Bằng','4372','xa','20'),
@@ -1065,7 +1065,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thông Nông','Xã Thông Nông','Xã Thông Nông, Tỉnh Cao Bằng','5652','xa','20'),
                                                                                 ('Trường Hà','Xã Trường Hà','Xã Trường Hà, Tỉnh Cao Bằng','5908','xa','20'),
                                                                                 ('Hà Quảng','Xã Hà Quảng','Xã Hà Quảng, Tỉnh Cao Bằng','6164','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lũng Nặm','Xã Lũng Nặm','Xã Lũng Nặm, Tỉnh Cao Bằng','6420','xa','20'),
                                                                                 ('Tổng Cọt','Xã Tổng Cọt','Xã Tổng Cọt, Tỉnh Cao Bằng','6676','xa','20'),
                                                                                 ('Nam Tuấn','Xã Nam Tuấn','Xã Nam Tuấn, Tỉnh Cao Bằng','6932','xa','20'),
@@ -1076,7 +1076,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phan Thanh','Xã Phan Thanh','Xã Phan Thanh, Tỉnh Cao Bằng','8212','xa','20'),
                                                                                 ('Thành Công','Xã Thành Công','Xã Thành Công, Tỉnh Cao Bằng','8468','xa','20'),
                                                                                 ('Tam Kim','Xã Tam Kim','Xã Tam Kim, Tỉnh Cao Bằng','8724','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nguyên Bình','Xã Nguyên Bình','Xã Nguyên Bình, Tỉnh Cao Bằng','8980','xa','20'),
                                                                                 ('Tĩnh Túc','Xã Tĩnh Túc','Xã Tĩnh Túc, Tỉnh Cao Bằng','9236','xa','20'),
                                                                                 ('Minh Tâm','Xã Minh Tâm','Xã Minh Tâm, Tỉnh Cao Bằng','9492','xa','20'),
@@ -1087,7 +1087,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hạnh Phúc','Xã Hạnh Phúc','Xã Hạnh Phúc, Tỉnh Cao Bằng','10772','xa','20'),
                                                                                 ('Minh Khai','Xã Minh Khai','Xã Minh Khai, Tỉnh Cao Bằng','11028','xa','20'),
                                                                                 ('Canh Tân','Xã Canh Tân','Xã Canh Tân, Tỉnh Cao Bằng','11284','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kim Đồng','Xã Kim Đồng','Xã Kim Đồng, Tỉnh Cao Bằng','11540','xa','20'),
                                                                                 ('Thạch An','Xã Thạch An','Xã Thạch An, Tỉnh Cao Bằng','11796','xa','20'),
                                                                                 ('Đông Khê','Xã Đông Khê','Xã Đông Khê, Tỉnh Cao Bằng','12052','xa','20'),
@@ -1098,7 +1098,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đoài Dương','Xã Đoài Dương','Xã Đoài Dương, Tỉnh Cao Bằng','13332','xa','20'),
                                                                                 ('Trùng Khánh','Xã Trùng Khánh','Xã Trùng Khánh, Tỉnh Cao Bằng','13588','xa','20'),
                                                                                 ('Đàm Thuỷ','Xã Đàm Thuỷ','Xã Đàm Thuỷ, Tỉnh Cao Bằng','13844','xa','20');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quang Long','Xã Quang Long','Xã Quang Long, Tỉnh Cao Bằng','14100','xa','20'),
                                                                                 ('Đình Phong','Xã Đình Phong','Xã Đình Phong, Tỉnh Cao Bằng','14356','xa','20'),
                                                                                 ('Hòa Hiệp','Phường Hòa Hiệp','Phường Hòa Hiệp, Tỉnh Đắk Lắk','277','phuong','21'),
@@ -1109,7 +1109,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ealy','Xã Ealy','Xã Ealy, Tỉnh Đắk Lắk','1557','xa','21'),
                                                                                 ('Phú Yên','Phường Phú Yên','Phường Phú Yên, Tỉnh Đắk Lắk','1813','phuong','21'),
                                                                                 ('Xuân Đài','Phường Xuân Đài','Phường Xuân Đài, Tỉnh Đắk Lắk','2069','phuong','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Dray Bhăng','Xã Dray Bhăng','Xã Dray Bhăng, Tỉnh Đắk Lắk','2325','xa','21'),
                                                                                 ('Buôn Đôn','Xã Buôn Đôn','Xã Buôn Đôn, Tỉnh Đắk Lắk','2581','xa','21'),
                                                                                 ('Ea KTur','Xã Ea KTur','Xã Ea KTur, Tỉnh Đắk Lắk','2837','xa','21'),
@@ -1120,7 +1120,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ia Lốp','Xã Ia Lốp','Xã Ia Lốp, Tỉnh Đắk Lắk','4117','xa','21'),
                                                                                 ('Ia Rvê','Xã Ia Rvê','Xã Ia Rvê, Tỉnh Đắk Lắk','4373','xa','21'),
                                                                                 ('Buôn Ma Thuột','Phường Buôn Ma Thuột','Phường Buôn Ma Thuột, Tỉnh Đắk Lắk','4629','phuong','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân An','Phường Tân An','Phường Tân An, Tỉnh Đắk Lắk','4885','phuong','21'),
                                                                                 ('Tân Lập','Phường Tân Lập','Phường Tân Lập, Tỉnh Đắk Lắk','5141','phuong','21'),
                                                                                 ('Thành Nhất','Phường Thành Nhất','Phường Thành Nhất, Tỉnh Đắk Lắk','5397','phuong','21'),
@@ -1131,7 +1131,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ea Drông','Xã Ea Drông','Xã Ea Drông, Tỉnh Đắk Lắk','6677','xa','21'),
                                                                                 ('Ea Súp','Xã Ea Súp','Xã Ea Súp, Tỉnh Đắk Lắk','6933','xa','21'),
                                                                                 ('Ea Rốk','Xã Ea Rốk','Xã Ea Rốk, Tỉnh Đắk Lắk','7189','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ea Bung','Xã Ea Bung','Xã Ea Bung, Tỉnh Đắk Lắk','7445','xa','21'),
                                                                                 ('Ea Wer','Xã Ea Wer','Xã Ea Wer, Tỉnh Đắk Lắk','7701','xa','21'),
                                                                                 ('Ea Nuôl','Xã Ea Nuôl','Xã Ea Nuôl, Tỉnh Đắk Lắk','7957','xa','21'),
@@ -1142,7 +1142,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cư M''gar','Xã Cư M''gar','Xã Cư M''gar, Tỉnh Đắk Lắk','9237','xa','21'),
                                                                                 ('Ea Tul','Xã Ea Tul','Xã Ea Tul, Tỉnh Đắk Lắk','9493','xa','21'),
                                                                                 ('Pơng Drang','Xã Pơng Drang','Xã Pơng Drang, Tỉnh Đắk Lắk','9749','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Krông Búk','Xã Krông Búk','Xã Krông Búk, Tỉnh Đắk Lắk','10005','xa','21'),
                                                                                 ('Cư Pơng','Xã Cư Pơng','Xã Cư Pơng, Tỉnh Đắk Lắk','10261','xa','21'),
                                                                                 ('Ea Khăl','Xã Ea Khăl','Xã Ea Khăl, Tỉnh Đắk Lắk','10517','xa','21'),
@@ -1153,7 +1153,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Dliê Ya','Xã Dliê Ya','Xã Dliê Ya, Tỉnh Đắk Lắk','11797','xa','21'),
                                                                                 ('Tam Giang','Xã Tam Giang','Xã Tam Giang, Tỉnh Đắk Lắk','12053','xa','21'),
                                                                                 ('Phú Xuân','Xã Phú Xuân','Xã Phú Xuân, Tỉnh Đắk Lắk','12309','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Krông Pắc','Xã Krông Pắc','Xã Krông Pắc, Tỉnh Đắk Lắk','12565','xa','21'),
                                                                                 ('Ea Knuếc','Xã Ea Knuếc','Xã Ea Knuếc, Tỉnh Đắk Lắk','12821','xa','21'),
                                                                                 ('Tân Tiến','Xã Tân Tiến','Xã Tân Tiến, Tỉnh Đắk Lắk','13077','xa','21'),
@@ -1164,7 +1164,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ea Knốp','Xã Ea Knốp','Xã Ea Knốp, Tỉnh Đắk Lắk','14357','xa','21'),
                                                                                 ('Cư Yang','Xã Cư Yang','Xã Cư Yang, Tỉnh Đắk Lắk','14613','xa','21'),
                                                                                 ('Ea Păl','Xã Ea Păl','Xã Ea Păl, Tỉnh Đắk Lắk','14869','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('M''Drắk','Xã M''Drắk','Xã M''Drắk, Tỉnh Đắk Lắk','15125','xa','21'),
                                                                                 ('Ea Riêng','Xã Ea Riêng','Xã Ea Riêng, Tỉnh Đắk Lắk','15381','xa','21'),
                                                                                 ('Cư M''ta','Xã Cư M''ta','Xã Cư M''ta, Tỉnh Đắk Lắk','15637','xa','21'),
@@ -1175,7 +1175,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Krông Bông','Xã Krông Bông','Xã Krông Bông, Tỉnh Đắk Lắk','16917','xa','21'),
                                                                                 ('Yang Mao','Xã Yang Mao','Xã Yang Mao, Tỉnh Đắk Lắk','17173','xa','21'),
                                                                                 ('Cư Pui','Xã Cư Pui','Xã Cư Pui, Tỉnh Đắk Lắk','17429','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Liên Sơn Lắk','Xã Liên Sơn Lắk','Xã Liên Sơn Lắk, Tỉnh Đắk Lắk','17685','xa','21'),
                                                                                 ('Đắk Liêng','Xã Đắk Liêng','Xã Đắk Liêng, Tỉnh Đắk Lắk','17941','xa','21'),
                                                                                 ('Nam Ka','Xã Nam Ka','Xã Nam Ka, Tỉnh Đắk Lắk','18197','xa','21'),
@@ -1186,7 +1186,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ea Na','Xã Ea Na','Xã Ea Na, Tỉnh Đắk Lắk','19477','xa','21'),
                                                                                 ('Xuân Thọ','Xã Xuân Thọ','Xã Xuân Thọ, Tỉnh Đắk Lắk','19733','xa','21'),
                                                                                 ('Xuân Cảnh','Xã Xuân Cảnh','Xã Xuân Cảnh, Tỉnh Đắk Lắk','19989','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Lộc','Xã Xuân Lộc','Xã Xuân Lộc, Tỉnh Đắk Lắk','20245','xa','21'),
                                                                                 ('Đông Hòa','Phường Đông Hòa','Phường Đông Hòa, Tỉnh Đắk Lắk','20501','phuong','21'),
                                                                                 ('Hòa Xuân','Xã Hòa Xuân','Xã Hòa Xuân, Tỉnh Đắk Lắk','20757','xa','21'),
@@ -1197,7 +1197,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tuy An Tây','Xã Tuy An Tây','Xã Tuy An Tây, Tỉnh Đắk Lắk','22037','xa','21'),
                                                                                 ('Hòa Thịnh','Xã Hòa Thịnh','Xã Hòa Thịnh, Tỉnh Đắk Lắk','22293','xa','21'),
                                                                                 ('Hòa Mỹ','Xã Hòa Mỹ','Xã Hòa Mỹ, Tỉnh Đắk Lắk','22549','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Thành','Xã Sơn Thành','Xã Sơn Thành, Tỉnh Đắk Lắk','22805','xa','21'),
                                                                                 ('Sơn Hòa','Xã Sơn Hòa','Xã Sơn Hòa, Tỉnh Đắk Lắk','23061','xa','21'),
                                                                                 ('Vân Hòa','Xã Vân Hòa','Xã Vân Hòa, Tỉnh Đắk Lắk','23317','xa','21'),
@@ -1208,7 +1208,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Xuân','Xã Đồng Xuân','Xã Đồng Xuân, Tỉnh Đắk Lắk','24597','xa','21'),
                                                                                 ('Sông Cầu','Phường Sông Cầu','Phường Sông Cầu, Tỉnh Đắk Lắk','24853','phuong','21'),
                                                                                 ('Suối Trai','Xã Suối Trai','Xã Suối Trai, Tỉnh Đắk Lắk','25109','xa','21');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tuy Hòa','Phường Tuy Hòa','Phường Tuy Hòa, Tỉnh Đắk Lắk','25365','phuong','21'),
                                                                                 ('Phú Hòa 1','Xã Phú Hòa 1','Xã Phú Hòa 1, Tỉnh Đắk Lắk','25621','xa','21'),
                                                                                 ('Tây Hòa','Xã Tây Hòa','Xã Tây Hòa, Tỉnh Đắk Lắk','25877','xa','21'),
@@ -1219,7 +1219,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nậm Kè','Xã Nậm Kè','Xã Nậm Kè, Tỉnh Điện Biên','1046','xa','22'),
                                                                                 ('Quảng Lâm','Xã Quảng Lâm','Xã Quảng Lâm, Tỉnh Điện Biên','1302','xa','22'),
                                                                                 ('Nà Hỳ','Xã Nà Hỳ','Xã Nà Hỳ, Tỉnh Điện Biên','1558','xa','22');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mường Chà','Xã Mường Chà','Xã Mường Chà, Tỉnh Điện Biên','1814','xa','22'),
                                                                                 ('Nà Bủng','Xã Nà Bủng','Xã Nà Bủng, Tỉnh Điện Biên','2070','xa','22'),
                                                                                 ('Chà Tở','Xã Chà Tở','Xã Chà Tở, Tỉnh Điện Biên','2326','xa','22'),
@@ -1230,7 +1230,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Pa Ham','Xã Pa Ham','Xã Pa Ham, Tỉnh Điện Biên','3606','xa','22'),
                                                                                 ('Nậm Nèn','Xã Nậm Nèn','Xã Nậm Nèn, Tỉnh Điện Biên','3862','xa','22'),
                                                                                 ('Mường Pồn','Xã Mường Pồn','Xã Mường Pồn, Tỉnh Điện Biên','4118','xa','22');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tủa Chùa','Xã Tủa Chùa','Xã Tủa Chùa, Tỉnh Điện Biên','4374','xa','22'),
                                                                                 ('Xín Chải','Xã Xín Chải','Xã Xín Chải, Tỉnh Điện Biên','4630','xa','22'),
                                                                                 ('Sính Phình','Xã Sính Phình','Xã Sính Phình, Tỉnh Điện Biên','4886','xa','22'),
@@ -1241,7 +1241,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Mùn','Xã Mường Mùn','Xã Mường Mùn, Tỉnh Điện Biên','6166','xa','22'),
                                                                                 ('Pú Nhung','Xã Pú Nhung','Xã Pú Nhung, Tỉnh Điện Biên','6422','xa','22'),
                                                                                 ('Chiềng Sinh','Xã Chiềng Sinh','Xã Chiềng Sinh, Tỉnh Điện Biên','6678','xa','22');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nga An','Xã Nga An','Xã Nga An, Tỉnh Thanh Hóa','16938','xa','42'),
                                                                                 ('Mường Ảng','Xã Mường Ảng','Xã Mường Ảng, Tỉnh Điện Biên','6934','xa','22'),
                                                                                 ('Nà Tấu','Xã Nà Tấu','Xã Nà Tấu, Tỉnh Điện Biên','7190','xa','22'),
@@ -1252,7 +1252,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Thanh','Phường Mường Thanh','Phường Mường Thanh, Tỉnh Điện Biên','8470','phuong','22'),
                                                                                 ('Thanh Nưa','Xã Thanh Nưa','Xã Thanh Nưa, Tỉnh Điện Biên','8726','xa','22'),
                                                                                 ('Thanh An','Xã Thanh An','Xã Thanh An, Tỉnh Điện Biên','8982','xa','22');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thanh Yên','Xã Thanh Yên','Xã Thanh Yên, Tỉnh Điện Biên','9238','xa','22'),
                                                                                 ('Sam Mứn','Xã Sam Mứn','Xã Sam Mứn, Tỉnh Điện Biên','9494','xa','22'),
                                                                                 ('Núa Ngam','Xã Núa Ngam','Xã Núa Ngam, Tỉnh Điện Biên','9750','xa','22'),
@@ -1263,7 +1263,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Luân','Xã Mường Luân','Xã Mường Luân, Tỉnh Điện Biên','11030','xa','22'),
                                                                                 ('Tìa Dình','Xã Tìa Dình','Xã Tìa Dình, Tỉnh Điện Biên','11286','xa','22'),
                                                                                 ('Phình Giàng','Xã Phình Giàng','Xã Phình Giàng, Tỉnh Điện Biên','11542','xa','22');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Dak Lua','Xã Dak Lua','Xã Dak Lua, Tỉnh Đồng Nai','279','xa','23'),
                                                                                 ('Phú Lý','Xã Phú Lý','Xã Phú Lý, Tỉnh Đồng Nai','535','xa','23'),
                                                                                 ('Xuân Hòa','Xã Xuân Hòa','Xã Xuân Hòa, Tỉnh Đồng Nai','791','xa','23'),
@@ -1274,7 +1274,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bù Gia Mập','Xã Bù Gia Mập','Xã Bù Gia Mập, Tỉnh Đồng Nai','2071','xa','23'),
                                                                                 ('Thanh Sơn','Xã Thanh Sơn','Xã Thanh Sơn, Tỉnh Đồng Nai','2327','xa','23'),
                                                                                 ('Xuân Lộc','Xã Xuân Lộc','Xã Xuân Lộc, Tỉnh Đồng Nai','2583','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Thành','Xã Xuân Thành','Xã Xuân Thành, Tỉnh Đồng Nai','2839','xa','23'),
                                                                                 ('Xuân Bắc','Xã Xuân Bắc','Xã Xuân Bắc, Tỉnh Đồng Nai','3095','xa','23'),
                                                                                 ('La Ngà','Xã La Ngà','Xã La Ngà, Tỉnh Đồng Nai','3351','xa','23'),
@@ -1285,7 +1285,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Cát Tiên','Xã Nam Cát Tiên','Xã Nam Cát Tiên, Tỉnh Đồng Nai','4631','xa','23'),
                                                                                 ('Tân Phú','Xã Tân Phú','Xã Tân Phú, Tỉnh Đồng Nai','4887','xa','23'),
                                                                                 ('Phú Lâm','Xã Phú Lâm','Xã Phú Lâm, Tỉnh Đồng Nai','5143','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trị An','Xã Trị An','Xã Trị An, Tỉnh Đồng Nai','5399','xa','23'),
                                                                                 ('Tân An','Xã Tân An','Xã Tân An, Tỉnh Đồng Nai','5655','xa','23'),
                                                                                 ('Tân Triều','Phường Tân Triều','Phường Tân Triều, Tỉnh Đồng Nai','5911','phuong','23'),
@@ -1296,7 +1296,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Long Phước','Xã Long Phước','Xã Long Phước, Tỉnh Đồng Nai','7191','xa','23'),
                                                                                 ('Bình An','Xã Bình An','Xã Bình An, Tỉnh Đồng Nai','7447','xa','23'),
                                                                                 ('Long Thành','Xã Long Thành','Xã Long Thành, Tỉnh Đồng Nai','7703','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('An Phước','Xã An Phước','Xã An Phước, Tỉnh Đồng Nai','7959','xa','23'),
                                                                                 ('An Viễn','Xã An Viễn','Xã An Viễn, Tỉnh Đồng Nai','8215','xa','23'),
                                                                                 ('Bình Minh','Xã Bình Minh','Xã Bình Minh, Tỉnh Đồng Nai','8471','xa','23'),
@@ -1307,7 +1307,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Gia Kiệm','Xã Gia Kiệm','Xã Gia Kiệm, Tỉnh Đồng Nai','9751','xa','23'),
                                                                                 ('Thống Nhất','Xã Thống Nhất','Xã Thống Nhất, Tỉnh Đồng Nai','10007','xa','23'),
                                                                                 ('Bình Lộc','Phường Bình Lộc','Phường Bình Lộc, Tỉnh Đồng Nai','10263','phuong','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bảo Vinh','Phường Bảo Vinh','Phường Bảo Vinh, Tỉnh Đồng Nai','10519','phuong','23'),
                                                                                 ('Xuân Lập','Phường Xuân Lập','Phường Xuân Lập, Tỉnh Đồng Nai','10775','phuong','23'),
                                                                                 ('Long Khánh','Phường Long Khánh','Phường Long Khánh, Tỉnh Đồng Nai','11031','phuong','23'),
@@ -1318,7 +1318,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sông Ray','Xã Sông Ray','Xã Sông Ray, Tỉnh Đồng Nai','12311','xa','23'),
                                                                                 ('Xuân Định','Xã Xuân Định','Xã Xuân Định, Tỉnh Đồng Nai','12567','xa','23'),
                                                                                 ('Xuân Phú','Xã Xuân Phú','Xã Xuân Phú, Tỉnh Đồng Nai','12823','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Trung','Xã Phú Trung','Xã Phú Trung, Tỉnh Đồng Nai','13079','xa','23'),
                                                                                 ('Thuận Lợi','Xã Thuận Lợi','Xã Thuận Lợi, Tỉnh Đồng Nai','13335','xa','23'),
                                                                                 ('Đồng Tâm','Xã Đồng Tâm','Xã Đồng Tâm, Tỉnh Đồng Nai','13591','xa','23'),
@@ -1329,7 +1329,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bù Đăng','Xã Bù Đăng','Xã Bù Đăng, Tỉnh Đồng Nai','14871','xa','23'),
                                                                                 ('Thọ Sơn','Xã Thọ Sơn','Xã Thọ Sơn, Tỉnh Đồng Nai','15127','xa','23'),
                                                                                 ('Đak Nhau','Xã Đak Nhau','Xã Đak Nhau, Tỉnh Đồng Nai','15383','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bom Bo','Xã Bom Bo','Xã Bom Bo, Tỉnh Đồng Nai','15639','xa','23'),
                                                                                 ('Long Bình','Phường Long Bình','Phường Long Bình, Tỉnh Đồng Nai','15895','phuong','23'),
                                                                                 ('Trảng Dài','Phường Trảng Dài','Phường Trảng Dài, Tỉnh Đồng Nai','16151','phuong','23'),
@@ -1340,7 +1340,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Xoài','Phường Đồng Xoài','Phường Đồng Xoài, Tỉnh Đồng Nai','17431','phuong','23'),
                                                                                 ('Biên Hòa','Phường Biên Hòa','Phường Biên Hòa, Tỉnh Đồng Nai','17687','phuong','23'),
                                                                                 ('Trấn Biên','Phường Trấn Biên','Phường Trấn Biên, Tỉnh Đồng Nai','17943','phuong','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Hiệp','Phường Tam Hiệp','Phường Tam Hiệp, Tỉnh Đồng Nai','18199','phuong','23'),
                                                                                 ('Phước Bình','Phường Phước Bình','Phường Phước Bình, Tỉnh Đồng Nai','18455','phuong','23'),
                                                                                 ('Phước Long','Phường Phước Long','Phường Phước Long, Tỉnh Đồng Nai','18711','phuong','23'),
@@ -1351,7 +1351,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nha Bích','Xã Nha Bích','Xã Nha Bích, Tỉnh Đồng Nai','19991','xa','23'),
                                                                                 ('Tân Quan','Xã Tân Quan','Xã Tân Quan, Tỉnh Đồng Nai','20247','xa','23'),
                                                                                 ('Tân Hưng','Xã Tân Hưng','Xã Tân Hưng, Tỉnh Đồng Nai','20503','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Khai','Xã Tân Khai','Xã Tân Khai, Tỉnh Đồng Nai','20759','xa','23'),
                                                                                 ('Minh Đức','Xã Minh Đức','Xã Minh Đức, Tỉnh Đồng Nai','21015','xa','23'),
                                                                                 ('Lộc Thành','Xã Lộc Thành','Xã Lộc Thành, Tỉnh Đồng Nai','21271','xa','23'),
@@ -1362,7 +1362,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lộc Quang','Xã Lộc Quang','Xã Lộc Quang, Tỉnh Đồng Nai','22551','xa','23'),
                                                                                 ('Tân Tiến','Xã Tân Tiến','Xã Tân Tiến, Tỉnh Đồng Nai','22807','xa','23'),
                                                                                 ('Thiện Hưng','Xã Thiện Hưng','Xã Thiện Hưng, Tỉnh Đồng Nai','23063','xa','23');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hưng Phước','Xã Hưng Phước','Xã Hưng Phước, Tỉnh Đồng Nai','23319','xa','23'),
                                                                                 ('Phú Nghĩa','Xã Phú Nghĩa','Xã Phú Nghĩa, Tỉnh Đồng Nai','23575','xa','23'),
                                                                                 ('Đa Kia','Xã Đa Kia','Xã Đa Kia, Tỉnh Đồng Nai','23831','xa','23'),
@@ -1373,7 +1373,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thanh Bình','Xã Thanh Bình','Xã Thanh Bình, Tỉnh Đồng Tháp','792','xa','24'),
                                                                                 ('Tân Thạnh','Xã Tân Thạnh','Xã Tân Thạnh, Tỉnh Đồng Tháp','1048','xa','24'),
                                                                                 ('Long Phú Thuận','Xã Long Phú Thuận','Xã Long Phú Thuận, Tỉnh Đồng Tháp','1304','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Cường','Xã Phú Cường','Xã Phú Cường, Tỉnh Đồng Tháp','1560','xa','24'),
                                                                                 ('Tân Hồng','Xã Tân Hồng','Xã Tân Hồng, Tỉnh Đồng Tháp','1816','xa','24'),
                                                                                 ('Tân Thành','Xã Tân Thành','Xã Tân Thành, Tỉnh Đồng Tháp','2072','xa','24'),
@@ -1384,7 +1384,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thường Lạc','Phường Thường Lạc','Phường Thường Lạc, Tỉnh Đồng Tháp','3352','phuong','24'),
                                                                                 ('Thường Phước','Xã Thường Phước','Xã Thường Phước, Tỉnh Đồng Tháp','3608','xa','24'),
                                                                                 ('Long Khánh','Xã Long Khánh','Xã Long Khánh, Tỉnh Đồng Tháp','3864','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('An Hòa','Xã An Hòa','Xã An Hòa, Tỉnh Đồng Tháp','4120','xa','24'),
                                                                                 ('Tam Nông','Xã Tam Nông','Xã Tam Nông, Tỉnh Đồng Tháp','4376','xa','24'),
                                                                                 ('Phú Thọ','Xã Phú Thọ','Xã Phú Thọ, Tỉnh Đồng Tháp','4632','xa','24'),
@@ -1395,7 +1395,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thanh Mỹ','Xã Thanh Mỹ','Xã Thanh Mỹ, Tỉnh Đồng Tháp','5912','xa','24'),
                                                                                 ('Mỹ Quí','Xã Mỹ Quí','Xã Mỹ Quí, Tỉnh Đồng Tháp','6168','xa','24'),
                                                                                 ('Đốc Binh Kiều','Xã Đốc Binh Kiều','Xã Đốc Binh Kiều, Tỉnh Đồng Tháp','6424','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trường Xuân','Xã Trường Xuân','Xã Trường Xuân, Tỉnh Đồng Tháp','6680','xa','24'),
                                                                                 ('Phương Thịnh','Xã Phương Thịnh','Xã Phương Thịnh, Tỉnh Đồng Tháp','6936','xa','24'),
                                                                                 ('Ba Sao','Xã Ba Sao','Xã Ba Sao, Tỉnh Đồng Tháp','7192','xa','24'),
@@ -1406,7 +1406,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỹ Ngãi','Phường Mỹ Ngãi','Phường Mỹ Ngãi, Tỉnh Đồng Tháp','8472','phuong','24'),
                                                                                 ('Mỹ Trà','Phường Mỹ Trà','Phường Mỹ Trà, Tỉnh Đồng Tháp','8728','phuong','24'),
                                                                                 ('Mỹ An Hưng','Xã Mỹ An Hưng','Xã Mỹ An Hưng, Tỉnh Đồng Tháp','8984','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Khánh Trung','Xã Tân Khánh Trung','Xã Tân Khánh Trung, Tỉnh Đồng Tháp','9240','xa','24'),
                                                                                 ('Lấp Vò','Xã Lấp Vò','Xã Lấp Vò, Tỉnh Đồng Tháp','9496','xa','24'),
                                                                                 ('Lai Vung','Xã Lai Vung','Xã Lai Vung, Tỉnh Đồng Tháp','9752','xa','24'),
@@ -1417,7 +1417,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Hựu','Xã Phú Hựu','Xã Phú Hựu, Tỉnh Đồng Tháp','11032','xa','24'),
                                                                                 ('Tân Nhuận Đông','Xã Tân Nhuận Đông','Xã Tân Nhuận Đông, Tỉnh Đồng Tháp','11288','xa','24'),
                                                                                 ('Tân Phú Trung','Xã Tân Phú Trung','Xã Tân Phú Trung, Tỉnh Đồng Tháp','11544','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thanh Hưng','Xã Thanh Hưng','Xã Thanh Hưng, Tỉnh Đồng Tháp','11800','xa','24'),
                                                                                 ('An Hữu','Xã An Hữu','Xã An Hữu, Tỉnh Đồng Tháp','12056','xa','24'),
                                                                                 ('Mỹ Lợi','Xã Mỹ Lợi','Xã Mỹ Lợi, Tỉnh Đồng Tháp','12312','xa','24'),
@@ -1428,7 +1428,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cái Bè','Xã Cái Bè','Xã Cái Bè, Tỉnh Đồng Tháp','13592','xa','24'),
                                                                                 ('Hiệp Đức','Xã Hiệp Đức','Xã Hiệp Đức, Tỉnh Đồng Tháp','13848','xa','24'),
                                                                                 ('Bình Phú','Xã Bình Phú','Xã Bình Phú, Tỉnh Đồng Tháp','14104','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngũ Hiệp','Xã Ngũ Hiệp','Xã Ngũ Hiệp, Tỉnh Đồng Tháp','14360','xa','24'),
                                                                                 ('Long Tiên','Xã Long Tiên','Xã Long Tiên, Tỉnh Đồng Tháp','14616','xa','24'),
                                                                                 ('Mỹ Thành','Xã Mỹ Thành','Xã Mỹ Thành, Tỉnh Đồng Tháp','14872','xa','24'),
@@ -1439,7 +1439,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nhị Quý','Phường Nhị Quý','Phường Nhị Quý, Tỉnh Đồng Tháp','16152','phuong','24'),
                                                                                 ('Tân Phú','Xã Tân Phú','Xã Tân Phú, Tỉnh Đồng Tháp','16408','xa','24'),
                                                                                 ('Tân Phước 1','Xã Tân Phước 1','Xã Tân Phước 1, Tỉnh Đồng Tháp','16664','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Phước 2','Xã Tân Phước 2','Xã Tân Phước 2, Tỉnh Đồng Tháp','16920','xa','24'),
                                                                                 ('Tân Phước 3','Xã Tân Phước 3','Xã Tân Phước 3, Tỉnh Đồng Tháp','17176','xa','24'),
                                                                                 ('Hưng Thạnh','Xã Hưng Thạnh','Xã Hưng Thạnh, Tỉnh Đồng Tháp','17432','xa','24'),
@@ -1450,7 +1450,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Kim','Xã Vĩnh Kim','Xã Vĩnh Kim, Tỉnh Đồng Tháp','18712','xa','24'),
                                                                                 ('Kim Sơn','Xã Kim Sơn','Xã Kim Sơn, Tỉnh Đồng Tháp','18968','xa','24'),
                                                                                 ('Bình Trưng','Xã Bình Trưng','Xã Bình Trưng, Tỉnh Đồng Tháp','19224','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mỹ Tho','Phường Mỹ Tho','Phường Mỹ Tho, Tỉnh Đồng Tháp','19480','phuong','24'),
                                                                                 ('Đạo Thạnh','Phường Đạo Thạnh','Phường Đạo Thạnh, Tỉnh Đồng Tháp','19736','phuong','24'),
                                                                                 ('Mỹ Phong','Phường Mỹ Phong','Phường Mỹ Phong, Tỉnh Đồng Tháp','19992','phuong','24'),
@@ -1461,7 +1461,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Thuận Bình','Xã Tân Thuận Bình','Xã Tân Thuận Bình, Tỉnh Đồng Tháp','21272','xa','24'),
                                                                                 ('Chợ Gạo','Xã Chợ Gạo','Xã Chợ Gạo, Tỉnh Đồng Tháp','21528','xa','24'),
                                                                                 ('An Thạnh Thủy','Xã An Thạnh Thủy','Xã An Thạnh Thủy, Tỉnh Đồng Tháp','21784','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Ninh','Xã Bình Ninh','Xã Bình Ninh, Tỉnh Đồng Tháp','22040','xa','24'),
                                                                                 ('Gò Công Đông','Xã Gò Công Đông','Xã Gò Công Đông, Tỉnh Đồng Tháp','22296','xa','24'),
                                                                                 ('Tân Điền','Xã Tân Điền','Xã Tân Điền, Tỉnh Đồng Tháp','22552','xa','24'),
@@ -1472,7 +1472,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Sơn','Xã Đồng Sơn','Xã Đồng Sơn, Tỉnh Đồng Tháp','23832','xa','24'),
                                                                                 ('Phú Thành','Xã Phú Thành','Xã Phú Thành, Tỉnh Đồng Tháp','24088','xa','24'),
                                                                                 ('Long Bình','Xã Long Bình','Xã Long Bình, Tỉnh Đồng Tháp','24344','xa','24');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vĩnh Hựu','Xã Vĩnh Hựu','Xã Vĩnh Hựu, Tỉnh Đồng Tháp','24600','xa','24'),
                                                                                 ('Gò Công','Phường Gò Công','Phường Gò Công, Tỉnh Đồng Tháp','24856','phuong','24'),
                                                                                 ('Long Thuận','Phường Long Thuận','Phường Long Thuận, Tỉnh Đồng Tháp','25112','phuong','24'),
@@ -1483,7 +1483,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Canh Liên','Xã Canh Liên','Xã Canh Liên, Tỉnh Gia Lai','281','xa','25'),
                                                                                 ('Nhơn Châu','Xã Nhơn Châu','Xã Nhơn Châu, Tỉnh Gia Lai','537','xa','25'),
                                                                                 ('An Toàn','Xã An Toàn','Xã An Toàn, Tỉnh Gia Lai','793','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vân Canh','Xã Vân Canh','Xã Vân Canh, Tỉnh Gia Lai','1049','xa','25'),
                                                                                 ('Ia Púch','Xã Ia Púch','Xã Ia Púch, Tỉnh Gia Lai','1305','xa','25'),
                                                                                 ('Ia Mơ','Xã Ia Mơ','Xã Ia Mơ, Tỉnh Gia Lai','1561','xa','25'),
@@ -1494,7 +1494,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Hòa','Xã An Hòa','Xã An Hòa, Tỉnh Gia Lai','2841','xa','25'),
                                                                                 ('Phù Mỹ Đông','Xã Phù Mỹ Đông','Xã Phù Mỹ Đông, Tỉnh Gia Lai','3097','xa','25'),
                                                                                 ('Quy Nhơn Đông','Phường Quy Nhơn Đông','Phường Quy Nhơn Đông, Tỉnh Gia Lai','3353','phuong','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tây Sơn','Xã Tây Sơn','Xã Tây Sơn, Tỉnh Gia Lai','3609','xa','25'),
                                                                                 ('Ia Chia','Xã Ia Chia','Xã Ia Chia, Tỉnh Gia Lai','3865','xa','25'),
                                                                                 ('Ia O','Xã Ia O','Xã Ia O, Tỉnh Gia Lai','4121','xa','25'),
@@ -1505,7 +1505,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Diên Hồng','Phường Diên Hồng','Phường Diên Hồng, Tỉnh Gia Lai','5401','phuong','25'),
                                                                                 ('An Phú','Phường An Phú','Phường An Phú, Tỉnh Gia Lai','5657','phuong','25'),
                                                                                 ('Biển Hồ','Xã Biển Hồ','Xã Biển Hồ, Tỉnh Gia Lai','5913','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Gào','Xã Gào','Xã Gào, Tỉnh Gia Lai','6169','xa','25'),
                                                                                 ('Ia Ly','Xã Ia Ly','Xã Ia Ly, Tỉnh Gia Lai','6425','xa','25'),
                                                                                 ('Chư Păh','Xã Chư Păh','Xã Chư Păh, Tỉnh Gia Lai','6681','xa','25'),
@@ -1516,7 +1516,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ia Boòng','Xã Ia Boòng','Xã Ia Boòng, Tỉnh Gia Lai','7961','xa','25'),
                                                                                 ('Ia Lâu','Xã Ia Lâu','Xã Ia Lâu, Tỉnh Gia Lai','8217','xa','25'),
                                                                                 ('Ia Pia','Xã Ia Pia','Xã Ia Pia, Tỉnh Gia Lai','8473','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ia Tôr','Xã Ia Tôr','Xã Ia Tôr, Tỉnh Gia Lai','8729','xa','25'),
                                                                                 ('Chư Sê','Xã Chư Sê','Xã Chư Sê, Tỉnh Gia Lai','8985','xa','25'),
                                                                                 ('Bờ Ngoong','Xã Bờ Ngoong','Xã Bờ Ngoong, Tỉnh Gia Lai','9241','xa','25'),
@@ -1527,7 +1527,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ia Hrú','Xã Ia Hrú','Xã Ia Hrú, Tỉnh Gia Lai','10521','xa','25'),
                                                                                 ('An Khê','Phường An Khê','Phường An Khê, Tỉnh Gia Lai','10777','phuong','25'),
                                                                                 ('An Bình','Phường An Bình','Phường An Bình, Tỉnh Gia Lai','11033','phuong','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cửu An','Xã Cửu An','Xã Cửu An, Tỉnh Gia Lai','11289','xa','25'),
                                                                                 ('Đak Pơ','Xã Đak Pơ','Xã Đak Pơ, Tỉnh Gia Lai','11545','xa','25'),
                                                                                 ('Ya Hội','Xã Ya Hội','Xã Ya Hội, Tỉnh Gia Lai','11801','xa','25'),
@@ -1538,7 +1538,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đăk Roong','Xã Đăk Roong','Xã Đăk Roong, Tỉnh Gia Lai','13081','xa','25'),
                                                                                 ('Kông Chro','Xã Kông Chro','Xã Kông Chro, Tỉnh Gia Lai','13337','xa','25'),
                                                                                 ('Ya Ma','Xã Ya Ma','Xã Ya Ma, Tỉnh Gia Lai','13593','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chư Krêy','Xã Chư Krêy','Xã Chư Krêy, Tỉnh Gia Lai','13849','xa','25'),
                                                                                 ('SRó','Xã SRó','Xã SRó, Tỉnh Gia Lai','14105','xa','25'),
                                                                                 ('Đăk Song','Xã Đăk Song','Xã Đăk Song, Tỉnh Gia Lai','14361','xa','25'),
@@ -1549,7 +1549,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Thiện','Xã Phú Thiện','Xã Phú Thiện, Tỉnh Gia Lai','15641','xa','25'),
                                                                                 ('Chư A Thai','Xã Chư A Thai','Xã Chư A Thai, Tỉnh Gia Lai','15897','xa','25'),
                                                                                 ('Ia Hiao','Xã Ia Hiao','Xã Ia Hiao, Tỉnh Gia Lai','16153','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Pờ Tó','Xã Pờ Tó','Xã Pờ Tó, Tỉnh Gia Lai','16409','xa','25'),
                                                                                 ('Ia Pa','Xã Ia Pa','Xã Ia Pa, Tỉnh Gia Lai','16665','xa','25'),
                                                                                 ('Ia Tul','Xã Ia Tul','Xã Ia Tul, Tỉnh Gia Lai','16921','xa','25'),
@@ -1560,7 +1560,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đăk Đoa','Xã Đăk Đoa','Xã Đăk Đoa, Tỉnh Gia Lai','18201','xa','25'),
                                                                                 ('Kon Gang','Xã Kon Gang','Xã Kon Gang, Tỉnh Gia Lai','18457','xa','25'),
                                                                                 ('Ia Băng','Xã Ia Băng','Xã Ia Băng, Tỉnh Gia Lai','18713','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('K''Dang','Xã K''Dang','Xã K''Dang, Tỉnh Gia Lai','18969','xa','25'),
                                                                                 ('Đăk Sơmei','Xã Đăk Sơmei','Xã Đăk Sơmei, Tỉnh Gia Lai','19225','xa','25'),
                                                                                 ('Mang Yang','Xã Mang Yang','Xã Mang Yang, Tỉnh Gia Lai','19481','xa','25'),
@@ -1571,7 +1571,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ia Grai','Xã Ia Grai','Xã Ia Grai, Tỉnh Gia Lai','20761','xa','25'),
                                                                                 ('Ia KRai','Xã Ia KRai','Xã Ia KRai, Tỉnh Gia Lai','21017','xa','25'),
                                                                                 ('Ia Hrung','Xã Ia Hrung','Xã Ia Hrung, Tỉnh Gia Lai','21273','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đức Cơ','Xã Đức Cơ','Xã Đức Cơ, Tỉnh Gia Lai','21529','xa','25'),
                                                                                 ('Ia Dơk','Xã Ia Dơk','Xã Ia Dơk, Tỉnh Gia Lai','21785','xa','25'),
                                                                                 ('Ia Krêl','Xã Ia Krêl','Xã Ia Krêl, Tỉnh Gia Lai','22041','xa','25'),
@@ -1582,7 +1582,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quy Nhơn','Phường Quy Nhơn','Phường Quy Nhơn, Tỉnh Gia Lai','23321','phuong','25'),
                                                                                 ('Quy Nhơn Tây','Phường Quy Nhơn Tây','Phường Quy Nhơn Tây, Tỉnh Gia Lai','23577','phuong','25'),
                                                                                 ('Quy Nhơn Nam','Phường Quy Nhơn Nam','Phường Quy Nhơn Nam, Tỉnh Gia Lai','23833','phuong','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quy Nhơn Bắc','Phường Quy Nhơn Bắc','Phường Quy Nhơn Bắc, Tỉnh Gia Lai','24089','phuong','25'),
                                                                                 ('Bình Định','Phường Bình Định','Phường Bình Định, Tỉnh Gia Lai','24345','phuong','25'),
                                                                                 ('An Nhơn','Phường An Nhơn','Phường An Nhơn, Tỉnh Gia Lai','24601','phuong','25'),
@@ -1593,7 +1593,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bồng Sơn','Phường Bồng Sơn','Phường Bồng Sơn, Tỉnh Gia Lai','25881','phuong','25'),
                                                                                 ('Hoài Nhơn','Phường Hoài Nhơn','Phường Hoài Nhơn, Tỉnh Gia Lai','26137','phuong','25'),
                                                                                 ('Tam Quan','Phường Tam Quan','Phường Tam Quan, Tỉnh Gia Lai','26393','phuong','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hoài Nhơn Đông','Phường Hoài Nhơn Đông','Phường Hoài Nhơn Đông, Tỉnh Gia Lai','26649','phuong','25'),
                                                                                 ('Hoài Nhơn Tây','Phường Hoài Nhơn Tây','Phường Hoài Nhơn Tây, Tỉnh Gia Lai','26905','phuong','25'),
                                                                                 ('Hoài Nhơn Nam','Phường Hoài Nhơn Nam','Phường Hoài Nhơn Nam, Tỉnh Gia Lai','27161','phuong','25'),
@@ -1604,7 +1604,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phù Mỹ','Xã Phù Mỹ','Xã Phù Mỹ, Tỉnh Gia Lai','28441','xa','25'),
                                                                                 ('An Lương','Xã An Lương','Xã An Lương, Tỉnh Gia Lai','28697','xa','25'),
                                                                                 ('Bình Dương','Xã Bình Dương','Xã Bình Dương, Tỉnh Gia Lai','28953','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phù Mỹ Tây','Xã Phù Mỹ Tây','Xã Phù Mỹ Tây, Tỉnh Gia Lai','29209','xa','25'),
                                                                                 ('Phù Mỹ Nam','Xã Phù Mỹ Nam','Xã Phù Mỹ Nam, Tỉnh Gia Lai','29465','xa','25'),
                                                                                 ('Phù Mỹ Bắc','Xã Phù Mỹ Bắc','Xã Phù Mỹ Bắc, Tỉnh Gia Lai','29721','xa','25'),
@@ -1615,7 +1615,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Khê','Xã Bình Khê','Xã Bình Khê, Tỉnh Gia Lai','31001','xa','25'),
                                                                                 ('Bình Phú','Xã Bình Phú','Xã Bình Phú, Tỉnh Gia Lai','31257','xa','25'),
                                                                                 ('Bình Hiệp','Xã Bình Hiệp','Xã Bình Hiệp, Tỉnh Gia Lai','31513','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình An','Xã Bình An','Xã Bình An, Tỉnh Gia Lai','31769','xa','25'),
                                                                                 ('Hoài Ân','Xã Hoài Ân','Xã Hoài Ân, Tỉnh Gia Lai','32025','xa','25'),
                                                                                 ('Ân Tường','Xã Ân Tường','Xã Ân Tường, Tỉnh Gia Lai','32281','xa','25'),
@@ -1626,7 +1626,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Thịnh','Xã Vĩnh Thịnh','Xã Vĩnh Thịnh, Tỉnh Gia Lai','33561','xa','25'),
                                                                                 ('Vĩnh Quang','Xã Vĩnh Quang','Xã Vĩnh Quang, Tỉnh Gia Lai','33817','xa','25'),
                                                                                 ('Vĩnh Sơn','Xã Vĩnh Sơn','Xã Vĩnh Sơn, Tỉnh Gia Lai','34073','xa','25');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thiên Cầm','Xã Thiên Cầm','Xã Thiên Cầm, Tỉnh Hà Tĩnh','282','xa','26'),
                                                                                 ('Kỳ Xuân','Xã Kỳ Xuân','Xã Kỳ Xuân, Tỉnh Hà Tĩnh','538','xa','26'),
                                                                                 ('Hoành Sơn','Phường Hoành Sơn','Phường Hoành Sơn, Tỉnh Hà Tĩnh','794','phuong','26'),
@@ -1637,7 +1637,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sông Trí','Phường Sông Trí','Phường Sông Trí, Tỉnh Hà Tĩnh','2074','phuong','26'),
                                                                                 ('Hà Huy Tập','Phường Hà Huy Tập','Phường Hà Huy Tập, Tỉnh Hà Tĩnh','2330','phuong','26'),
                                                                                 ('Thành Sen','Phường Thành Sen','Phường Thành Sen, Tỉnh Hà Tĩnh','2586','phuong','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Hồng','Xã Sơn Hồng','Xã Sơn Hồng, Tỉnh Hà Tĩnh','2842','xa','26'),
                                                                                 ('Sơn Tây','Xã Sơn Tây','Xã Sơn Tây, Tỉnh Hà Tĩnh','3098','xa','26'),
                                                                                 ('Sơn Giang','Xã Sơn Giang','Xã Sơn Giang, Tỉnh Hà Tĩnh','3354','xa','26'),
@@ -1648,7 +1648,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Kim Hoa','Xã Kim Hoa','Xã Kim Hoa, Tỉnh Hà Tĩnh','4634','xa','26'),
                                                                                 ('Vũ Quang','Xã Vũ Quang','Xã Vũ Quang, Tỉnh Hà Tĩnh','4890','xa','26'),
                                                                                 ('Mai Hoa','Xã Mai Hoa','Xã Mai Hoa, Tỉnh Hà Tĩnh','5146','xa','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thượng Đức','Xã Thượng Đức','Xã Thượng Đức, Tỉnh Hà Tĩnh','5402','xa','26'),
                                                                                 ('Đức Đồng','Xã Đức Đồng','Xã Đức Đồng, Tỉnh Hà Tĩnh','5658','xa','26'),
                                                                                 ('Hương Bình','Xã Hương Bình','Xã Hương Bình, Tỉnh Hà Tĩnh','5914','xa','26'),
@@ -1659,7 +1659,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hương Phố','Xã Hương Phố','Xã Hương Phố, Tỉnh Hà Tĩnh','7194','xa','26'),
                                                                                 ('Toàn Lưu','Xã Toàn Lưu','Xã Toàn Lưu, Tỉnh Hà Tĩnh','7450','xa','26'),
                                                                                 ('Hải Ninh','Phường Hải Ninh','Phường Hải Ninh, Tỉnh Hà Tĩnh','7706','phuong','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kỳ Anh','Xã Kỳ Anh','Xã Kỳ Anh, Tỉnh Hà Tĩnh','7962','xa','26'),
                                                                                 ('Kỳ Hoa','Xã Kỳ Hoa','Xã Kỳ Hoa, Tỉnh Hà Tĩnh','8218','xa','26'),
                                                                                 ('Kỳ Văn','Xã Kỳ Văn','Xã Kỳ Văn, Tỉnh Hà Tĩnh','8474','xa','26'),
@@ -1670,7 +1670,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cẩm Duệ','Xã Cẩm Duệ','Xã Cẩm Duệ, Tỉnh Hà Tĩnh','9754','xa','26'),
                                                                                 ('Cẩm Hưng','Xã Cẩm Hưng','Xã Cẩm Hưng, Tỉnh Hà Tĩnh','10010','xa','26'),
                                                                                 ('Cẩm Lạc','Xã Cẩm Lạc','Xã Cẩm Lạc, Tỉnh Hà Tĩnh','10266','xa','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cẩm Trung','Xã Cẩm Trung','Xã Cẩm Trung, Tỉnh Hà Tĩnh','10522','xa','26'),
                                                                                 ('Yên Hòa','Xã Yên Hòa','Xã Yên Hòa, Tỉnh Hà Tĩnh','10778','xa','26'),
                                                                                 ('Trần Phú','Phường Trần Phú','Phường Trần Phú, Tỉnh Hà Tĩnh','11034','phuong','26'),
@@ -1681,7 +1681,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thạch Hà','Xã Thạch Hà','Xã Thạch Hà, Tỉnh Hà Tĩnh','12314','xa','26'),
                                                                                 ('Việt Xuyên','Xã Việt Xuyên','Xã Việt Xuyên, Tỉnh Hà Tĩnh','12570','xa','26'),
                                                                                 ('Đông Kinh','Xã Đông Kinh','Xã Đông Kinh, Tỉnh Hà Tĩnh','12826','xa','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạch Xuân','Xã Thạch Xuân','Xã Thạch Xuân, Tỉnh Hà Tĩnh','13082','xa','26'),
                                                                                 ('Xuân Lộc','Xã Xuân Lộc','Xã Xuân Lộc, Tỉnh Hà Tĩnh','13338','xa','26'),
                                                                                 ('Can Lộc','Xã Can Lộc','Xã Can Lộc, Tỉnh Hà Tĩnh','13594','xa','26'),
@@ -1692,7 +1692,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cổ Đạm','Xã Cổ Đạm','Xã Cổ Đạm, Tỉnh Hà Tĩnh','14874','xa','26'),
                                                                                 ('Tiên Điền','Xã Tiên Điền','Xã Tiên Điền, Tỉnh Hà Tĩnh','15130','xa','26'),
                                                                                 ('Đức Thọ','Xã Đức Thọ','Xã Đức Thọ, Tỉnh Hà Tĩnh','15386','xa','26');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đức Quang','Xã Đức Quang','Xã Đức Quang, Tỉnh Hà Tĩnh','15642','xa','26'),
                                                                                 ('Hương Khê','Xã Hương Khê','Xã Hương Khê, Tỉnh Hà Tĩnh','15898','xa','26'),
                                                                                 ('Gia Hanh','Xã Gia Hanh','Xã Gia Hanh, Tỉnh Hà Tĩnh','16154','xa','26'),
@@ -1703,7 +1703,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tùng Lộc','Xã Tùng Lộc','Xã Tùng Lộc, Tỉnh Hà Tĩnh','17434','xa','26'),
                                                                                 ('Đồng Lộc','Xã Đồng Lộc','Xã Đồng Lộc, Tỉnh Hà Tĩnh','17690','xa','26'),
                                                                                 ('Hiệp Cường','Xã Hiệp Cường','Xã Hiệp Cường, Tỉnh Hưng Yên','283','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Thái Ninh','Xã Đông Thái Ninh','Xã Đông Thái Ninh, Tỉnh Hưng Yên','539','xa','27'),
                                                                                 ('Sơn Nam','Phường Sơn Nam','Phường Sơn Nam, Tỉnh Hưng Yên','795','phuong','27'),
                                                                                 ('Phố Hiến','Phường Phố Hiến','Phường Phố Hiến, Tỉnh Hưng Yên','1051','phuong','27'),
@@ -1714,7 +1714,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tiên Hoa','Xã Tiên Hoa','Xã Tiên Hoa, Tỉnh Hưng Yên','2331','xa','27'),
                                                                                 ('Quang Hưng','Xã Quang Hưng','Xã Quang Hưng, Tỉnh Hưng Yên','2587','xa','27'),
                                                                                 ('Đoàn Đào','Xã Đoàn Đào','Xã Đoàn Đào, Tỉnh Hưng Yên','2843','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tiên Tiến','Xã Tiên Tiến','Xã Tiên Tiến, Tỉnh Hưng Yên','3099','xa','27'),
                                                                                 ('Tống Trân','Xã Tống Trân','Xã Tống Trân, Tỉnh Hưng Yên','3355','xa','27'),
                                                                                 ('Lương Bằng','Xã Lương Bằng','Xã Lương Bằng, Tỉnh Hưng Yên','3611','xa','27'),
@@ -1725,7 +1725,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phạm Ngũ Lão','Xã Phạm Ngũ Lão','Xã Phạm Ngũ Lão, Tỉnh Hưng Yên','4891','xa','27'),
                                                                                 ('Nguyễn Trãi','Xã Nguyễn Trãi','Xã Nguyễn Trãi, Tỉnh Hưng Yên','5147','xa','27'),
                                                                                 ('Hồng Quang','Xã Hồng Quang','Xã Hồng Quang, Tỉnh Hưng Yên','5403','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Khoái Châu','Xã Khoái Châu','Xã Khoái Châu, Tỉnh Hưng Yên','5659','xa','27'),
                                                                                 ('Triệu Việt Vương','Xã Triệu Việt Vương','Xã Triệu Việt Vương, Tỉnh Hưng Yên','5915','xa','27'),
                                                                                 ('Việt Tiến','Xã Việt Tiến','Xã Việt Tiến, Tỉnh Hưng Yên','6171','xa','27'),
@@ -1736,7 +1736,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hoàn Long','Xã Hoàn Long','Xã Hoàn Long, Tỉnh Hưng Yên','7451','xa','27'),
                                                                                 ('Nguyễn Văn Linh','Xã Nguyễn Văn Linh','Xã Nguyễn Văn Linh, Tỉnh Hưng Yên','7707','xa','27'),
                                                                                 ('Mỹ Hào','Phường Mỹ Hào','Phường Mỹ Hào, Tỉnh Hưng Yên','7963','phuong','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đường Hào','Phường Đường Hào','Phường Đường Hào, Tỉnh Hưng Yên','8219','phuong','27'),
                                                                                 ('Thượng Hồng','Phường Thượng Hồng','Phường Thượng Hồng, Tỉnh Hưng Yên','8475','phuong','27'),
                                                                                 ('Như Quỳnh','Xã Như Quỳnh','Xã Như Quỳnh, Tỉnh Hưng Yên','8731','xa','27'),
@@ -1747,7 +1747,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Văn Giang','Xã Văn Giang','Xã Văn Giang, Tỉnh Hưng Yên','10011','xa','27'),
                                                                                 ('Mễ Sở','Xã Mễ Sở','Xã Mễ Sở, Tỉnh Hưng Yên','10267','xa','27'),
                                                                                 ('Thái Bình','Phường Thái Bình','Phường Thái Bình, Tỉnh Hưng Yên','10523','phuong','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trần Lãm','Phường Trần Lãm','Phường Trần Lãm, Tỉnh Hưng Yên','10779','phuong','27'),
                                                                                 ('Trần Hưng Đạo','Phường Trần Hưng Đạo','Phường Trần Hưng Đạo, Tỉnh Hưng Yên','11035','phuong','27'),
                                                                                 ('Trà Lý','Phường Trà Lý','Phường Trà Lý, Tỉnh Hưng Yên','11291','phuong','27'),
@@ -1758,7 +1758,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thụy Anh','Xã Thụy Anh','Xã Thụy Anh, Tỉnh Hưng Yên','12571','xa','27'),
                                                                                 ('Nam Thụy Anh','Xã Nam Thụy Anh','Xã Nam Thụy Anh, Tỉnh Hưng Yên','12827','xa','27'),
                                                                                 ('Bắc Thái Ninh','Xã Bắc Thái Ninh','Xã Bắc Thái Ninh, Tỉnh Hưng Yên','13083','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thái Ninh','Xã Thái Ninh','Xã Thái Ninh, Tỉnh Hưng Yên','13339','xa','27'),
                                                                                 ('Nam Thái Ninh','Xã Nam Thái Ninh','Xã Nam Thái Ninh, Tỉnh Hưng Yên','13595','xa','27'),
                                                                                 ('Tây Thái Ninh','Xã Tây Thái Ninh','Xã Tây Thái Ninh, Tỉnh Hưng Yên','13851','xa','27'),
@@ -1769,7 +1769,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Châu','Xã Đồng Châu','Xã Đồng Châu, Tỉnh Hưng Yên','15131','xa','27'),
                                                                                 ('Đông Tiền Hải','Xã Đông Tiền Hải','Xã Đông Tiền Hải, Tỉnh Hưng Yên','15387','xa','27'),
                                                                                 ('Nam Cường','Xã Nam Cường','Xã Nam Cường, Tỉnh Hưng Yên','15643','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hưng Phú','Xã Hưng Phú','Xã Hưng Phú, Tỉnh Hưng Yên','15899','xa','27'),
                                                                                 ('Đông Quan','Xã Đông Quan','Xã Đông Quan, Tỉnh Hưng Yên','16155','xa','27'),
                                                                                 ('Nam Tiên Hưng','Xã Nam Tiên Hưng','Xã Nam Tiên Hưng, Tỉnh Hưng Yên','16411','xa','27'),
@@ -1780,7 +1780,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hồng Minh','Xã Hồng Minh','Xã Hồng Minh, Tỉnh Hưng Yên','17691','xa','27'),
                                                                                 ('Thần Khê','Xã Thần Khê','Xã Thần Khê, Tỉnh Hưng Yên','17947','xa','27'),
                                                                                 ('Diên Hà','Xã Diên Hà','Xã Diên Hà, Tỉnh Hưng Yên','18203','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngự Thiên','Xã Ngự Thiên','Xã Ngự Thiên, Tỉnh Hưng Yên','18459','xa','27'),
                                                                                 ('Long Hưng','Xã Long Hưng','Xã Long Hưng, Tỉnh Hưng Yên','18715','xa','27'),
                                                                                 ('Kiến Xương','Xã Kiến Xương','Xã Kiến Xương, Tỉnh Hưng Yên','18971','xa','27'),
@@ -1791,7 +1791,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Định','Xã Bình Định','Xã Bình Định, Tỉnh Hưng Yên','20251','xa','27'),
                                                                                 ('Hồng Vũ','Xã Hồng Vũ','Xã Hồng Vũ, Tỉnh Hưng Yên','20507','xa','27'),
                                                                                 ('Bình Nguyên','Xã Bình Nguyên','Xã Bình Nguyên, Tỉnh Hưng Yên','20763','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trà Giang','Xã Trà Giang','Xã Trà Giang, Tỉnh Hưng Yên','21019','xa','27'),
                                                                                 ('Vũ Thư','Xã Vũ Thư','Xã Vũ Thư, Tỉnh Hưng Yên','21275','xa','27'),
                                                                                 ('Thư Trì','Xã Thư Trì','Xã Thư Trì, Tỉnh Hưng Yên','21531','xa','27'),
@@ -1802,7 +1802,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Tiền Hải','Xã Nam Tiền Hải','Xã Nam Tiền Hải, Tỉnh Hưng Yên','22811','xa','27'),
                                                                                 ('Quỳnh Phụ','Xã Quỳnh Phụ','Xã Quỳnh Phụ, Tỉnh Hưng Yên','23067','xa','27'),
                                                                                 ('Minh Thọ','Xã Minh Thọ','Xã Minh Thọ, Tỉnh Hưng Yên','23323','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nguyễn Du','Xã Nguyễn Du','Xã Nguyễn Du, Tỉnh Hưng Yên','23579','xa','27'),
                                                                                 ('Quỳnh An','Xã Quỳnh An','Xã Quỳnh An, Tỉnh Hưng Yên','23835','xa','27'),
                                                                                 ('Ngọc Lâm','Xã Ngọc Lâm','Xã Ngọc Lâm, Tỉnh Hưng Yên','24091','xa','27'),
@@ -1813,7 +1813,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đông Hưng','Xã Đông Hưng','Xã Đông Hưng, Tỉnh Hưng Yên','25371','xa','27'),
                                                                                 ('Bắc Tiên Hưng','Xã Bắc Tiên Hưng','Xã Bắc Tiên Hưng, Tỉnh Hưng Yên','25627','xa','27'),
                                                                                 ('Đông Tiên Hưng','Xã Đông Tiên Hưng','Xã Đông Tiên Hưng, Tỉnh Hưng Yên','25883','xa','27');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Đông Hưng','Xã Nam Đông Hưng','Xã Nam Đông Hưng, Tỉnh Hưng Yên','26139','xa','27'),
                                                                                 ('Bắc Đông Quan','Xã Bắc Đông Quan','Xã Bắc Đông Quan, Tỉnh Hưng Yên','26395','xa','27'),
                                                                                 ('Bắc Đông Hưng','Xã Bắc Đông Hưng','Xã Bắc Đông Hưng, Tỉnh Hưng Yên','26651','xa','27'),
@@ -1824,7 +1824,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vạn Hưng','Xã Vạn Hưng','Xã Vạn Hưng, Tỉnh Khánh Hòa','1308','xa','28'),
                                                                                 ('Tu Bông','Xã Tu Bông','Xã Tu Bông, Tỉnh Khánh Hòa','1564','xa','28'),
                                                                                 ('Vạn Thắng','Xã Vạn Thắng','Xã Vạn Thắng, Tỉnh Khánh Hòa','1820','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đại Lãnh','Xã Đại Lãnh','Xã Đại Lãnh, Tỉnh Khánh Hòa','2076','xa','28'),
                                                                                 ('Bắc Cam Ranh','Phường Bắc Cam Ranh','Phường Bắc Cam Ranh, Tỉnh Khánh Hòa','2332','phuong','28'),
                                                                                 ('Nam Cam Ranh','Xã Nam Cam Ranh','Xã Nam Cam Ranh, Tỉnh Khánh Hòa','2588','xa','28'),
@@ -1835,7 +1835,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Hải','Xã Vĩnh Hải','Xã Vĩnh Hải, Tỉnh Khánh Hòa','3868','xa','28'),
                                                                                 ('Cam Lâm','Xã Cam Lâm','Xã Cam Lâm, Tỉnh Khánh Hòa','4124','xa','28'),
                                                                                 ('Cam An','Xã Cam An','Xã Cam An, Tỉnh Khánh Hòa','4380','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cam Hiệp','Xã Cam Hiệp','Xã Cam Hiệp, Tỉnh Khánh Hòa','4636','xa','28'),
                                                                                 ('Suối Dầu','Xã Suối Dầu','Xã Suối Dầu, Tỉnh Khánh Hòa','4892','xa','28'),
                                                                                 ('Đông Ninh Hòa','Phường Đông Ninh Hòa','Phường Đông Ninh Hòa, Tỉnh Khánh Hòa','5148','phuong','28'),
@@ -1846,7 +1846,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cam Linh','Phường Cam Linh','Phường Cam Linh, Tỉnh Khánh Hòa','6428','phuong','28'),
                                                                                 ('Ba Ngòi','Phường Ba Ngòi','Phường Ba Ngòi, Tỉnh Khánh Hòa','6684','phuong','28'),
                                                                                 ('Bắc Ninh Hòa','Xã Bắc Ninh Hòa','Xã Bắc Ninh Hòa, Tỉnh Khánh Hòa','6940','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ninh Hòa','Phường Ninh Hòa','Phường Ninh Hòa, Tỉnh Khánh Hòa','7196','phuong','28'),
                                                                                 ('Tân Định','Xã Tân Định','Xã Tân Định, Tỉnh Khánh Hòa','7452','xa','28'),
                                                                                 ('Hòa Thắng','Phường Hòa Thắng','Phường Hòa Thắng, Tỉnh Khánh Hòa','7708','phuong','28'),
@@ -1857,7 +1857,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Diên Lạc','Xã Diên Lạc','Xã Diên Lạc, Tỉnh Khánh Hòa','8988','xa','28'),
                                                                                 ('Diên Điền','Xã Diên Điền','Xã Diên Điền, Tỉnh Khánh Hòa','9244','xa','28'),
                                                                                 ('Diên Lâm','Xã Diên Lâm','Xã Diên Lâm, Tỉnh Khánh Hòa','9500','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Diên Thọ','Xã Diên Thọ','Xã Diên Thọ, Tỉnh Khánh Hòa','9756','xa','28'),
                                                                                 ('Suối Hiệp','Xã Suối Hiệp','Xã Suối Hiệp, Tỉnh Khánh Hòa','10012','xa','28'),
                                                                                 ('Bắc Khánh Vĩnh','Xã Bắc Khánh Vĩnh','Xã Bắc Khánh Vĩnh, Tỉnh Khánh Hòa','10268','xa','28'),
@@ -1868,7 +1868,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khánh Sơn','Xã Khánh Sơn','Xã Khánh Sơn, Tỉnh Khánh Hòa','11548','xa','28'),
                                                                                 ('Tây Khánh Sơn','Xã Tây Khánh Sơn','Xã Tây Khánh Sơn, Tỉnh Khánh Hòa','11804','xa','28'),
                                                                                 ('Đông Khánh Sơn','Xã Đông Khánh Sơn','Xã Đông Khánh Sơn, Tỉnh Khánh Hòa','12060','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ninh Phước','Xã Ninh Phước','Xã Ninh Phước, Tỉnh Khánh Hòa','12316','xa','28'),
                                                                                 ('Phước Hữu','Xã Phước Hữu','Xã Phước Hữu, Tỉnh Khánh Hòa','12572','xa','28'),
                                                                                 ('Phước Hậu','Xã Phước Hậu','Xã Phước Hậu, Tỉnh Khánh Hòa','12828','xa','28'),
@@ -1879,7 +1879,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Xuân Hải','Xã Xuân Hải','Xã Xuân Hải, Tỉnh Khánh Hòa','14108','xa','28'),
                                                                                 ('Thuận Bắc','Xã Thuận Bắc','Xã Thuận Bắc, Tỉnh Khánh Hòa','14364','xa','28'),
                                                                                 ('Công Hải','Xã Công Hải','Xã Công Hải, Tỉnh Khánh Hòa','14620','xa','28');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ninh Sơn','Xã Ninh Sơn','Xã Ninh Sơn, Tỉnh Khánh Hòa','14876','xa','28'),
                                                                                 ('Lâm Sơn','Xã Lâm Sơn','Xã Lâm Sơn, Tỉnh Khánh Hòa','15132','xa','28'),
                                                                                 ('Anh Dũng','Xã Anh Dũng','Xã Anh Dũng, Tỉnh Khánh Hòa','15388','xa','28'),
@@ -1890,7 +1890,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỹ Bình','Phường Mỹ Bình','Phường Mỹ Bình, Tỉnh Khánh Hòa','16668','phuong','28'),
                                                                                 ('Tà Tổng','Xã Tà Tổng','Xã Tà Tổng, Tỉnh Lai Châu','285','xa','29'),
                                                                                 ('Mù Cả','Xã Mù Cả','Xã Mù Cả, Tỉnh Lai Châu','541','xa','29');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thu Lũm','Xã Thu Lũm','Xã Thu Lũm, Tỉnh Lai Châu','797','xa','29'),
                                                                                 ('Pa Ủ','Xã Pa Ủ','Xã Pa Ủ, Tỉnh Lai Châu','1053','xa','29'),
                                                                                 ('Nậm Cuổi','Xã Nậm Cuổi','Xã Nậm Cuổi, Tỉnh Lai Châu','1309','xa','29'),
@@ -1901,7 +1901,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khoen On','Xã Khoen On','Xã Khoen On, Tỉnh Lai Châu','2589','xa','29'),
                                                                                 ('Than Uyên','Xã Than Uyên','Xã Than Uyên, Tỉnh Lai Châu','2845','xa','29'),
                                                                                 ('Mường Than','Xã Mường Than','Xã Mường Than, Tỉnh Lai Châu','3101','xa','29');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Pắc Ta','Xã Pắc Ta','Xã Pắc Ta, Tỉnh Lai Châu','3357','xa','29'),
                                                                                 ('Nậm Sỏ','Xã Nậm Sỏ','Xã Nậm Sỏ, Tỉnh Lai Châu','3613','xa','29'),
                                                                                 ('Tân Uyên','Xã Tân Uyên','Xã Tân Uyên, Tỉnh Lai Châu','3869','xa','29'),
@@ -1912,7 +1912,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khun Há','Xã Khun Há','Xã Khun Há, Tỉnh Lai Châu','5149','xa','29'),
                                                                                 ('Tân Phong','Phường Tân Phong','Phường Tân Phong, Tỉnh Lai Châu','5405','phuong','29'),
                                                                                 ('Đoàn Kết','Phường Đoàn Kết','Phường Đoàn Kết, Tỉnh Lai Châu','5661','phuong','29');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sin Suối Hồ','Xã Sin Suối Hồ','Xã Sin Suối Hồ, Tỉnh Lai Châu','5917','xa','29'),
                                                                                 ('Phong Thổ','Xã Phong Thổ','Xã Phong Thổ, Tỉnh Lai Châu','6173','xa','29'),
                                                                                 ('Sì Lở Lầu','Xã Sì Lở Lầu','Xã Sì Lở Lầu, Tỉnh Lai Châu','6429','xa','29'),
@@ -1923,7 +1923,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hồng Thu','Xã Hồng Thu','Xã Hồng Thu, Tỉnh Lai Châu','7709','xa','29'),
                                                                                 ('Nậm Tăm','Xã Nậm Tăm','Xã Nậm Tăm, Tỉnh Lai Châu','7965','xa','29'),
                                                                                 ('Pu Sam Cáp','Xã Pu Sam Cáp','Xã Pu Sam Cáp, Tỉnh Lai Châu','8221','xa','29');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mường Mô','Xã Mường Mô','Xã Mường Mô, Tỉnh Lai Châu','8477','xa','29'),
                                                                                 ('Hua Bun','Xã Hua Bun','Xã Hua Bun, Tỉnh Lai Châu','8733','xa','29'),
                                                                                 ('Pa Tần','Xã Pa Tần','Xã Pa Tần, Tỉnh Lai Châu','8989','xa','29'),
@@ -1934,7 +1934,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Sơn','Xã Quảng Sơn','Xã Quảng Sơn, Tỉnh Lâm Đồng','542','xa','30'),
                                                                                 ('Quảng Trực','Xã Quảng Trực','Xã Quảng Trực, Tỉnh Lâm Đồng','798','xa','30'),
                                                                                 ('Ninh Gia','Xã Ninh Gia','Xã Ninh Gia, Tỉnh Lâm Đồng','1054','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phan Rí Cửa','Xã Phan Rí Cửa','Xã Phan Rí Cửa, Tỉnh Lâm Đồng','1310','xa','30'),
                                                                                 ('Tuy Phong','Xã Tuy Phong','Xã Tuy Phong, Tỉnh Lâm Đồng','1566','xa','30'),
                                                                                 ('Hòa Thắng','Xã Hòa Thắng','Xã Hòa Thắng, Tỉnh Lâm Đồng','1822','xa','30'),
@@ -1945,7 +1945,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cam Ly-Đà Lạt','Phường Cam Ly-Đà Lạt','Phường Cam Ly-Đà Lạt, Tỉnh Lâm Đồng','3102','phuong','30'),
                                                                                 ('Lâm Viên-Đà Lạt','Phường Lâm Viên-Đà Lạt','Phường Lâm Viên-Đà Lạt, Tỉnh Lâm Đồng','3358','phuong','30'),
                                                                                 ('Xuân Trường-Đà Lạt','Phường Xuân Trường-Đà Lạt','Phường Xuân Trường-Đà Lạt, Tỉnh Lâm Đồng','3614','phuong','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lang Biang-Đà Lạt','Phường Lang Biang-Đà Lạt','Phường Lang Biang-Đà Lạt, Tỉnh Lâm Đồng','3870','phuong','30'),
                                                                                 ('1 Bảo Lộc','Phường 1 Bảo Lộc','Phường 1 Bảo Lộc, Tỉnh Lâm Đồng','4126','phuong','30'),
                                                                                 ('2 Bảo Lộc','Phường 2 Bảo Lộc','Phường 2 Bảo Lộc, Tỉnh Lâm Đồng','4382','phuong','30'),
@@ -1956,7 +1956,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Lập','Xã Quảng Lập','Xã Quảng Lập, Tỉnh Lâm Đồng','5662','xa','30'),
                                                                                 ('D''Ran','Xã D''Ran','Xã D''Ran, Tỉnh Lâm Đồng','5918','xa','30'),
                                                                                 ('Hiệp Thạnh','Xã Hiệp Thạnh','Xã Hiệp Thạnh, Tỉnh Lâm Đồng','6174','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lạc Dương','Xã Lạc Dương','Xã Lạc Dương, Tỉnh Lâm Đồng','6430','xa','30'),
                                                                                 ('Đức Trọng','Xã Đức Trọng','Xã Đức Trọng, Tỉnh Lâm Đồng','6686','xa','30'),
                                                                                 ('Tân Hội','Xã Tân Hội','Xã Tân Hội, Tỉnh Lâm Đồng','6942','xa','30'),
@@ -1967,7 +1967,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Hà-Lâm Hà','Xã Nam Hà-Lâm Hà','Xã Nam Hà-Lâm Hà, Tỉnh Lâm Đồng','8222','xa','30'),
                                                                                 ('Nam Ban-Lâm Hà','Xã Nam Ban-Lâm Hà','Xã Nam Ban-Lâm Hà, Tỉnh Lâm Đồng','8478','xa','30'),
                                                                                 ('Tân Hà-Lâm Hà','Xã Tân Hà-Lâm Hà','Xã Tân Hà-Lâm Hà, Tỉnh Lâm Đồng','8734','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phúc Thọ-Lâm Hà','Xã Phúc Thọ-Lâm Hà','Xã Phúc Thọ-Lâm Hà, Tỉnh Lâm Đồng','8990','xa','30'),
                                                                                 ('Đam Rông 1','Xã Đam Rông 1','Xã Đam Rông 1, Tỉnh Lâm Đồng','9246','xa','30'),
                                                                                 ('Đam Rông 2','Xã Đam Rông 2','Xã Đam Rông 2, Tỉnh Lâm Đồng','9502','xa','30'),
@@ -1978,7 +1978,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hòa Bắc','Xã Hòa Bắc','Xã Hòa Bắc, Tỉnh Lâm Đồng','10782','xa','30'),
                                                                                 ('Đinh Trang Thượng','Xã Đinh Trang Thượng','Xã Đinh Trang Thượng, Tỉnh Lâm Đồng','11038','xa','30'),
                                                                                 ('Bảo Thuận','Xã Bảo Thuận','Xã Bảo Thuận, Tỉnh Lâm Đồng','11294','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Điền','Xã Sơn Điền','Xã Sơn Điền, Tỉnh Lâm Đồng','11550','xa','30'),
                                                                                 ('Gia Hiệp','Xã Gia Hiệp','Xã Gia Hiệp, Tỉnh Lâm Đồng','11806','xa','30'),
                                                                                 ('Bảo Lâm 1','Xã Bảo Lâm 1','Xã Bảo Lâm 1, Tỉnh Lâm Đồng','12062','xa','30'),
@@ -1989,7 +1989,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đạ Huoai','Xã Đạ Huoai','Xã Đạ Huoai, Tỉnh Lâm Đồng','13342','xa','30'),
                                                                                 ('Đạ Huoai 2','Xã Đạ Huoai 2','Xã Đạ Huoai 2, Tỉnh Lâm Đồng','13598','xa','30'),
                                                                                 ('Đạ Tẻh','Xã Đạ Tẻh','Xã Đạ Tẻh, Tỉnh Lâm Đồng','13854','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đạ Tẻh 2','Xã Đạ Tẻh 2','Xã Đạ Tẻh 2, Tỉnh Lâm Đồng','14110','xa','30'),
                                                                                 ('Đạ Tẻh 3','Xã Đạ Tẻh 3','Xã Đạ Tẻh 3, Tỉnh Lâm Đồng','14366','xa','30'),
                                                                                 ('Cát Tiên','Xã Cát Tiên','Xã Cát Tiên, Tỉnh Lâm Đồng','14622','xa','30'),
@@ -2000,7 +2000,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cư Jút','Xã Cư Jút','Xã Cư Jút, Tỉnh Lâm Đồng','15902','xa','30'),
                                                                                 ('Thuận An','Xã Thuận An','Xã Thuận An, Tỉnh Lâm Đồng','16158','xa','30'),
                                                                                 ('Đức Lập','Xã Đức Lập','Xã Đức Lập, Tỉnh Lâm Đồng','16414','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đắk Mil','Xã Đắk Mil','Xã Đắk Mil, Tỉnh Lâm Đồng','16670','xa','30'),
                                                                                 ('Đắk Sắk','Xã Đắk Sắk','Xã Đắk Sắk, Tỉnh Lâm Đồng','16926','xa','30'),
                                                                                 ('Nam Đà','Xã Nam Đà','Xã Nam Đà, Tỉnh Lâm Đồng','17182','xa','30'),
@@ -2011,7 +2011,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đức An','Xã Đức An','Xã Đức An, Tỉnh Lâm Đồng','18462','xa','30'),
                                                                                 ('Thuận Hạnh','Xã Thuận Hạnh','Xã Thuận Hạnh, Tỉnh Lâm Đồng','18718','xa','30'),
                                                                                 ('Trường Xuân','Xã Trường Xuân','Xã Trường Xuân, Tỉnh Lâm Đồng','18974','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tà Đùng','Xã Tà Đùng','Xã Tà Đùng, Tỉnh Lâm Đồng','19230','xa','30'),
                                                                                 ('Quảng Khê','Xã Quảng Khê','Xã Quảng Khê, Tỉnh Lâm Đồng','19486','xa','30'),
                                                                                 ('Bắc Gia Nghĩa','Phường Bắc Gia Nghĩa','Phường Bắc Gia Nghĩa, Tỉnh Lâm Đồng','19742','phuong','30'),
@@ -2022,7 +2022,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Kiến Đức','Xã Kiến Đức','Xã Kiến Đức, Tỉnh Lâm Đồng','21022','xa','30'),
                                                                                 ('Nhân Cơ','Xã Nhân Cơ','Xã Nhân Cơ, Tỉnh Lâm Đồng','21278','xa','30'),
                                                                                 ('Quảng Tín','Xã Quảng Tín','Xã Quảng Tín, Tỉnh Lâm Đồng','21534','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vĩnh Hảo','Xã Vĩnh Hảo','Xã Vĩnh Hảo, Tỉnh Lâm Đồng','21790','xa','30'),
                                                                                 ('Liên Hương','Xã Liên Hương','Xã Liên Hương, Tỉnh Lâm Đồng','22046','xa','30'),
                                                                                 ('Bắc Bình','Xã Bắc Bình','Xã Bắc Bình, Tỉnh Lâm Đồng','22302','xa','30'),
@@ -2033,7 +2033,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đông Giang','Xã Đông Giang','Xã Đông Giang, Tỉnh Lâm Đồng','23582','xa','30'),
                                                                                 ('Tân Lập','Xã Tân Lập','Xã Tân Lập, Tỉnh Lâm Đồng','23838','xa','30'),
                                                                                 ('Tân Minh','Xã Tân Minh','Xã Tân Minh, Tỉnh Lâm Đồng','24094','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hàm Tân','Xã Hàm Tân','Xã Hàm Tân, Tỉnh Lâm Đồng','24350','xa','30'),
                                                                                 ('Sơn Mỹ','Xã Sơn Mỹ','Xã Sơn Mỹ, Tỉnh Lâm Đồng','24606','xa','30'),
                                                                                 ('La Gi','Phường La Gi','Phường La Gi, Tỉnh Lâm Đồng','24862','phuong','30'),
@@ -2044,7 +2044,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Kho','Xã Đồng Kho','Xã Đồng Kho, Tỉnh Lâm Đồng','26142','xa','30'),
                                                                                 ('Tánh Linh','Xã Tánh Linh','Xã Tánh Linh, Tỉnh Lâm Đồng','26398','xa','30'),
                                                                                 ('Suối Kiết','Xã Suối Kiết','Xã Suối Kiết, Tỉnh Lâm Đồng','26654','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Thành','Xã Nam Thành','Xã Nam Thành, Tỉnh Lâm Đồng','26910','xa','30'),
                                                                                 ('Đức Linh','Xã Đức Linh','Xã Đức Linh, Tỉnh Lâm Đồng','27166','xa','30'),
                                                                                 ('Hoài Đức','Xã Hoài Đức','Xã Hoài Đức, Tỉnh Lâm Đồng','27422','xa','30'),
@@ -2055,7 +2055,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hồng Sơn','Xã Hồng Sơn','Xã Hồng Sơn, Tỉnh Lâm Đồng','28702','xa','30'),
                                                                                 ('Hàm Liêm','Xã Hàm Liêm','Xã Hàm Liêm, Tỉnh Lâm Đồng','28958','xa','30'),
                                                                                 ('Hàm Thắng','Phường Hàm Thắng','Phường Hàm Thắng, Tỉnh Lâm Đồng','29214','phuong','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Thuận','Phường Bình Thuận','Phường Bình Thuận, Tỉnh Lâm Đồng','29470','phuong','30'),
                                                                                 ('Mũi Né','Phường Mũi Né','Phường Mũi Né, Tỉnh Lâm Đồng','29726','phuong','30'),
                                                                                 ('Phú Thủy','Phường Phú Thủy','Phường Phú Thủy, Tỉnh Lâm Đồng','29982','phuong','30'),
@@ -2066,7 +2066,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hàm Kiệm','Xã Hàm Kiệm','Xã Hàm Kiệm, Tỉnh Lâm Đồng','31262','xa','30'),
                                                                                 ('Tân Thành','Xã Tân Thành','Xã Tân Thành, Tỉnh Lâm Đồng','31518','xa','30'),
                                                                                 ('Hàm Thuận Nam','Xã Hàm Thuận Nam','Xã Hàm Thuận Nam, Tỉnh Lâm Đồng','31774','xa','30');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Sơn','Xã Châu Sơn','Xã Châu Sơn, Tỉnh Lạng Sơn','287','xa','31'),
                                                                                 ('Đình Lập','Xã Đình Lập','Xã Đình Lập, Tỉnh Lạng Sơn','543','xa','31'),
                                                                                 ('Kiên Mộc','Xã Kiên Mộc','Xã Kiên Mộc, Tỉnh Lạng Sơn','799','xa','31'),
@@ -2077,7 +2077,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quốc Khánh','Xã Quốc Khánh','Xã Quốc Khánh, Tỉnh Lạng Sơn','2079','xa','31'),
                                                                                 ('Kháng Chiến','Xã Kháng Chiến','Xã Kháng Chiến, Tỉnh Lạng Sơn','2335','xa','31'),
                                                                                 ('Quốc Việt','Xã Quốc Việt','Xã Quốc Việt, Tỉnh Lạng Sơn','2591','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Gia','Xã Bình Gia','Xã Bình Gia, Tỉnh Lạng Sơn','2847','xa','31'),
                                                                                 ('Tân Văn','Xã Tân Văn','Xã Tân Văn, Tỉnh Lạng Sơn','3103','xa','31'),
                                                                                 ('Hồng Phong','Xã Hồng Phong','Xã Hồng Phong, Tỉnh Lạng Sơn','3359','xa','31'),
@@ -2088,7 +2088,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiện Long','Xã Thiện Long','Xã Thiện Long, Tỉnh Lạng Sơn','4639','xa','31'),
                                                                                 ('Bắc Sơn','Xã Bắc Sơn','Xã Bắc Sơn, Tỉnh Lạng Sơn','4895','xa','31'),
                                                                                 ('Hưng Vũ','Xã Hưng Vũ','Xã Hưng Vũ, Tỉnh Lạng Sơn','5151','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vũ Lăng','Xã Vũ Lăng','Xã Vũ Lăng, Tỉnh Lạng Sơn','5407','xa','31'),
                                                                                 ('Nhất Hòa','Xã Nhất Hòa','Xã Nhất Hòa, Tỉnh Lạng Sơn','5663','xa','31'),
                                                                                 ('Vũ Lễ','Xã Vũ Lễ','Xã Vũ Lễ, Tỉnh Lạng Sơn','5919','xa','31'),
@@ -2099,7 +2099,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tri Lễ','Xã Tri Lễ','Xã Tri Lễ, Tỉnh Lạng Sơn','7199','xa','31'),
                                                                                 ('Tân Đoàn','Xã Tân Đoàn','Xã Tân Đoàn, Tỉnh Lạng Sơn','7455','xa','31'),
                                                                                 ('Khánh Khê','Xã Khánh Khê','Xã Khánh Khê, Tỉnh Lạng Sơn','7711','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Na Sầm','Xã Na Sầm','Xã Na Sầm, Tỉnh Lạng Sơn','7967','xa','31'),
                                                                                 ('Tân Thanh','Xã Tân Thanh','Xã Tân Thanh, Tỉnh Lạng Sơn','8223','xa','31'),
                                                                                 ('Thụy Hùng','Xã Thụy Hùng','Xã Thụy Hùng, Tỉnh Lạng Sơn','8479','xa','31'),
@@ -2110,7 +2110,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Na Dương','Xã Na Dương','Xã Na Dương, Tỉnh Lạng Sơn','9759','xa','31'),
                                                                                 ('Lợi Bác','Xã Lợi Bác','Xã Lợi Bác, Tỉnh Lạng Sơn','10015','xa','31'),
                                                                                 ('Thống Nhất','Xã Thống Nhất','Xã Thống Nhất, Tỉnh Lạng Sơn','10271','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Dương','Xã Xuân Dương','Xã Xuân Dương, Tỉnh Lạng Sơn','10527','xa','31'),
                                                                                 ('Khuất Xá','Xã Khuất Xá','Xã Khuất Xá, Tỉnh Lạng Sơn','10783','xa','31'),
                                                                                 ('Thái Bình','Xã Thái Bình','Xã Thái Bình, Tỉnh Lạng Sơn','11039','xa','31'),
@@ -2121,7 +2121,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiện Tân','Xã Thiện Tân','Xã Thiện Tân, Tỉnh Lạng Sơn','12319','xa','31'),
                                                                                 ('Yên Bình','Xã Yên Bình','Xã Yên Bình, Tỉnh Lạng Sơn','12575','xa','31'),
                                                                                 ('Hữu Liên','Xã Hữu Liên','Xã Hữu Liên, Tỉnh Lạng Sơn','12831','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cai Kinh','Xã Cai Kinh','Xã Cai Kinh, Tỉnh Lạng Sơn','13087','xa','31'),
                                                                                 ('Chi Lăng','Xã Chi Lăng','Xã Chi Lăng, Tỉnh Lạng Sơn','13343','xa','31'),
                                                                                 ('Quan Sơn','Xã Quan Sơn','Xã Quan Sơn, Tỉnh Lạng Sơn','13599','xa','31'),
@@ -2132,7 +2132,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Đăng','Xã Đồng Đăng','Xã Đồng Đăng, Tỉnh Lạng Sơn','14879','xa','31'),
                                                                                 ('Cao Lộc','Xã Cao Lộc','Xã Cao Lộc, Tỉnh Lạng Sơn','15135','xa','31'),
                                                                                 ('Công Sơn','Xã Công Sơn','Xã Công Sơn, Tỉnh Lạng Sơn','15391','xa','31');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ba Sơn','Xã Ba Sơn','Xã Ba Sơn, Tỉnh Lạng Sơn','15647','xa','31'),
                                                                                 ('Tam Thanh','Phường Tam Thanh','Phường Tam Thanh, Tỉnh Lạng Sơn','15903','phuong','31'),
                                                                                 ('Lương Văn Tri','Phường Lương Văn Tri','Phường Lương Văn Tri, Tỉnh Lạng Sơn','16159','phuong','31'),
@@ -2143,7 +2143,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nậm Xé','Xã Nậm Xé','Xã Nậm Xé, Tỉnh Lào Cai','800','xa','32'),
                                                                                 ('Tà Si Láng','Xã Tà Si Láng','Xã Tà Si Láng, Tỉnh Lào Cai','1056','xa','32'),
                                                                                 ('Chế Tạo','Xã Chế Tạo','Xã Chế Tạo, Tỉnh Lào Cai','1312','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lao Chải','Xã Lao Chải','Xã Lao Chải, Tỉnh Lào Cai','1568','xa','32'),
                                                                                 ('Cát Thịnh','Xã Cát Thịnh','Xã Cát Thịnh, Tỉnh Lào Cai','1824','xa','32'),
                                                                                 ('Ngũ Chỉ Sơn','Xã Ngũ Chỉ Sơn','Xã Ngũ Chỉ Sơn, Tỉnh Lào Cai','2080','xa','32'),
@@ -2154,7 +2154,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hạnh Phúc','Xã Hạnh Phúc','Xã Hạnh Phúc, Tỉnh Lào Cai','3360','xa','32'),
                                                                                 ('Phình Hồ','Xã Phình Hồ','Xã Phình Hồ, Tỉnh Lào Cai','3616','xa','32'),
                                                                                 ('Liên Sơn','Xã Liên Sơn','Xã Liên Sơn, Tỉnh Lào Cai','3872','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nghĩa Lộ','Phường Nghĩa Lộ','Phường Nghĩa Lộ, Tỉnh Lào Cai','4128','phuong','32'),
                                                                                 ('Trung Tâm','Phường Trung Tâm','Phường Trung Tâm, Tỉnh Lào Cai','4384','phuong','32'),
                                                                                 ('Cầu Thia','Phường Cầu Thia','Phường Cầu Thia, Tỉnh Lào Cai','4640','phuong','32'),
@@ -2165,7 +2165,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thượng Bằng La','Xã Thượng Bằng La','Xã Thượng Bằng La, Tỉnh Lào Cai','5920','xa','32'),
                                                                                 ('Chấn Thịnh','Xã Chấn Thịnh','Xã Chấn Thịnh, Tỉnh Lào Cai','6176','xa','32'),
                                                                                 ('Nghĩa Tâm','Xã Nghĩa Tâm','Xã Nghĩa Tâm, Tỉnh Lào Cai','6432','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phong Dụ Hạ','Xã Phong Dụ Hạ','Xã Phong Dụ Hạ, Tỉnh Lào Cai','6688','xa','32'),
                                                                                 ('Châu Quế','Xã Châu Quế','Xã Châu Quế, Tỉnh Lào Cai','6944','xa','32'),
                                                                                 ('Lâm Giang','Xã Lâm Giang','Xã Lâm Giang, Tỉnh Lào Cai','7200','xa','32'),
@@ -2176,7 +2176,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỏ Vàng','Xã Mỏ Vàng','Xã Mỏ Vàng, Tỉnh Lào Cai','8480','xa','32'),
                                                                                 ('Lâm Thượng','Xã Lâm Thượng','Xã Lâm Thượng, Tỉnh Lào Cai','8736','xa','32'),
                                                                                 ('Lục Yên','Xã Lục Yên','Xã Lục Yên, Tỉnh Lào Cai','8992','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Lĩnh','Xã Tân Lĩnh','Xã Tân Lĩnh, Tỉnh Lào Cai','9248','xa','32'),
                                                                                 ('Khánh Hòa','Xã Khánh Hòa','Xã Khánh Hòa, Tỉnh Lào Cai','9504','xa','32'),
                                                                                 ('Phúc Lợi','Xã Phúc Lợi','Xã Phúc Lợi, Tỉnh Lào Cai','9760','xa','32'),
@@ -2187,7 +2187,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Bình','Xã Yên Bình','Xã Yên Bình, Tỉnh Lào Cai','11040','xa','32'),
                                                                                 ('Bảo Ái','Xã Bảo Ái','Xã Bảo Ái, Tỉnh Lào Cai','11296','xa','32'),
                                                                                 ('Văn Phú','Phường Văn Phú','Phường Văn Phú, Tỉnh Lào Cai','11552','phuong','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Bái','Phường Yên Bái','Phường Yên Bái, Tỉnh Lào Cai','11808','phuong','32'),
                                                                                 ('Nam Cường','Phường Nam Cường','Phường Nam Cường, Tỉnh Lào Cai','12064','phuong','32'),
                                                                                 ('Âu Lâu','Phường Âu Lâu','Phường Âu Lâu, Tỉnh Lào Cai','12320','phuong','32'),
@@ -2198,7 +2198,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quy Mông','Xã Quy Mông','Xã Quy Mông, Tỉnh Lào Cai','13600','xa','32'),
                                                                                 ('Phong Hải','Xã Phong Hải','Xã Phong Hải, Tỉnh Lào Cai','13856','xa','32'),
                                                                                 ('Xuân Quang','Xã Xuân Quang','Xã Xuân Quang, Tỉnh Lào Cai','14112','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bảo Thắng','Xã Bảo Thắng','Xã Bảo Thắng, Tỉnh Lào Cai','14368','xa','32'),
                                                                                 ('Tằng Loỏng','Xã Tằng Loỏng','Xã Tằng Loỏng, Tỉnh Lào Cai','14624','xa','32'),
                                                                                 ('Gia Phú','Xã Gia Phú','Xã Gia Phú, Tỉnh Lào Cai','14880','xa','32'),
@@ -2209,7 +2209,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Hum','Xã Mường Hum','Xã Mường Hum, Tỉnh Lào Cai','16160','xa','32'),
                                                                                 ('Dền Sáng','Xã Dền Sáng','Xã Dền Sáng, Tỉnh Lào Cai','16416','xa','32'),
                                                                                 ('Y Tý','Xã Y Tý','Xã Y Tý, Tỉnh Lào Cai','16672','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('A Mú Sung','Xã A Mú Sung','Xã A Mú Sung, Tỉnh Lào Cai','16928','xa','32'),
                                                                                 ('Trịnh Tường','Xã Trịnh Tường','Xã Trịnh Tường, Tỉnh Lào Cai','17184','xa','32'),
                                                                                 ('Bản Xèo','Xã Bản Xèo','Xã Bản Xèo, Tỉnh Lào Cai','17440','xa','32'),
@@ -2220,7 +2220,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Xuân Hòa','Xã Xuân Hòa','Xã Xuân Hòa, Tỉnh Lào Cai','18720','xa','32'),
                                                                                 ('Phúc Khánh','Xã Phúc Khánh','Xã Phúc Khánh, Tỉnh Lào Cai','18976','xa','32'),
                                                                                 ('Bảo Hà','Xã Bảo Hà','Xã Bảo Hà, Tỉnh Lào Cai','19232','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Võ Lao','Xã Võ Lao','Xã Võ Lao, Tỉnh Lào Cai','19488','xa','32'),
                                                                                 ('Khánh Yên','Xã Khánh Yên','Xã Khánh Yên, Tỉnh Lào Cai','19744','xa','32'),
                                                                                 ('Văn Bàn','Xã Văn Bàn','Xã Văn Bàn, Tỉnh Lào Cai','20000','xa','32'),
@@ -2231,7 +2231,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Bo','Xã Mường Bo','Xã Mường Bo, Tỉnh Lào Cai','21280','xa','32'),
                                                                                 ('Bản Hồ','Xã Bản Hồ','Xã Bản Hồ, Tỉnh Lào Cai','21536','xa','32'),
                                                                                 ('Sa Pa','Phường Sa Pa','Phường Sa Pa, Tỉnh Lào Cai','21792','phuong','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tả Phìn','Xã Tả Phìn','Xã Tả Phìn, Tỉnh Lào Cai','22048','xa','32'),
                                                                                 ('Tả Van','Xã Tả Van','Xã Tả Van, Tỉnh Lào Cai','22304','xa','32'),
                                                                                 ('Cốc Lầu','Xã Cốc Lầu','Xã Cốc Lầu, Tỉnh Lào Cai','22560','xa','32'),
@@ -2242,7 +2242,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lùng Phình','Xã Lùng Phình','Xã Lùng Phình, Tỉnh Lào Cai','23840','xa','32'),
                                                                                 ('Pha Long','Xã Pha Long','Xã Pha Long, Tỉnh Lào Cai','24096','xa','32'),
                                                                                 ('Mường Khương','Xã Mường Khương','Xã Mường Khương, Tỉnh Lào Cai','24352','xa','32');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bản Lầu','Xã Bản Lầu','Xã Bản Lầu, Tỉnh Lào Cai','24608','xa','32'),
                                                                                 ('Cao Sơn','Xã Cao Sơn','Xã Cao Sơn, Tỉnh Lào Cai','24864','xa','32'),
                                                                                 ('Si Ma Cai','Xã Si Ma Cai','Xã Si Ma Cai, Tỉnh Lào Cai','25120','xa','32'),
@@ -2253,7 +2253,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Keng Đu','Xã Keng Đu','Xã Keng Đu, Tỉnh Nghệ An','1057','xa','33'),
                                                                                 ('Mường Lống','Xã Mường Lống','Xã Mường Lống, Tỉnh Nghệ An','1313','xa','33'),
                                                                                 ('Mỹ Lý','Xã Mỹ Lý','Xã Mỹ Lý, Tỉnh Nghệ An','1569','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Chuẩn','Xã Bình Chuẩn','Xã Bình Chuẩn, Tỉnh Nghệ An','1825','xa','33'),
                                                                                 ('Châu Bình','Xã Châu Bình','Xã Châu Bình, Tỉnh Nghệ An','2081','xa','33'),
                                                                                 ('Lưỡng Minh','Xã Lưỡng Minh','Xã Lưỡng Minh, Tỉnh Nghệ An','2337','xa','33'),
@@ -2264,7 +2264,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Anh Sơn Đông','Xã Anh Sơn Đông','Xã Anh Sơn Đông, Tỉnh Nghệ An','3617','xa','33'),
                                                                                 ('Vĩnh Tường','Xã Vĩnh Tường','Xã Vĩnh Tường, Tỉnh Nghệ An','3873','xa','33'),
                                                                                 ('Thành Bình Thọ','Xã Thành Bình Thọ','Xã Thành Bình Thọ, Tỉnh Nghệ An','4129','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Con Cuông','Xã Con Cuông','Xã Con Cuông, Tỉnh Nghệ An','4385','xa','33'),
                                                                                 ('Môn Sơn','Xã Môn Sơn','Xã Môn Sơn, Tỉnh Nghệ An','4641','xa','33'),
                                                                                 ('Mậu Thạch','Xã Mậu Thạch','Xã Mậu Thạch, Tỉnh Nghệ An','4897','xa','33'),
@@ -2275,7 +2275,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Châu','Xã Quảng Châu','Xã Quảng Châu, Tỉnh Nghệ An','6177','xa','33'),
                                                                                 ('Hải Châu','Xã Hải Châu','Xã Hải Châu, Tỉnh Nghệ An','6433','xa','33'),
                                                                                 ('Tân Châu','Xã Tân Châu','Xã Tân Châu, Tỉnh Nghệ An','6689','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('An Châu','Xã An Châu','Xã An Châu, Tỉnh Nghệ An','6945','xa','33'),
                                                                                 ('Minh Châu','Xã Minh Châu','Xã Minh Châu, Tỉnh Nghệ An','7201','xa','33'),
                                                                                 ('Hùng Châu','Xã Hùng Châu','Xã Hùng Châu, Tỉnh Nghệ An','7457','xa','33'),
@@ -2286,7 +2286,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thuần Trung','Xã Thuần Trung','Xã Thuần Trung, Tỉnh Nghệ An','8737','xa','33'),
                                                                                 ('Lương Sơn','Xã Lương Sơn','Xã Lương Sơn, Tỉnh Nghệ An','8993','xa','33'),
                                                                                 ('Hoàng Mai','Phường Hoàng Mai','Phường Hoàng Mai, Tỉnh Nghệ An','9249','phuong','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Mai','Phường Tân Mai','Phường Tân Mai, Tỉnh Nghệ An','9505','phuong','33'),
                                                                                 ('Quỳnh Mai','Phường Quỳnh Mai','Phường Quỳnh Mai, Tỉnh Nghệ An','9761','phuong','33'),
                                                                                 ('Hưng Nguyên','Xã Hưng Nguyên','Xã Hưng Nguyên, Tỉnh Nghệ An','10017','xa','33'),
@@ -2297,7 +2297,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nậm Cắn','Xã Nậm Cắn','Xã Nậm Cắn, Tỉnh Nghệ An','11297','xa','33'),
                                                                                 ('Chiêu Lưu','Xã Chiêu Lưu','Xã Chiêu Lưu, Tỉnh Nghệ An','11553','xa','33'),
                                                                                 ('Na Loi','Xã Na Loi','Xã Na Loi, Tỉnh Nghệ An','11809','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mường Típ','Xã Mường Típ','Xã Mường Típ, Tỉnh Nghệ An','12065','xa','33'),
                                                                                 ('Na Ngoi','Xã Na Ngoi','Xã Na Ngoi, Tỉnh Nghệ An','12321','xa','33'),
                                                                                 ('Vạn An','Xã Vạn An','Xã Vạn An, Tỉnh Nghệ An','12577','xa','33'),
@@ -2308,7 +2308,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nghĩa Đàn','Xã Nghĩa Đàn','Xã Nghĩa Đàn, Tỉnh Nghệ An','13857','xa','33'),
                                                                                 ('Nghĩa Thọ','Xã Nghĩa Thọ','Xã Nghĩa Thọ, Tỉnh Nghệ An','14113','xa','33'),
                                                                                 ('Nghĩa Lâm','Xã Nghĩa Lâm','Xã Nghĩa Lâm, Tỉnh Nghệ An','14369','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nghĩa Mai','Xã Nghĩa Mai','Xã Nghĩa Mai, Tỉnh Nghệ An','14625','xa','33'),
                                                                                 ('Nghĩa Hưng','Xã Nghĩa Hưng','Xã Nghĩa Hưng, Tỉnh Nghệ An','14881','xa','33'),
                                                                                 ('Nghĩa Khánh','Xã Nghĩa Khánh','Xã Nghĩa Khánh, Tỉnh Nghệ An','15137','xa','33'),
@@ -2319,7 +2319,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trung Lộc','Xã Trung Lộc','Xã Trung Lộc, Tỉnh Nghệ An','16417','xa','33'),
                                                                                 ('Thần Lĩnh','Xã Thần Lĩnh','Xã Thần Lĩnh, Tỉnh Nghệ An','16673','xa','33'),
                                                                                 ('Hải Lộc','Xã Hải Lộc','Xã Hải Lộc, Tỉnh Nghệ An','16929','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Văn Kiều','Xã Văn Kiều','Xã Văn Kiều, Tỉnh Nghệ An','17185','xa','33'),
                                                                                 ('Tiền Phong','Xã Tiền Phong','Xã Tiền Phong, Tỉnh Nghệ An','17441','xa','33'),
                                                                                 ('Tri Lễ','Xã Tri Lễ','Xã Tri Lễ, Tỉnh Nghệ An','17697','xa','33'),
@@ -2330,7 +2330,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hùng Chân','Xã Hùng Chân','Xã Hùng Chân, Tỉnh Nghệ An','18977','xa','33'),
                                                                                 ('Quỳ Hợp','Xã Quỳ Hợp','Xã Quỳ Hợp, Tỉnh Nghệ An','19233','xa','33'),
                                                                                 ('Tam Hợp','Xã Tam Hợp','Xã Tam Hợp, Tỉnh Nghệ An','19489','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Lộc','Xã Châu Lộc','Xã Châu Lộc, Tỉnh Nghệ An','19745','xa','33'),
                                                                                 ('Châu Hồng','Xã Châu Hồng','Xã Châu Hồng, Tỉnh Nghệ An','20001','xa','33'),
                                                                                 ('Mường Ham','Xã Mường Ham','Xã Mường Ham, Tỉnh Nghệ An','20257','xa','33'),
@@ -2341,7 +2341,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quỳnh Tam','Xã Quỳnh Tam','Xã Quỳnh Tam, Tỉnh Nghệ An','21537','xa','33'),
                                                                                 ('Quỳnh Phú','Xã Quỳnh Phú','Xã Quỳnh Phú, Tỉnh Nghệ An','21793','xa','33'),
                                                                                 ('Quỳnh Sơn','Xã Quỳnh Sơn','Xã Quỳnh Sơn, Tỉnh Nghệ An','22049','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quỳnh Thắng','Xã Quỳnh Thắng','Xã Quỳnh Thắng, Tỉnh Nghệ An','22305','xa','33'),
                                                                                 ('Tân Kỳ','Xã Tân Kỳ','Xã Tân Kỳ, Tỉnh Nghệ An','22561','xa','33'),
                                                                                 ('Tân Phú','Xã Tân Phú','Xã Tân Phú, Tỉnh Nghệ An','22817','xa','33'),
@@ -2352,7 +2352,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tiên Đồng','Xã Tiên Đồng','Xã Tiên Đồng, Tỉnh Nghệ An','24097','xa','33'),
                                                                                 ('Cát Ngạn','Xã Cát Ngạn','Xã Cát Ngạn, Tỉnh Nghệ An','24353','xa','33'),
                                                                                 ('Tam Đồng','Xã Tam Đồng','Xã Tam Đồng, Tỉnh Nghệ An','24609','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hạnh Lâm','Xã Hạnh Lâm','Xã Hạnh Lâm, Tỉnh Nghệ An','24865','xa','33'),
                                                                                 ('Sơn Lâm','Xã Sơn Lâm','Xã Sơn Lâm, Tỉnh Nghệ An','25121','xa','33'),
                                                                                 ('Hoa Quân','Xã Hoa Quân','Xã Hoa Quân, Tỉnh Nghệ An','25377','xa','33'),
@@ -2363,7 +2363,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thái Hòa','Phường Thái Hòa','Phường Thái Hòa, Tỉnh Nghệ An','26657','phuong','33'),
                                                                                 ('Tây Hiếu','Phường Tây Hiếu','Phường Tây Hiếu, Tỉnh Nghệ An','26913','phuong','33'),
                                                                                 ('Đông Hiếu','Xã Đông Hiếu','Xã Đông Hiếu, Tỉnh Nghệ An','27169','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Quang','Xã Tam Quang','Xã Tam Quang, Tỉnh Nghệ An','27425','xa','33'),
                                                                                 ('Tam Thái','Xã Tam Thái','Xã Tam Thái, Tỉnh Nghệ An','27681','xa','33'),
                                                                                 ('Tương Dương','Xã Tương Dương','Xã Tương Dương, Tỉnh Nghệ An','27937','xa','33'),
@@ -2374,7 +2374,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thành Vinh','Phường Thành Vinh','Phường Thành Vinh, Tỉnh Nghệ An','29217','phuong','33'),
                                                                                 ('Vinh Hưng','Phường Vinh Hưng','Phường Vinh Hưng, Tỉnh Nghệ An','29473','phuong','33'),
                                                                                 ('Vinh Phú','Phường Vinh Phú','Phường Vinh Phú, Tỉnh Nghệ An','29729','phuong','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vinh Lộc','Phường Vinh Lộc','Phường Vinh Lộc, Tỉnh Nghệ An','29985','phuong','33'),
                                                                                 ('Yên Thành','Xã Yên Thành','Xã Yên Thành, Tỉnh Nghệ An','30241','xa','33'),
                                                                                 ('Quan Thành','Xã Quan Thành','Xã Quan Thành, Tỉnh Nghệ An','30497','xa','33'),
@@ -2385,7 +2385,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Giai Lạc','Xã Giai Lạc','Xã Giai Lạc, Tỉnh Nghệ An','31777','xa','33'),
                                                                                 ('Bình Minh','Xã Bình Minh','Xã Bình Minh, Tỉnh Nghệ An','32033','xa','33'),
                                                                                 ('Đông Thành','Xã Đông Thành','Xã Đông Thành, Tỉnh Nghệ An','32289','xa','33');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Trung','Xã Yên Trung','Xã Yên Trung, Tỉnh Nghệ An','32545','xa','33'),
                                                                                 ('Cửa Lò','Phường Cửa Lò','Phường Cửa Lò, Tỉnh Nghệ An','32801','phuong','33'),
                                                                                 ('Quế Phong','Xã Quế Phong','Xã Quế Phong, Tỉnh Nghệ An','33057','xa','33'),
@@ -2396,7 +2396,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thanh Bình','Xã Thanh Bình','Xã Thanh Bình, Tỉnh Ninh Bình','1058','xa','34'),
                                                                                 ('Thanh Liêm','Xã Thanh Liêm','Xã Thanh Liêm, Tỉnh Ninh Bình','1314','xa','34'),
                                                                                 ('Hà Nam','Phường Hà Nam','Phường Hà Nam, Tỉnh Ninh Bình','1570','phuong','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tiên Sơn','Phường Tiên Sơn','Phường Tiên Sơn, Tỉnh Ninh Bình','1826','phuong','34'),
                                                                                 ('Mỹ Lộc','Phường Mỹ Lộc','Phường Mỹ Lộc, Tỉnh Ninh Bình','2082','phuong','34'),
                                                                                 ('Hoa Lư','Phường Hoa Lư','Phường Hoa Lư, Tỉnh Ninh Bình','2338','phuong','34'),
@@ -2407,7 +2407,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trung Sơn','Phường Trung Sơn','Phường Trung Sơn, Tỉnh Ninh Bình','3618','phuong','34'),
                                                                                 ('Yên Thắng','Phường Yên Thắng','Phường Yên Thắng, Tỉnh Ninh Bình','3874','phuong','34'),
                                                                                 ('Gia Viễn','Xã Gia Viễn','Xã Gia Viễn, Tỉnh Ninh Bình','4130','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đại Hoàng','Xã Đại Hoàng','Xã Đại Hoàng, Tỉnh Ninh Bình','4386','xa','34'),
                                                                                 ('Gia Hưng','Xã Gia Hưng','Xã Gia Hưng, Tỉnh Ninh Bình','4642','xa','34'),
                                                                                 ('Gia Phong','Xã Gia Phong','Xã Gia Phong, Tỉnh Ninh Bình','4898','xa','34'),
@@ -2418,7 +2418,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Gia Tường','Xã Gia Tường','Xã Gia Tường, Tỉnh Ninh Bình','6178','xa','34'),
                                                                                 ('Phú Sơn','Xã Phú Sơn','Xã Phú Sơn, Tỉnh Ninh Bình','6434','xa','34'),
                                                                                 ('Cúc Phương','Xã Cúc Phương','Xã Cúc Phương, Tỉnh Ninh Bình','6690','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Long','Xã Phú Long','Xã Phú Long, Tỉnh Ninh Bình','6946','xa','34'),
                                                                                 ('Thanh Sơn','Xã Thanh Sơn','Xã Thanh Sơn, Tỉnh Ninh Bình','7202','xa','34'),
                                                                                 ('Quỳnh Lưu','Xã Quỳnh Lưu','Xã Quỳnh Lưu, Tỉnh Ninh Bình','7458','xa','34'),
@@ -2429,7 +2429,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khánh Trung','Xã Khánh Trung','Xã Khánh Trung, Tỉnh Ninh Bình','8738','xa','34'),
                                                                                 ('Yên Mô','Xã Yên Mô','Xã Yên Mô, Tỉnh Ninh Bình','8994','xa','34'),
                                                                                 ('Yên Từ','Xã Yên Từ','Xã Yên Từ, Tỉnh Ninh Bình','9250','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Mạc','Xã Yên Mạc','Xã Yên Mạc, Tỉnh Ninh Bình','9506','xa','34'),
                                                                                 ('Đồng Thái','Xã Đồng Thái','Xã Đồng Thái, Tỉnh Ninh Bình','9762','xa','34'),
                                                                                 ('Chất Bình','Xã Chất Bình','Xã Chất Bình, Tỉnh Ninh Bình','10018','xa','34'),
@@ -2440,7 +2440,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Định Hóa','Xã Định Hóa','Xã Định Hóa, Tỉnh Ninh Bình','11298','xa','34'),
                                                                                 ('Bình Minh','Xã Bình Minh','Xã Bình Minh, Tỉnh Ninh Bình','11554','xa','34'),
                                                                                 ('Kim Đông','Xã Kim Đông','Xã Kim Đông, Tỉnh Ninh Bình','11810','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Định','Phường Nam Định','Phường Nam Định, Tỉnh Ninh Bình','12066','phuong','34'),
                                                                                 ('Thiên Trường','Phường Thiên Trường','Phường Thiên Trường, Tỉnh Ninh Bình','12322','phuong','34'),
                                                                                 ('Đông A','Phường Đông A','Phường Đông A, Tỉnh Ninh Bình','12578','phuong','34'),
@@ -2451,7 +2451,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Minh','Xã Nam Minh','Xã Nam Minh, Tỉnh Ninh Bình','13858','xa','34'),
                                                                                 ('Nam Đồng','Xã Nam Đồng','Xã Nam Đồng, Tỉnh Ninh Bình','14114','xa','34'),
                                                                                 ('Nam Ninh','Xã Nam Ninh','Xã Nam Ninh, Tỉnh Ninh Bình','14370','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Hồng','Xã Nam Hồng','Xã Nam Hồng, Tỉnh Ninh Bình','14626','xa','34'),
                                                                                 ('Minh Tân','Xã Minh Tân','Xã Minh Tân, Tỉnh Ninh Bình','14882','xa','34'),
                                                                                 ('Hiển Khánh','Xã Hiển Khánh','Xã Hiển Khánh, Tỉnh Ninh Bình','15138','xa','34'),
@@ -2462,7 +2462,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Cường','Xã Yên Cường','Xã Yên Cường, Tỉnh Ninh Bình','16418','xa','34'),
                                                                                 ('Vạn Thắng','Xã Vạn Thắng','Xã Vạn Thắng, Tỉnh Ninh Bình','16674','xa','34'),
                                                                                 ('Vũ Dương','Xã Vũ Dương','Xã Vũ Dương, Tỉnh Ninh Bình','16930','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Minh','Xã Tân Minh','Xã Tân Minh, Tỉnh Ninh Bình','17186','xa','34'),
                                                                                 ('Phong Doanh','Xã Phong Doanh','Xã Phong Doanh, Tỉnh Ninh Bình','17442','xa','34'),
                                                                                 ('Cổ Lễ','Xã Cổ Lễ','Xã Cổ Lễ, Tỉnh Ninh Bình','17698','xa','34'),
@@ -2473,7 +2473,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Minh Thái','Xã Minh Thái','Xã Minh Thái, Tỉnh Ninh Bình','18978','xa','34'),
                                                                                 ('Ninh Cường','Xã Ninh Cường','Xã Ninh Cường, Tỉnh Ninh Bình','19234','xa','34'),
                                                                                 ('Xuân Trường','Xã Xuân Trường','Xã Xuân Trường, Tỉnh Ninh Bình','19490','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Hưng','Xã Xuân Hưng','Xã Xuân Hưng, Tỉnh Ninh Bình','19746','xa','34'),
                                                                                 ('Xuân Giang','Xã Xuân Giang','Xã Xuân Giang, Tỉnh Ninh Bình','20002','xa','34'),
                                                                                 ('Xuân Hồng','Xã Xuân Hồng','Xã Xuân Hồng, Tỉnh Ninh Bình','20258','xa','34'),
@@ -2484,7 +2484,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hải An','Xã Hải An','Xã Hải An, Tỉnh Ninh Bình','21538','xa','34'),
                                                                                 ('Hải Quang','Xã Hải Quang','Xã Hải Quang, Tỉnh Ninh Bình','21794','xa','34'),
                                                                                 ('Hải Xuân','Xã Hải Xuân','Xã Hải Xuân, Tỉnh Ninh Bình','22050','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hải Thịnh','Xã Hải Thịnh','Xã Hải Thịnh, Tỉnh Ninh Bình','22306','xa','34'),
                                                                                 ('Đồng Thịnh','Xã Đồng Thịnh','Xã Đồng Thịnh, Tỉnh Ninh Bình','22562','xa','34'),
                                                                                 ('Nghĩa Hưng','Xã Nghĩa Hưng','Xã Nghĩa Hưng, Tỉnh Ninh Bình','22818','xa','34'),
@@ -2495,7 +2495,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Rạng Đông','Xã Rạng Đông','Xã Rạng Đông, Tỉnh Ninh Bình','24098','xa','34'),
                                                                                 ('Vị Khê','Phường Vị Khê','Phường Vị Khê, Tỉnh Ninh Bình','24354','phuong','34'),
                                                                                 ('Giao Minh','Xã Giao Minh','Xã Giao Minh, Tỉnh Ninh Bình','24610','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Giao Hoà','Xã Giao Hoà','Xã Giao Hoà, Tỉnh Ninh Bình','24866','xa','34'),
                                                                                 ('Giao Thuỷ','Xã Giao Thuỷ','Xã Giao Thuỷ, Tỉnh Ninh Bình','25122','xa','34'),
                                                                                 ('Giao Phúc','Xã Giao Phúc','Xã Giao Phúc, Tỉnh Ninh Bình','25378','xa','34'),
@@ -2506,7 +2506,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lê Hồ','Phường Lê Hồ','Phường Lê Hồ, Tỉnh Ninh Bình','26658','phuong','34'),
                                                                                 ('Nguyễn Uý','Phường Nguyễn Uý','Phường Nguyễn Uý, Tỉnh Ninh Bình','26914','phuong','34'),
                                                                                 ('Lý Thường Kiệt','Phường Lý Thường Kiệt','Phường Lý Thường Kiệt, Tỉnh Ninh Bình','27170','phuong','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kim Thanh','Phường Kim Thanh','Phường Kim Thanh, Tỉnh Ninh Bình','27426','phuong','34'),
                                                                                 ('Tam Chúc','Phường Tam Chúc','Phường Tam Chúc, Tỉnh Ninh Bình','27682','phuong','34'),
                                                                                 ('Phù Vân','Phường Phù Vân','Phường Phù Vân, Tỉnh Ninh Bình','27938','phuong','34'),
@@ -2517,7 +2517,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình An','Xã Bình An','Xã Bình An, Tỉnh Ninh Bình','29218','xa','34'),
                                                                                 ('Bình Giang','Xã Bình Giang','Xã Bình Giang, Tỉnh Ninh Bình','29474','xa','34'),
                                                                                 ('Bình Sơn','Xã Bình Sơn','Xã Bình Sơn, Tỉnh Ninh Bình','29730','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Liêm Hà','Xã Liêm Hà','Xã Liêm Hà, Tỉnh Ninh Bình','29986','xa','34'),
                                                                                 ('Tân Thanh','Xã Tân Thanh','Xã Tân Thanh, Tỉnh Ninh Bình','30242','xa','34'),
                                                                                 ('Thanh Lâm','Xã Thanh Lâm','Xã Thanh Lâm, Tỉnh Ninh Bình','30498','xa','34'),
@@ -2528,7 +2528,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trần Thương','Xã Trần Thương','Xã Trần Thương, Tỉnh Ninh Bình','31778','xa','34'),
                                                                                 ('Nhân Hà','Xã Nhân Hà','Xã Nhân Hà, Tỉnh Ninh Bình','32034','xa','34'),
                                                                                 ('Nam Lý','Xã Nam Lý','Xã Nam Lý, Tỉnh Ninh Bình','32290','xa','34');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Kim Bảng','Phường Kim Bảng','Phường Kim Bảng, Tỉnh Ninh Bình','32546','phuong','34'),
                                                                                 ('Duy Tiên','Phường Duy Tiên','Phường Duy Tiên, Tỉnh Ninh Bình','32802','phuong','34'),
                                                                                 ('Phủ Lý','Phường Phủ Lý','Phường Phủ Lý, Tỉnh Ninh Bình','33058','phuong','34'),
@@ -2539,7 +2539,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mai Châu','Xã Mai Châu','Xã Mai Châu, Tỉnh Phú Thọ','1315','xa','35'),
                                                                                 ('Pà Cò','Xã Pà Cò','Xã Pà Cò, Tỉnh Phú Thọ','1571','xa','35'),
                                                                                 ('Thống Nhất','Phường Thống Nhất','Phường Thống Nhất, Tỉnh Phú Thọ','1827','phuong','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đạo Trù','Xã Đạo Trù','Xã Đạo Trù, Tỉnh Phú Thọ','2083','xa','35'),
                                                                                 ('Phúc Yên','Phường Phúc Yên','Phường Phúc Yên, Tỉnh Phú Thọ','2339','phuong','35'),
                                                                                 ('Xuân Hòa','Phường Xuân Hòa','Phường Xuân Hòa, Tỉnh Phú Thọ','2595','phuong','35'),
@@ -2550,7 +2550,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đà Bắc','Xã Đà Bắc','Xã Đà Bắc, Tỉnh Phú Thọ','3875','xa','35'),
                                                                                 ('Cao Sơn','Xã Cao Sơn','Xã Cao Sơn, Tỉnh Phú Thọ','4131','xa','35'),
                                                                                 ('Đức Nhàn','Xã Đức Nhàn','Xã Đức Nhàn, Tỉnh Phú Thọ','4387','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quy Đức','Xã Quy Đức','Xã Quy Đức, Tỉnh Phú Thọ','4643','xa','35'),
                                                                                 ('Tân Pheo','Xã Tân Pheo','Xã Tân Pheo, Tỉnh Phú Thọ','4899','xa','35'),
                                                                                 ('Kim Bôi','Xã Kim Bôi','Xã Kim Bôi, Tỉnh Phú Thọ','5155','xa','35'),
@@ -2561,7 +2561,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lạc Sơn','Xã Lạc Sơn','Xã Lạc Sơn, Tỉnh Phú Thọ','6435','xa','35'),
                                                                                 ('Mường Vang','Xã Mường Vang','Xã Mường Vang, Tỉnh Phú Thọ','6691','xa','35'),
                                                                                 ('Đại Đồng','Xã Đại Đồng','Xã Đại Đồng, Tỉnh Phú Thọ','6947','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ngọc Sơn','Xã Ngọc Sơn','Xã Ngọc Sơn, Tỉnh Phú Thọ','7203','xa','35'),
                                                                                 ('Nhân Nghĩa','Xã Nhân Nghĩa','Xã Nhân Nghĩa, Tỉnh Phú Thọ','7459','xa','35'),
                                                                                 ('Quyết Thắng','Xã Quyết Thắng','Xã Quyết Thắng, Tỉnh Phú Thọ','7715','xa','35'),
@@ -2572,7 +2572,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Nghĩa','Xã An Nghĩa','Xã An Nghĩa, Tỉnh Phú Thọ','8995','xa','35'),
                                                                                 ('Cao Dương','Xã Cao Dương','Xã Cao Dương, Tỉnh Phú Thọ','9251','xa','35'),
                                                                                 ('Bao La','Xã Bao La','Xã Bao La, Tỉnh Phú Thọ','9507','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mai Hạ','Xã Mai Hạ','Xã Mai Hạ, Tỉnh Phú Thọ','9763','xa','35'),
                                                                                 ('Tân Mai','Xã Tân Mai','Xã Tân Mai, Tỉnh Phú Thọ','10019','xa','35'),
                                                                                 ('Tân Lạc','Xã Tân Lạc','Xã Tân Lạc, Tỉnh Phú Thọ','10275','xa','35'),
@@ -2583,7 +2583,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Thủy','Xã Yên Thủy','Xã Yên Thủy, Tỉnh Phú Thọ','11555','xa','35'),
                                                                                 ('Lạc Lương','Xã Lạc Lương','Xã Lạc Lương, Tỉnh Phú Thọ','11811','xa','35'),
                                                                                 ('Yên Trị','Xã Yên Trị','Xã Yên Trị, Tỉnh Phú Thọ','12067','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thịnh Minh','Xã Thịnh Minh','Xã Thịnh Minh, Tỉnh Phú Thọ','12323','xa','35'),
                                                                                 ('Hòa Bình','Phường Hòa Bình','Phường Hòa Bình, Tỉnh Phú Thọ','12579','phuong','35'),
                                                                                 ('Kỳ Sơn','Phường Kỳ Sơn','Phường Kỳ Sơn, Tỉnh Phú Thọ','12835','phuong','35'),
@@ -2594,7 +2594,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Lãng','Xã Yên Lãng','Xã Yên Lãng, Tỉnh Phú Thọ','14115','xa','35'),
                                                                                 ('Lập Thạch','Xã Lập Thạch','Xã Lập Thạch, Tỉnh Phú Thọ','14371','xa','35'),
                                                                                 ('Tiên Lữ','Xã Tiên Lữ','Xã Tiên Lữ, Tỉnh Phú Thọ','14627','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thái Hòa','Xã Thái Hòa','Xã Thái Hòa, Tỉnh Phú Thọ','14883','xa','35'),
                                                                                 ('Liên Hòa','Xã Liên Hòa','Xã Liên Hòa, Tỉnh Phú Thọ','15139','xa','35'),
                                                                                 ('Hợp Lý','Xã Hợp Lý','Xã Hợp Lý, Tỉnh Phú Thọ','15395','xa','35'),
@@ -2605,7 +2605,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hội Thịnh','Xã Hội Thịnh','Xã Hội Thịnh, Tỉnh Phú Thọ','16675','xa','35'),
                                                                                 ('Hoàng An','Xã Hoàng An','Xã Hoàng An, Tỉnh Phú Thọ','16931','xa','35'),
                                                                                 ('Tam Dương Bắc','Xã Tam Dương Bắc','Xã Tam Dương Bắc, Tỉnh Phú Thọ','17187','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vĩnh Tường','Xã Vĩnh Tường','Xã Vĩnh Tường, Tỉnh Phú Thọ','17443','xa','35'),
                                                                                 ('Thổ Tang','Xã Thổ Tang','Xã Thổ Tang, Tỉnh Phú Thọ','17699','xa','35'),
                                                                                 ('Vĩnh Hưng','Xã Vĩnh Hưng','Xã Vĩnh Hưng, Tỉnh Phú Thọ','17955','xa','35'),
@@ -2616,7 +2616,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tề Lỗ','Xã Tề Lỗ','Xã Tề Lỗ, Tỉnh Phú Thọ','19235','xa','35'),
                                                                                 ('Liên Châu','Xã Liên Châu','Xã Liên Châu, Tỉnh Phú Thọ','19491','xa','35'),
                                                                                 ('Tam Hồng','Xã Tam Hồng','Xã Tam Hồng, Tỉnh Phú Thọ','19747','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nguyệt Đức','Xã Nguyệt Đức','Xã Nguyệt Đức, Tỉnh Phú Thọ','20003','xa','35'),
                                                                                 ('Bình Nguyên','Xã Bình Nguyên','Xã Bình Nguyên, Tỉnh Phú Thọ','20259','xa','35'),
                                                                                 ('Xuân Lãng','Xã Xuân Lãng','Xã Xuân Lãng, Tỉnh Phú Thọ','20515','xa','35'),
@@ -2627,7 +2627,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vân Phú','Phường Vân Phú','Phường Vân Phú, Tỉnh Phú Thọ','21795','phuong','35'),
                                                                                 ('Hy Cương','Xã Hy Cương','Xã Hy Cương, Tỉnh Phú Thọ','22051','xa','35'),
                                                                                 ('Lâm Thao','Xã Lâm Thao','Xã Lâm Thao, Tỉnh Phú Thọ','22307','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xuân Lũng','Xã Xuân Lũng','Xã Xuân Lũng, Tỉnh Phú Thọ','22563','xa','35'),
                                                                                 ('Phùng Nguyên','Xã Phùng Nguyên','Xã Phùng Nguyên, Tỉnh Phú Thọ','22819','xa','35'),
                                                                                 ('Bản Nguyên','Xã Bản Nguyên','Xã Bản Nguyên, Tỉnh Phú Thọ','23075','xa','35'),
@@ -2638,7 +2638,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Dân Chủ','Xã Dân Chủ','Xã Dân Chủ, Tỉnh Phú Thọ','24355','xa','35'),
                                                                                 ('Phú Mỹ','Xã Phú Mỹ','Xã Phú Mỹ, Tỉnh Phú Thọ','24611','xa','35'),
                                                                                 ('Trạm Thản','Xã Trạm Thản','Xã Trạm Thản, Tỉnh Phú Thọ','24867','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Phú','Xã Bình Phú','Xã Bình Phú, Tỉnh Phú Thọ','25123','xa','35'),
                                                                                 ('Thanh Ba','Xã Thanh Ba','Xã Thanh Ba, Tỉnh Phú Thọ','25379','xa','35'),
                                                                                 ('Quảng Yên','Xã Quảng Yên','Xã Quảng Yên, Tỉnh Phú Thọ','25635','xa','35'),
@@ -2649,7 +2649,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đoan Hùng','Xã Đoan Hùng','Xã Đoan Hùng, Tỉnh Phú Thọ','26915','xa','35'),
                                                                                 ('Tây Cốc','Xã Tây Cốc','Xã Tây Cốc, Tỉnh Phú Thọ','27171','xa','35'),
                                                                                 ('Chân Mộng','Xã Chân Mộng','Xã Chân Mộng, Tỉnh Phú Thọ','27427','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chí Đám','Xã Chí Đám','Xã Chí Đám, Tỉnh Phú Thọ','27683','xa','35'),
                                                                                 ('Bằng Luân','Xã Bằng Luân','Xã Bằng Luân, Tỉnh Phú Thọ','27939','xa','35'),
                                                                                 ('Hạ Hòa','Xã Hạ Hòa','Xã Hạ Hòa, Tỉnh Phú Thọ','28195','xa','35'),
@@ -2660,7 +2660,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hiền Lương','Xã Hiền Lương','Xã Hiền Lương, Tỉnh Phú Thọ','29475','xa','35'),
                                                                                 ('Cẩm Khê','Xã Cẩm Khê','Xã Cẩm Khê, Tỉnh Phú Thọ','29731','xa','35'),
                                                                                 ('Phú Khê','Xã Phú Khê','Xã Phú Khê, Tỉnh Phú Thọ','29987','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hùng Việt','Xã Hùng Việt','Xã Hùng Việt, Tỉnh Phú Thọ','30243','xa','35'),
                                                                                 ('Đồng Lương','Xã Đồng Lương','Xã Đồng Lương, Tỉnh Phú Thọ','30499','xa','35'),
                                                                                 ('Tiên Lương','Xã Tiên Lương','Xã Tiên Lương, Tỉnh Phú Thọ','30755','xa','35'),
@@ -2671,7 +2671,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hiền Quan','Xã Hiền Quan','Xã Hiền Quan, Tỉnh Phú Thọ','32035','xa','35'),
                                                                                 ('Thanh Thủy','Xã Thanh Thủy','Xã Thanh Thủy, Tỉnh Phú Thọ','32291','xa','35'),
                                                                                 ('Đào Xá','Xã Đào Xá','Xã Đào Xá, Tỉnh Phú Thọ','32547','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tu Vũ','Xã Tu Vũ','Xã Tu Vũ, Tỉnh Phú Thọ','32803','xa','35'),
                                                                                 ('Thanh Sơn','Xã Thanh Sơn','Xã Thanh Sơn, Tỉnh Phú Thọ','33059','xa','35'),
                                                                                 ('Võ Miếu','Xã Võ Miếu','Xã Võ Miếu, Tỉnh Phú Thọ','33315','xa','35'),
@@ -2682,7 +2682,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khả Cửu','Xã Khả Cửu','Xã Khả Cửu, Tỉnh Phú Thọ','34595','xa','35'),
                                                                                 ('Tân Sơn','Xã Tân Sơn','Xã Tân Sơn, Tỉnh Phú Thọ','34851','xa','35'),
                                                                                 ('Minh Đài','Xã Minh Đài','Xã Minh Đài, Tỉnh Phú Thọ','35107','xa','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Lai Đồng','Xã Lai Đồng','Xã Lai Đồng, Tỉnh Phú Thọ','35363','xa','35'),
                                                                                 ('Xuân Đài','Xã Xuân Đài','Xã Xuân Đài, Tỉnh Phú Thọ','35619','xa','35'),
                                                                                 ('Long Cốc','Xã Long Cốc','Xã Long Cốc, Tỉnh Phú Thọ','35875','xa','35'),
@@ -2693,7 +2693,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Minh Hòa','Xã Minh Hòa','Xã Minh Hòa, Tỉnh Phú Thọ','37155','xa','35'),
                                                                                 ('Việt Trì','Phường Việt Trì','Phường Việt Trì, Tỉnh Phú Thọ','37411','phuong','35'),
                                                                                 ('Nông Trang','Phường Nông Trang','Phường Nông Trang, Tỉnh Phú Thọ','37667','phuong','35');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thanh Miếu','Phường Thanh Miếu','Phường Thanh Miếu, Tỉnh Phú Thọ','37923','phuong','35'),
                                                                                 ('Đắk Long','Xã Đắk Long','Xã Đắk Long, Tỉnh Quảng Ngãi','292','xa','36'),
                                                                                 ('Ba Xa','Xã Ba Xa','Xã Ba Xa, Tỉnh Quảng Ngãi','548','xa','36'),
@@ -2704,7 +2704,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ia Đal','Xã Ia Đal','Xã Ia Đal, Tỉnh Quảng Ngãi','1828','xa','36'),
                                                                                 ('Ia Tơi','Xã Ia Tơi','Xã Ia Tơi, Tỉnh Quảng Ngãi','2084','xa','36'),
                                                                                 ('Tây Trà Bồng','Xã Tây Trà Bồng','Xã Tây Trà Bồng, Tỉnh Quảng Ngãi','2340','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Sơn','Xã Đông Sơn','Xã Đông Sơn, Tỉnh Quảng Ngãi','2596','xa','36'),
                                                                                 ('Đặc Khu Lý Sơn','Xã Đặc Khu Lý Sơn','Xã Đặc Khu Lý Sơn, Tỉnh Quảng Ngãi','2852','xa','36'),
                                                                                 ('Tịnh Khê','Xã Tịnh Khê','Xã Tịnh Khê, Tỉnh Quảng Ngãi','3108','xa','36'),
@@ -2715,7 +2715,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trà Câu','Phường Trà Câu','Phường Trà Câu, Tỉnh Quảng Ngãi','4388','phuong','36'),
                                                                                 ('Nguyễn Nghiêm','Xã Nguyễn Nghiêm','Xã Nguyễn Nghiêm, Tỉnh Quảng Ngãi','4644','xa','36'),
                                                                                 ('Đức Phổ','Phường Đức Phổ','Phường Đức Phổ, Tỉnh Quảng Ngãi','4900','phuong','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Khánh Cường','Xã Khánh Cường','Xã Khánh Cường, Tỉnh Quảng Ngãi','5156','xa','36'),
                                                                                 ('Sa Huỳnh','Phường Sa Huỳnh','Phường Sa Huỳnh, Tỉnh Quảng Ngãi','5412','phuong','36'),
                                                                                 ('Bình Minh','Xã Bình Minh','Xã Bình Minh, Tỉnh Quảng Ngãi','5668','xa','36'),
@@ -2726,7 +2726,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thọ Phong','Xã Thọ Phong','Xã Thọ Phong, Tỉnh Quảng Ngãi','6948','xa','36'),
                                                                                 ('Tư Nghĩa','Xã Tư Nghĩa','Xã Tư Nghĩa, Tỉnh Quảng Ngãi','7204','xa','36'),
                                                                                 ('Vệ Giang','Xã Vệ Giang','Xã Vệ Giang, Tỉnh Quảng Ngãi','7460','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nghĩa Giang','Xã Nghĩa Giang','Xã Nghĩa Giang, Tỉnh Quảng Ngãi','7716','xa','36'),
                                                                                 ('Trà Giang','Xã Trà Giang','Xã Trà Giang, Tỉnh Quảng Ngãi','7972','xa','36'),
                                                                                 ('Nghĩa Hành','Xã Nghĩa Hành','Xã Nghĩa Hành, Tỉnh Quảng Ngãi','8228','xa','36'),
@@ -2737,7 +2737,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỏ Cày','Xã Mỏ Cày','Xã Mỏ Cày, Tỉnh Quảng Ngãi','9508','xa','36'),
                                                                                 ('Mộ Đức','Xã Mộ Đức','Xã Mộ Đức, Tỉnh Quảng Ngãi','9764','xa','36'),
                                                                                 ('Lân Phong','Xã Lân Phong','Xã Lân Phong, Tỉnh Quảng Ngãi','10020','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trà Bồng','Xã Trà Bồng','Xã Trà Bồng, Tỉnh Quảng Ngãi','10276','xa','36'),
                                                                                 ('Đông Trà Bồng','Xã Đông Trà Bồng','Xã Đông Trà Bồng, Tỉnh Quảng Ngãi','10532','xa','36'),
                                                                                 ('Tây Trà','Xã Tây Trà','Xã Tây Trà, Tỉnh Quảng Ngãi','10788','xa','36'),
@@ -2748,7 +2748,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Sơn Thủy','Xã Sơn Thủy','Xã Sơn Thủy, Tỉnh Quảng Ngãi','12068','xa','36'),
                                                                                 ('Sơn Kỳ','Xã Sơn Kỳ','Xã Sơn Kỳ, Tỉnh Quảng Ngãi','12324','xa','36'),
                                                                                 ('Sơn Tây','Xã Sơn Tây','Xã Sơn Tây, Tỉnh Quảng Ngãi','12580','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Tây Thượng','Xã Sơn Tây Thượng','Xã Sơn Tây Thượng, Tỉnh Quảng Ngãi','12836','xa','36'),
                                                                                 ('Sơn Tây Hạ','Xã Sơn Tây Hạ','Xã Sơn Tây Hạ, Tỉnh Quảng Ngãi','13092','xa','36'),
                                                                                 ('Minh Long','Xã Minh Long','Xã Minh Long, Tỉnh Quảng Ngãi','13348','xa','36'),
@@ -2759,7 +2759,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ba Tơ','Xã Ba Tơ','Xã Ba Tơ, Tỉnh Quảng Ngãi','14628','xa','36'),
                                                                                 ('Ba Vinh','Xã Ba Vinh','Xã Ba Vinh, Tỉnh Quảng Ngãi','14884','xa','36'),
                                                                                 ('Ba Động','Xã Ba Động','Xã Ba Động, Tỉnh Quảng Ngãi','15140','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đặng Thùy Trâm','Xã Đặng Thùy Trâm','Xã Đặng Thùy Trâm, Tỉnh Quảng Ngãi','15396','xa','36'),
                                                                                 ('Bình Sơn','Xã Bình Sơn','Xã Bình Sơn, Tỉnh Quảng Ngãi','15652','xa','36'),
                                                                                 ('Kon Tum','Phường Kon Tum','Phường Kon Tum, Tỉnh Quảng Ngãi','15908','phuong','36'),
@@ -2770,7 +2770,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đắk Rơ Wa','Xã Đắk Rơ Wa','Xã Đắk Rơ Wa, Tỉnh Quảng Ngãi','17188','xa','36'),
                                                                                 ('Đắk PXi','Xã Đắk PXi','Xã Đắk PXi, Tỉnh Quảng Ngãi','17444','xa','36'),
                                                                                 ('Đắk Mar','Xã Đắk Mar','Xã Đắk Mar, Tỉnh Quảng Ngãi','17700','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đắk Ui','Xã Đắk Ui','Xã Đắk Ui, Tỉnh Quảng Ngãi','17956','xa','36'),
                                                                                 ('Ngok Réo','Xã Ngok Réo','Xã Ngok Réo, Tỉnh Quảng Ngãi','18212','xa','36'),
                                                                                 ('Đắk Hà','Xã Đắk Hà','Xã Đắk Hà, Tỉnh Quảng Ngãi','18468','xa','36'),
@@ -2781,7 +2781,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đắk Tờ Kan','Xã Đắk Tờ Kan','Xã Đắk Tờ Kan, Tỉnh Quảng Ngãi','19748','xa','36'),
                                                                                 ('Tu Mơ Rông','Xã Tu Mơ Rông','Xã Tu Mơ Rông, Tỉnh Quảng Ngãi','20004','xa','36'),
                                                                                 ('Măng Ri','Xã Măng Ri','Xã Măng Ri, Tỉnh Quảng Ngãi','20260','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bờ Y','Xã Bờ Y','Xã Bờ Y, Tỉnh Quảng Ngãi','20516','xa','36'),
                                                                                 ('Sa Loong','Xã Sa Loong','Xã Sa Loong, Tỉnh Quảng Ngãi','20772','xa','36'),
                                                                                 ('Dục Nông','Xã Dục Nông','Xã Dục Nông, Tỉnh Quảng Ngãi','21028','xa','36'),
@@ -2792,7 +2792,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đắk Môn','Xã Đắk Môn','Xã Đắk Môn, Tỉnh Quảng Ngãi','22308','xa','36'),
                                                                                 ('Sa Thầy','Xã Sa Thầy','Xã Sa Thầy, Tỉnh Quảng Ngãi','22564','xa','36'),
                                                                                 ('Sa Bình','Xã Sa Bình','Xã Sa Bình, Tỉnh Quảng Ngãi','22820','xa','36');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Ya Ly','Xã Ya Ly','Xã Ya Ly, Tỉnh Quảng Ngãi','23076','xa','36'),
                                                                                 ('Đắk Kôi','Xã Đắk Kôi','Xã Đắk Kôi, Tỉnh Quảng Ngãi','23332','xa','36'),
                                                                                 ('Kon Braih','Xã Kon Braih','Xã Kon Braih, Tỉnh Quảng Ngãi','23588','xa','36'),
@@ -2803,7 +2803,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vàng Danh','Phường Vàng Danh','Phường Vàng Danh, Tỉnh Quảng Ninh','293','phuong','37'),
                                                                                 ('Đường Hoa','Xã Đường Hoa','Xã Đường Hoa, Tỉnh Quảng Ninh','549','xa','37'),
                                                                                 ('Hoành Bồ','Phường Hoành Bồ','Phường Hoành Bồ, Tỉnh Quảng Ninh','805','phuong','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thống Nhất','Xã Thống Nhất','Xã Thống Nhất, Tỉnh Quảng Ninh','1061','xa','37'),
                                                                                 ('Đông Ngũ','Xã Đông Ngũ','Xã Đông Ngũ, Tỉnh Quảng Ninh','1317','xa','37'),
                                                                                 ('Hải Lạng','Xã Hải Lạng','Xã Hải Lạng, Tỉnh Quảng Ninh','1573','xa','37'),
@@ -2814,7 +2814,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tuần Châu','Phường Tuần Châu','Phường Tuần Châu, Tỉnh Quảng Ninh','2853','phuong','37'),
                                                                                 ('Hà Tu','Phường Hà Tu','Phường Hà Tu, Tỉnh Quảng Ninh','3109','phuong','37'),
                                                                                 ('An Sinh','Phường An Sinh','Phường An Sinh, Tỉnh Quảng Ninh','3365','phuong','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vĩnh Thực','Xã Vĩnh Thực','Xã Vĩnh Thực, Tỉnh Quảng Ninh','3621','xa','37'),
                                                                                 ('Quảng Hà','Xã Quảng Hà','Xã Quảng Hà, Tỉnh Quảng Ninh','3877','xa','37'),
                                                                                 ('Cái Chiên','Xã Cái Chiên','Xã Cái Chiên, Tỉnh Quảng Ninh','4133','xa','37'),
@@ -2825,7 +2825,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hoàng Quế','Phường Hoàng Quế','Phường Hoàng Quế, Tỉnh Quảng Ninh','5413','phuong','37'),
                                                                                 ('Yên Tử','Phường Yên Tử','Phường Yên Tử, Tỉnh Quảng Ninh','5669','phuong','37'),
                                                                                 ('Đông Mai','Phường Đông Mai','Phường Đông Mai, Tỉnh Quảng Ninh','5925','phuong','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hiệp Hòa','Phường Hiệp Hòa','Phường Hiệp Hòa, Tỉnh Quảng Ninh','6181','phuong','37'),
                                                                                 ('Quảng Yên','Phường Quảng Yên','Phường Quảng Yên, Tỉnh Quảng Ninh','6437','phuong','37'),
                                                                                 ('Phong Cốc','Phường Phong Cốc','Phường Phong Cốc, Tỉnh Quảng Ninh','6693','phuong','37'),
@@ -2836,7 +2836,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hạ Long','Phường Hạ Long','Phường Hạ Long, Tỉnh Quảng Ninh','7973','phuong','37'),
                                                                                 ('Quảng La','Xã Quảng La','Xã Quảng La, Tỉnh Quảng Ninh','8229','xa','37'),
                                                                                 ('Mông Dương','Phường Mông Dương','Phường Mông Dương, Tỉnh Quảng Ninh','8485','phuong','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cẩm Phả','Phường Cẩm Phả','Phường Cẩm Phả, Tỉnh Quảng Ninh','8741','phuong','37'),
                                                                                 ('Cửa Ông','Phường Cửa Ông','Phường Cửa Ông, Tỉnh Quảng Ninh','8997','phuong','37'),
                                                                                 ('Lương Minh','Xã Lương Minh','Xã Lương Minh, Tỉnh Quảng Ninh','9253','xa','37'),
@@ -2847,7 +2847,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lục Hồn','Xã Lục Hồn','Xã Lục Hồn, Tỉnh Quảng Ninh','10533','xa','37'),
                                                                                 ('Hải Sơn','Xã Hải Sơn','Xã Hải Sơn, Tỉnh Quảng Ninh','10789','xa','37'),
                                                                                 ('Hải Ninh','Xã Hải Ninh','Xã Hải Ninh, Tỉnh Quảng Ninh','11045','xa','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Móng Cái 1','Phường Móng Cái 1','Phường Móng Cái 1, Tỉnh Quảng Ninh','11301','phuong','37'),
                                                                                 ('Móng Cái 2','Phường Móng Cái 2','Phường Móng Cái 2, Tỉnh Quảng Ninh','11557','phuong','37'),
                                                                                 ('Móng Cái 3','Phường Móng Cái 3','Phường Móng Cái 3, Tỉnh Quảng Ninh','11813','phuong','37'),
@@ -2858,7 +2858,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Uông Bí','Phường Uông Bí','Phường Uông Bí, Tỉnh Quảng Ninh','13093','phuong','37'),
                                                                                 ('Tiên Yên','Xã Tiên Yên','Xã Tiên Yên, Tỉnh Quảng Ninh','13349','xa','37'),
                                                                                 ('Ba Chẽ','Xã Ba Chẽ','Xã Ba Chẽ, Tỉnh Quảng Ninh','13605','xa','37');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Liêu','Xã Bình Liêu','Xã Bình Liêu, Tỉnh Quảng Ninh','13861','xa','37'),
                                                                                 ('Phú Trạch','Xã Phú Trạch','Xã Phú Trạch, Tỉnh Quảng Trị','294','xa','38'),
                                                                                 ('Đặc Khu Cồn Cỏ','Xã Đặc Khu Cồn Cỏ','Xã Đặc Khu Cồn Cỏ, Tỉnh Quảng Trị','550','xa','38'),
@@ -2869,7 +2869,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ba Đồn','Phường Ba Đồn','Phường Ba Đồn, Tỉnh Quảng Trị','1830','phuong','38'),
                                                                                 ('Bắc Gianh','Phường Bắc Gianh','Phường Bắc Gianh, Tỉnh Quảng Trị','2086','phuong','38'),
                                                                                 ('Nam Gianh','Xã Nam Gianh','Xã Nam Gianh, Tỉnh Quảng Trị','2342','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nam Ba Đồn','Xã Nam Ba Đồn','Xã Nam Ba Đồn, Tỉnh Quảng Trị','2598','xa','38'),
                                                                                 ('Dân Hóa','Xã Dân Hóa','Xã Dân Hóa, Tỉnh Quảng Trị','2854','xa','38'),
                                                                                 ('Kim Điền','Xã Kim Điền','Xã Kim Điền, Tỉnh Quảng Trị','3110','xa','38'),
@@ -2880,7 +2880,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đồng Lê','Xã Đồng Lê','Xã Đồng Lê, Tỉnh Quảng Trị','4390','xa','38'),
                                                                                 ('Tuyên Phú','Xã Tuyên Phú','Xã Tuyên Phú, Tỉnh Quảng Trị','4646','xa','38'),
                                                                                 ('Tuyên Bình','Xã Tuyên Bình','Xã Tuyên Bình, Tỉnh Quảng Trị','4902','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tuyên Hóa','Xã Tuyên Hóa','Xã Tuyên Hóa, Tỉnh Quảng Trị','5158','xa','38'),
                                                                                 ('Tân Gianh','Xã Tân Gianh','Xã Tân Gianh, Tỉnh Quảng Trị','5414','xa','38'),
                                                                                 ('Trung Thuần','Xã Trung Thuần','Xã Trung Thuần, Tỉnh Quảng Trị','5670','xa','38'),
@@ -2891,7 +2891,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bắc Trạch','Xã Bắc Trạch','Xã Bắc Trạch, Tỉnh Quảng Trị','6950','xa','38'),
                                                                                 ('Đông Trạch','Xã Đông Trạch','Xã Đông Trạch, Tỉnh Quảng Trị','7206','xa','38'),
                                                                                 ('Hoàn Lão','Xã Hoàn Lão','Xã Hoàn Lão, Tỉnh Quảng Trị','7462','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bố Trạch','Xã Bố Trạch','Xã Bố Trạch, Tỉnh Quảng Trị','7718','xa','38'),
                                                                                 ('Nam Trạch','Xã Nam Trạch','Xã Nam Trạch, Tỉnh Quảng Trị','7974','xa','38'),
                                                                                 ('Quảng Ninh','Xã Quảng Ninh','Xã Quảng Ninh, Tỉnh Quảng Trị','8230','xa','38'),
@@ -2902,7 +2902,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cam Hồng','Xã Cam Hồng','Xã Cam Hồng, Tỉnh Quảng Trị','9510','xa','38'),
                                                                                 ('Sen Ngư','Xã Sen Ngư','Xã Sen Ngư, Tỉnh Quảng Trị','9766','xa','38'),
                                                                                 ('Tân Mỹ','Xã Tân Mỹ','Xã Tân Mỹ, Tỉnh Quảng Trị','10022','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trường Phú','Xã Trường Phú','Xã Trường Phú, Tỉnh Quảng Trị','10278','xa','38'),
                                                                                 ('Lệ Ninh','Xã Lệ Ninh','Xã Lệ Ninh, Tỉnh Quảng Trị','10534','xa','38'),
                                                                                 ('Kim Ngân','Xã Kim Ngân','Xã Kim Ngân, Tỉnh Quảng Trị','10790','xa','38'),
@@ -2913,7 +2913,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bến Quan','Xã Bến Quan','Xã Bến Quan, Tỉnh Quảng Trị','12070','xa','38'),
                                                                                 ('Cồn Tiên','Xã Cồn Tiên','Xã Cồn Tiên, Tỉnh Quảng Trị','12326','xa','38'),
                                                                                 ('Cửa Việt','Xã Cửa Việt','Xã Cửa Việt, Tỉnh Quảng Trị','12582','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Gio Linh','Xã Gio Linh','Xã Gio Linh, Tỉnh Quảng Trị','12838','xa','38'),
                                                                                 ('Bến Hải','Xã Bến Hải','Xã Bến Hải, Tỉnh Quảng Trị','13094','xa','38'),
                                                                                 ('Cam Lộ','Xã Cam Lộ','Xã Cam Lộ, Tỉnh Quảng Trị','13350','xa','38'),
@@ -2924,7 +2924,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ba Lòng','Xã Ba Lòng','Xã Ba Lòng, Tỉnh Quảng Trị','14630','xa','38'),
                                                                                 ('Hướng Hiệp','Xã Hướng Hiệp','Xã Hướng Hiệp, Tỉnh Quảng Trị','14886','xa','38'),
                                                                                 ('Hướng Lập','Xã Hướng Lập','Xã Hướng Lập, Tỉnh Quảng Trị','15142','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hướng Phùng','Xã Hướng Phùng','Xã Hướng Phùng, Tỉnh Quảng Trị','15398','xa','38'),
                                                                                 ('Khe Sanh','Xã Khe Sanh','Xã Khe Sanh, Tỉnh Quảng Trị','15654','xa','38'),
                                                                                 ('Tân Lập','Xã Tân Lập','Xã Tân Lập, Tỉnh Quảng Trị','15910','xa','38'),
@@ -2935,7 +2935,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Đông Hà','Phường Nam Đông Hà','Phường Nam Đông Hà, Tỉnh Quảng Trị','17190','phuong','38'),
                                                                                 ('Triệu Phong','Xã Triệu Phong','Xã Triệu Phong, Tỉnh Quảng Trị','17446','xa','38'),
                                                                                 ('Ái Tử','Xã Ái Tử','Xã Ái Tử, Tỉnh Quảng Trị','17702','xa','38');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Triệu Bình','Xã Triệu Bình','Xã Triệu Bình, Tỉnh Quảng Trị','17958','xa','38'),
                                                                                 ('Triệu Cơ','Xã Triệu Cơ','Xã Triệu Cơ, Tỉnh Quảng Trị','18214','xa','38'),
                                                                                 ('Nam Cửa Việt','Xã Nam Cửa Việt','Xã Nam Cửa Việt, Tỉnh Quảng Trị','18470','xa','38'),
@@ -2946,7 +2946,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nam Hải Lăng','Xã Nam Hải Lăng','Xã Nam Hải Lăng, Tỉnh Quảng Trị','19750','xa','38'),
                                                                                 ('Vĩnh Định','Xã Vĩnh Định','Xã Vĩnh Định, Tỉnh Quảng Trị','20006','xa','38'),
                                                                                 ('Mường Bám','Xã Mường Bám','Xã Mường Bám, Tỉnh Sơn La','295','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phiêng Khoài','Xã Phiêng Khoài','Xã Phiêng Khoài, Tỉnh Sơn La','551','xa','39'),
                                                                                 ('Chiềng Cơi','Phường Chiềng Cơi','Phường Chiềng Cơi, Tỉnh Sơn La','807','phuong','39'),
                                                                                 ('Suối Tọ','Xã Suối Tọ','Xã Suối Tọ, Tỉnh Sơn La','1063','xa','39'),
@@ -2957,7 +2957,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tô Hiệu','Phường Tô Hiệu','Phường Tô Hiệu, Tỉnh Sơn La','2343','phuong','39'),
                                                                                 ('Chiềng An','Phường Chiềng An','Phường Chiềng An, Tỉnh Sơn La','2599','phuong','39'),
                                                                                 ('Chiềng Sinh','Phường Chiềng Sinh','Phường Chiềng Sinh, Tỉnh Sơn La','2855','phuong','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mộc Sơn','Phường Mộc Sơn','Phường Mộc Sơn, Tỉnh Sơn La','3111','phuong','39'),
                                                                                 ('Vân Sơn','Phường Vân Sơn','Phường Vân Sơn, Tỉnh Sơn La','3367','phuong','39'),
                                                                                 ('Thảo Nguyên','Phường Thảo Nguyên','Phường Thảo Nguyên, Tỉnh Sơn La','3623','phuong','39'),
@@ -2968,7 +2968,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Song Khủa','Xã Song Khủa','Xã Song Khủa, Tỉnh Sơn La','4903','xa','39'),
                                                                                 ('Tô Múa','Xã Tô Múa','Xã Tô Múa, Tỉnh Sơn La','5159','xa','39'),
                                                                                 ('Xuân Nha','Xã Xuân Nha','Xã Xuân Nha, Tỉnh Sơn La','5415','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quỳnh Nhai','Xã Quỳnh Nhai','Xã Quỳnh Nhai, Tỉnh Sơn La','5671','xa','39'),
                                                                                 ('Mường Chiên','Xã Mường Chiên','Xã Mường Chiên, Tỉnh Sơn La','5927','xa','39'),
                                                                                 ('Mường Giôn','Xã Mường Giôn','Xã Mường Giôn, Tỉnh Sơn La','6183','xa','39'),
@@ -2979,7 +2979,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Muổi Nọi','Xã Muổi Nọi','Xã Muổi Nọi, Tỉnh Sơn La','7463','xa','39'),
                                                                                 ('Mường Khiêng','Xã Mường Khiêng','Xã Mường Khiêng, Tỉnh Sơn La','7719','xa','39'),
                                                                                 ('Co Mạ','Xã Co Mạ','Xã Co Mạ, Tỉnh Sơn La','7975','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Thuận','Xã Bình Thuận','Xã Bình Thuận, Tỉnh Sơn La','8231','xa','39'),
                                                                                 ('Mường É','Xã Mường É','Xã Mường É, Tỉnh Sơn La','8487','xa','39'),
                                                                                 ('Long Hẹ','Xã Long Hẹ','Xã Long Hẹ, Tỉnh Sơn La','8743','xa','39'),
@@ -2990,7 +2990,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bắc Yên','Xã Bắc Yên','Xã Bắc Yên, Tỉnh Sơn La','10023','xa','39'),
                                                                                 ('Tà Xùa','Xã Tà Xùa','Xã Tà Xùa, Tỉnh Sơn La','10279','xa','39'),
                                                                                 ('Tạ Khoa','Xã Tạ Khoa','Xã Tạ Khoa, Tỉnh Sơn La','10535','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Xím Vàng','Xã Xím Vàng','Xã Xím Vàng, Tỉnh Sơn La','10791','xa','39'),
                                                                                 ('Pắc Ngà','Xã Pắc Ngà','Xã Pắc Ngà, Tỉnh Sơn La','11047','xa','39'),
                                                                                 ('Chiềng Sại','Xã Chiềng Sại','Xã Chiềng Sại, Tỉnh Sơn La','11303','xa','39'),
@@ -3001,7 +3001,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mường Bang','Xã Mường Bang','Xã Mường Bang, Tỉnh Sơn La','12583','xa','39'),
                                                                                 ('Tân Phong','Xã Tân Phong','Xã Tân Phong, Tỉnh Sơn La','12839','xa','39'),
                                                                                 ('Kim Bon','Xã Kim Bon','Xã Kim Bon, Tỉnh Sơn La','13095','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Châu','Xã Yên Châu','Xã Yên Châu, Tỉnh Sơn La','13351','xa','39'),
                                                                                 ('Chiềng Hặc','Xã Chiềng Hặc','Xã Chiềng Hặc, Tỉnh Sơn La','13607','xa','39'),
                                                                                 ('Lóng Phiêng','Xã Lóng Phiêng','Xã Lóng Phiêng, Tỉnh Sơn La','13863','xa','39'),
@@ -3012,7 +3012,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Chiềng Mung','Xã Chiềng Mung','Xã Chiềng Mung, Tỉnh Sơn La','15143','xa','39'),
                                                                                 ('Phiêng Cằm','Xã Phiêng Cằm','Xã Phiêng Cằm, Tỉnh Sơn La','15399','xa','39'),
                                                                                 ('Mường Chanh','Xã Mường Chanh','Xã Mường Chanh, Tỉnh Sơn La','15655','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tà Hộc','Xã Tà Hộc','Xã Tà Hộc, Tỉnh Sơn La','15911','xa','39'),
                                                                                 ('Chiềng Sung','Xã Chiềng Sung','Xã Chiềng Sung, Tỉnh Sơn La','16167','xa','39'),
                                                                                 ('Bó Sinh','Xã Bó Sinh','Xã Bó Sinh, Tỉnh Sơn La','16423','xa','39'),
@@ -3023,7 +3023,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Nậm Ty','Xã Nậm Ty','Xã Nậm Ty, Tỉnh Sơn La','17703','xa','39'),
                                                                                 ('Sông Mã','Xã Sông Mã','Xã Sông Mã, Tỉnh Sơn La','17959','xa','39'),
                                                                                 ('Huổi Một','Xã Huổi Một','Xã Huổi Một, Tỉnh Sơn La','18215','xa','39');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chiềng Sơ','Xã Chiềng Sơ','Xã Chiềng Sơ, Tỉnh Sơn La','18471','xa','39'),
                                                                                 ('Sốp Cộp','Xã Sốp Cộp','Xã Sốp Cộp, Tỉnh Sơn La','18727','xa','39'),
                                                                                 ('Púng Bánh','Xã Púng Bánh','Xã Púng Bánh, Tỉnh Sơn La','18983','xa','39'),
@@ -3034,7 +3034,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lộc Ninh','Xã Lộc Ninh','Xã Lộc Ninh, Tỉnh Tây Ninh','1064','xa','40'),
                                                                                 ('Thạnh Bình','Xã Thạnh Bình','Xã Thạnh Bình, Tỉnh Tây Ninh','1320','xa','40'),
                                                                                 ('Trà Vong','Xã Trà Vong','Xã Trà Vong, Tỉnh Tây Ninh','1576','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Châu','Xã Tân Châu','Xã Tân Châu, Tỉnh Tây Ninh','1832','xa','40'),
                                                                                 ('Tân Thành','Xã Tân Thành','Xã Tân Thành, Tỉnh Tây Ninh','2088','xa','40'),
                                                                                 ('Tân Phú','Xã Tân Phú','Xã Tân Phú, Tỉnh Tây Ninh','2344','xa','40'),
@@ -3045,7 +3045,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỹ Hạnh','Xã Mỹ Hạnh','Xã Mỹ Hạnh, Tỉnh Tây Ninh','3624','xa','40'),
                                                                                 ('Tuyên Thạnh','Xã Tuyên Thạnh','Xã Tuyên Thạnh, Tỉnh Tây Ninh','3880','xa','40'),
                                                                                 ('Hậu Thạnh','Xã Hậu Thạnh','Xã Hậu Thạnh, Tỉnh Tây Ninh','4136','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long An','Phường Long An','Phường Long An, Tỉnh Tây Ninh','4392','phuong','40'),
                                                                                 ('Mỹ Thạnh','Xã Mỹ Thạnh','Xã Mỹ Thạnh, Tỉnh Tây Ninh','4648','xa','40'),
                                                                                 ('Vĩnh Hưng','Xã Vĩnh Hưng','Xã Vĩnh Hưng, Tỉnh Tây Ninh','4904','xa','40'),
@@ -3056,7 +3056,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lương Hòa','Xã Lương Hòa','Xã Lương Hòa, Tỉnh Tây Ninh','6184','xa','40'),
                                                                                 ('Long Hoa','Phường Long Hoa','Phường Long Hoa, Tỉnh Tây Ninh','6440','phuong','40'),
                                                                                 ('Hòa Thành','Phường Hòa Thành','Phường Hòa Thành, Tỉnh Tây Ninh','6696','phuong','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thanh Điền','Phường Thanh Điền','Phường Thanh Điền, Tỉnh Tây Ninh','6952','phuong','40'),
                                                                                 ('Trảng Bàng','Phường Trảng Bàng','Phường Trảng Bàng, Tỉnh Tây Ninh','7208','phuong','40'),
                                                                                 ('An Tịnh','Phường An Tịnh','Phường An Tịnh, Tỉnh Tây Ninh','7464','phuong','40'),
@@ -3067,7 +3067,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thạnh Đức','Xã Thạnh Đức','Xã Thạnh Đức, Tỉnh Tây Ninh','8744','xa','40'),
                                                                                 ('Phước Thạnh','Xã Phước Thạnh','Xã Phước Thạnh, Tỉnh Tây Ninh','9000','xa','40'),
                                                                                 ('Truông Mít','Xã Truông Mít','Xã Truông Mít, Tỉnh Tây Ninh','9256','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Đông','Xã Tân Đông','Xã Tân Đông, Tỉnh Tây Ninh','9512','xa','40'),
                                                                                 ('Tân Hội','Xã Tân Hội','Xã Tân Hội, Tỉnh Tây Ninh','9768','xa','40'),
                                                                                 ('Tân Hòa','Xã Tân Hòa','Xã Tân Hòa, Tỉnh Tây Ninh','10024','xa','40'),
@@ -3078,7 +3078,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ninh Điền','Xã Ninh Điền','Xã Ninh Điền, Tỉnh Tây Ninh','11304','xa','40'),
                                                                                 ('Hảo Đước','Xã Hảo Đước','Xã Hảo Đước, Tỉnh Tây Ninh','11560','xa','40'),
                                                                                 ('Long Chữ','Xã Long Chữ','Xã Long Chữ, Tỉnh Tây Ninh','11816','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Thuận','Xã Long Thuận','Xã Long Thuận, Tỉnh Tây Ninh','12072','xa','40'),
                                                                                 ('Bến Cầu','Xã Bến Cầu','Xã Bến Cầu, Tỉnh Tây Ninh','12328','xa','40'),
                                                                                 ('Hưng Điền','Xã Hưng Điền','Xã Hưng Điền, Tỉnh Tây Ninh','12584','xa','40'),
@@ -3089,7 +3089,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Kiến Tường','Phường Kiến Tường','Phường Kiến Tường, Tỉnh Tây Ninh','13864','phuong','40'),
                                                                                 ('Bình Hòa','Xã Bình Hòa','Xã Bình Hòa, Tỉnh Tây Ninh','14120','xa','40'),
                                                                                 ('Mộc Hóa','Xã Mộc Hóa','Xã Mộc Hóa, Tỉnh Tây Ninh','14376','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Nhơn Hòa Lập','Xã Nhơn Hòa Lập','Xã Nhơn Hòa Lập, Tỉnh Tây Ninh','14632','xa','40'),
                                                                                 ('Nhơn Ninh','Xã Nhơn Ninh','Xã Nhơn Ninh, Tỉnh Tây Ninh','14888','xa','40'),
                                                                                 ('Tân Thạnh','Xã Tân Thạnh','Xã Tân Thạnh, Tỉnh Tây Ninh','15144','xa','40'),
@@ -3100,7 +3100,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Mỹ An','Xã Mỹ An','Xã Mỹ An, Tỉnh Tây Ninh','16424','xa','40'),
                                                                                 ('Tân Long','Xã Tân Long','Xã Tân Long, Tỉnh Tây Ninh','16680','xa','40'),
                                                                                 ('Mỹ Quý','Xã Mỹ Quý','Xã Mỹ Quý, Tỉnh Tây Ninh','16936','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Thành','Xã Đông Thành','Xã Đông Thành, Tỉnh Tây Ninh','17192','xa','40'),
                                                                                 ('Đức Huệ','Xã Đức Huệ','Xã Đức Huệ, Tỉnh Tây Ninh','17448','xa','40'),
                                                                                 ('An Ninh','Xã An Ninh','Xã An Ninh, Tỉnh Tây Ninh','17704','xa','40'),
@@ -3111,7 +3111,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thạnh Lợi','Xã Thạnh Lợi','Xã Thạnh Lợi, Tỉnh Tây Ninh','18984','xa','40'),
                                                                                 ('Bình Đức','Xã Bình Đức','Xã Bình Đức, Tỉnh Tây Ninh','19240','xa','40'),
                                                                                 ('Bến Lức','Xã Bến Lức','Xã Bến Lức, Tỉnh Tây Ninh','19496','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mỹ Yên','Xã Mỹ Yên','Xã Mỹ Yên, Tỉnh Tây Ninh','19752','xa','40'),
                                                                                 ('Long Cang','Xã Long Cang','Xã Long Cang, Tỉnh Tây Ninh','20008','xa','40'),
                                                                                 ('Rạch Kiến','Xã Rạch Kiến','Xã Rạch Kiến, Tỉnh Tây Ninh','20264','xa','40'),
@@ -3122,7 +3122,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phước Lý','Xã Phước Lý','Xã Phước Lý, Tỉnh Tây Ninh','21544','xa','40'),
                                                                                 ('Mỹ Lộc','Xã Mỹ Lộc','Xã Mỹ Lộc, Tỉnh Tây Ninh','21800','xa','40'),
                                                                                 ('Cần Giuộc','Xã Cần Giuộc','Xã Cần Giuộc, Tỉnh Tây Ninh','22056','xa','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phước Vĩnh Tây','Xã Phước Vĩnh Tây','Xã Phước Vĩnh Tây, Tỉnh Tây Ninh','22312','xa','40'),
                                                                                 ('Tân Tập','Xã Tân Tập','Xã Tân Tập, Tỉnh Tây Ninh','22568','xa','40'),
                                                                                 ('Vàm Cỏ','Xã Vàm Cỏ','Xã Vàm Cỏ, Tỉnh Tây Ninh','22824','xa','40'),
@@ -3133,7 +3133,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vĩnh Công','Xã Vĩnh Công','Xã Vĩnh Công, Tỉnh Tây Ninh','24104','xa','40'),
                                                                                 ('Tân An','Phường Tân An','Phường Tân An, Tỉnh Tây Ninh','24360','phuong','40'),
                                                                                 ('Khánh Hậu','Phường Khánh Hậu','Phường Khánh Hậu, Tỉnh Tây Ninh','24616','phuong','40');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thượng Quan','Xã Thượng Quan','Xã Thượng Quan, Tỉnh Thái Nguyên','297','xa','41'),
                                                                                 ('Sảng Mộc','Xã Sảng Mộc','Xã Sảng Mộc, Tỉnh Thái Nguyên','553','xa','41'),
                                                                                 ('Phú Bình','Xã Phú Bình','Xã Phú Bình, Tỉnh Thái Nguyên','809','xa','41'),
@@ -3144,7 +3144,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Linh Sơn','Phường Linh Sơn','Phường Linh Sơn, Tỉnh Thái Nguyên','2089','phuong','41'),
                                                                                 ('Phúc Thuận','Phường Phúc Thuận','Phường Phúc Thuận, Tỉnh Thái Nguyên','2345','phuong','41'),
                                                                                 ('Thành Công','Xã Thành Công','Xã Thành Công, Tỉnh Thái Nguyên','2601','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tân Thành','Xã Tân Thành','Xã Tân Thành, Tỉnh Thái Nguyên','2857','xa','41'),
                                                                                 ('Kha Sơn','Xã Kha Sơn','Xã Kha Sơn, Tỉnh Thái Nguyên','3113','xa','41'),
                                                                                 ('Tân Khánh','Xã Tân Khánh','Xã Tân Khánh, Tỉnh Thái Nguyên','3369','xa','41'),
@@ -3155,7 +3155,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Văn Hán','Xã Văn Hán','Xã Văn Hán, Tỉnh Thái Nguyên','4649','xa','41'),
                                                                                 ('Văn Lăng','Xã Văn Lăng','Xã Văn Lăng, Tỉnh Thái Nguyên','4905','xa','41'),
                                                                                 ('Sông Công','Phường Sông Công','Phường Sông Công, Tỉnh Thái Nguyên','5161','phuong','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bá Xuyên','Phường Bá Xuyên','Phường Bá Xuyên, Tỉnh Thái Nguyên','5417','phuong','41'),
                                                                                 ('Bách Quang','Phường Bách Quang','Phường Bách Quang, Tỉnh Thái Nguyên','5673','phuong','41'),
                                                                                 ('Phú Lương','Xã Phú Lương','Xã Phú Lương, Tỉnh Thái Nguyên','5929','xa','41'),
@@ -3166,7 +3166,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Yên','Xã Bình Yên','Xã Bình Yên, Tỉnh Thái Nguyên','7209','xa','41'),
                                                                                 ('Trung Hội','Xã Trung Hội','Xã Trung Hội, Tỉnh Thái Nguyên','7465','xa','41'),
                                                                                 ('Phượng Tiến','Xã Phượng Tiến','Xã Phượng Tiến, Tỉnh Thái Nguyên','7721','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phú Đình','Xã Phú Đình','Xã Phú Đình, Tỉnh Thái Nguyên','7977','xa','41'),
                                                                                 ('Bình Thành','Xã Bình Thành','Xã Bình Thành, Tỉnh Thái Nguyên','8233','xa','41'),
                                                                                 ('Kim Phượng','Xã Kim Phượng','Xã Kim Phượng, Tỉnh Thái Nguyên','8489','xa','41'),
@@ -3177,7 +3177,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thần Sa','Xã Thần Sa','Xã Thần Sa, Tỉnh Thái Nguyên','9769','xa','41'),
                                                                                 ('La Hiên','Xã La Hiên','Xã La Hiên, Tỉnh Thái Nguyên','10025','xa','41'),
                                                                                 ('Tràng Xá','Xã Tràng Xá','Xã Tràng Xá, Tỉnh Thái Nguyên','10281','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quyết Thắng','Phường Quyết Thắng','Phường Quyết Thắng, Tỉnh Thái Nguyên','10537','phuong','41'),
                                                                                 ('Quan Triều','Phường Quan Triều','Phường Quan Triều, Tỉnh Thái Nguyên','10793','phuong','41'),
                                                                                 ('Tân Cương','Xã Tân Cương','Xã Tân Cương, Tỉnh Thái Nguyên','11049','xa','41'),
@@ -3188,7 +3188,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('La Bằng','Xã La Bằng','Xã La Bằng, Tỉnh Thái Nguyên','12329','xa','41'),
                                                                                 ('Phú Lạc','Xã Phú Lạc','Xã Phú Lạc, Tỉnh Thái Nguyên','12585','xa','41'),
                                                                                 ('An Khánh','Xã An Khánh','Xã An Khánh, Tỉnh Thái Nguyên','12841','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quân Chu','Xã Quân Chu','Xã Quân Chu, Tỉnh Thái Nguyên','13097','xa','41'),
                                                                                 ('Vạn Phú','Xã Vạn Phú','Xã Vạn Phú, Tỉnh Thái Nguyên','13353','xa','41'),
                                                                                 ('Phú Xuyên','Xã Phú Xuyên','Xã Phú Xuyên, Tỉnh Thái Nguyên','13609','xa','41'),
@@ -3199,7 +3199,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thượng Minh','Xã Thượng Minh','Xã Thượng Minh, Tỉnh Thái Nguyên','14889','xa','41'),
                                                                                 ('Đồng Phúc','Xã Đồng Phúc','Xã Đồng Phúc, Tỉnh Thái Nguyên','15145','xa','41'),
                                                                                 ('Bằng Vân','Xã Bằng Vân','Xã Bằng Vân, Tỉnh Thái Nguyên','15401','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bằng Thành','Xã Bằng Thành','Xã Bằng Thành, Tỉnh Thái Nguyên','15657','xa','41'),
                                                                                 ('Nghiên Loan','Xã Nghiên Loan','Xã Nghiên Loan, Tỉnh Thái Nguyên','15913','xa','41'),
                                                                                 ('Cao Minh','Xã Cao Minh','Xã Cao Minh, Tỉnh Thái Nguyên','16169','xa','41'),
@@ -3210,7 +3210,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hiệp Lực','Xã Hiệp Lực','Xã Hiệp Lực, Tỉnh Thái Nguyên','17449','xa','41'),
                                                                                 ('Nam Cường','Xã Nam Cường','Xã Nam Cường, Tỉnh Thái Nguyên','17705','xa','41'),
                                                                                 ('Quảng Bạch','Xã Quảng Bạch','Xã Quảng Bạch, Tỉnh Thái Nguyên','17961','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Thịnh','Xã Yên Thịnh','Xã Yên Thịnh, Tỉnh Thái Nguyên','18217','xa','41'),
                                                                                 ('Chợ Đồn','Xã Chợ Đồn','Xã Chợ Đồn, Tỉnh Thái Nguyên','18473','xa','41'),
                                                                                 ('Yên Phong','Xã Yên Phong','Xã Yên Phong, Tỉnh Thái Nguyên','18729','xa','41'),
@@ -3221,7 +3221,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bạch Thông','Xã Bạch Thông','Xã Bạch Thông, Tỉnh Thái Nguyên','20009','xa','41'),
                                                                                 ('Phong Quang','Xã Phong Quang','Xã Phong Quang, Tỉnh Thái Nguyên','20265','xa','41'),
                                                                                 ('Đức Xuân','Phường Đức Xuân','Phường Đức Xuân, Tỉnh Thái Nguyên','20521','phuong','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bắc Kạn','Phường Bắc Kạn','Phường Bắc Kạn, Tỉnh Thái Nguyên','20777','phuong','41'),
                                                                                 ('Văn Lang','Xã Văn Lang','Xã Văn Lang, Tỉnh Thái Nguyên','21033','xa','41'),
                                                                                 ('Cường Lợi','Xã Cường Lợi','Xã Cường Lợi, Tỉnh Thái Nguyên','21289','xa','41'),
@@ -3232,7 +3232,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Kỳ','Xã Tân Kỳ','Xã Tân Kỳ, Tỉnh Thái Nguyên','22569','xa','41'),
                                                                                 ('Thanh Mai','Xã Thanh Mai','Xã Thanh Mai, Tỉnh Thái Nguyên','22825','xa','41'),
                                                                                 ('Thanh Thịnh','Xã Thanh Thịnh','Xã Thanh Thịnh, Tỉnh Thái Nguyên','23081','xa','41');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Chợ Mới','Xã Chợ Mới','Xã Chợ Mới, Tỉnh Thái Nguyên','23337','xa','41'),
                                                                                 ('Yên Bình','Xã Yên Bình','Xã Yên Bình, Tỉnh Thái Nguyên','23593','xa','41'),
                                                                                 ('Thiệu Quang','Xã Thiệu Quang','Xã Thiệu Quang, Tỉnh Thanh Hóa','298','xa','42'),
@@ -3243,7 +3243,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Na Mèo','Xã Na Mèo','Xã Na Mèo, Tỉnh Thanh Hóa','1578','xa','42'),
                                                                                 ('Sơn Điện','Xã Sơn Điện','Xã Sơn Điện, Tỉnh Thanh Hóa','1834','xa','42'),
                                                                                 ('Sơn Thủy','Xã Sơn Thủy','Xã Sơn Thủy, Tỉnh Thanh Hóa','2090','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tam Lư','Xã Tam Lư','Xã Tam Lư, Tỉnh Thanh Hóa','2346','xa','42'),
                                                                                 ('Tam Thanh','Xã Tam Thanh','Xã Tam Thanh, Tỉnh Thanh Hóa','2602','xa','42'),
                                                                                 ('Quang Chiểu','Xã Quang Chiểu','Xã Quang Chiểu, Tỉnh Thanh Hóa','2858','xa','42'),
@@ -3254,7 +3254,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phú Xuân','Xã Phú Xuân','Xã Phú Xuân, Tỉnh Thanh Hóa','4138','xa','42'),
                                                                                 ('Thanh Kỳ','Xã Thanh Kỳ','Xã Thanh Kỳ, Tỉnh Thanh Hóa','4394','xa','42'),
                                                                                 ('Xuân Thái','Xã Xuân Thái','Xã Xuân Thái, Tỉnh Thanh Hóa','4650','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Thọ','Xã Yên Thọ','Xã Yên Thọ, Tỉnh Thanh Hóa','4906','xa','42'),
                                                                                 ('Mường Lý','Xã Mường Lý','Xã Mường Lý, Tỉnh Thanh Hóa','5162','xa','42'),
                                                                                 ('Yên Khương','Xã Yên Khương','Xã Yên Khương, Tỉnh Thanh Hóa','5418','xa','42'),
@@ -3265,7 +3265,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bát Mọt','Xã Bát Mọt','Xã Bát Mọt, Tỉnh Thanh Hóa','6698','xa','42'),
                                                                                 ('Luận Thành','Xã Luận Thành','Xã Luận Thành, Tỉnh Thanh Hóa','6954','xa','42'),
                                                                                 ('Lương Sơn','Xã Lương Sơn','Xã Lương Sơn, Tỉnh Thanh Hóa','7210','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Vạn Xuân','Xã Vạn Xuân','Xã Vạn Xuân, Tỉnh Thanh Hóa','7466','xa','42'),
                                                                                 ('Tân Thành','Xã Tân Thành','Xã Tân Thành, Tỉnh Thanh Hóa','7722','xa','42'),
                                                                                 ('Hải Bình','Phường Hải Bình','Phường Hải Bình, Tỉnh Thanh Hóa','7978','phuong','42'),
@@ -3276,7 +3276,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Vạn Lộc','Xã Vạn Lộc','Xã Vạn Lộc, Tỉnh Thanh Hóa','9258','xa','42'),
                                                                                 ('Đông Quang','Phường Đông Quang','Phường Đông Quang, Tỉnh Thanh Hóa','9514','phuong','42'),
                                                                                 ('Quảng Phú','Phường Quảng Phú','Phường Quảng Phú, Tỉnh Thanh Hóa','9770','phuong','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Sơn','Phường Đông Sơn','Phường Đông Sơn, Tỉnh Thanh Hóa','10026','phuong','42'),
                                                                                 ('Đông Tiến','Phường Đông Tiến','Phường Đông Tiến, Tỉnh Thanh Hóa','10282','phuong','42'),
                                                                                 ('Nguyệt Viên','Phường Nguyệt Viên','Phường Nguyệt Viên, Tỉnh Thanh Hóa','10538','phuong','42'),
@@ -3287,7 +3287,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ngọc Sơn','Phường Ngọc Sơn','Phường Ngọc Sơn, Tỉnh Thanh Hóa','11818','phuong','42'),
                                                                                 ('Tân Dân','Phường Tân Dân','Phường Tân Dân, Tỉnh Thanh Hóa','12074','phuong','42'),
                                                                                 ('Hải Lĩnh','Phường Hải Lĩnh','Phường Hải Lĩnh, Tỉnh Thanh Hóa','12330','phuong','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tĩnh Gia','Phường Tĩnh Gia','Phường Tĩnh Gia, Tỉnh Thanh Hóa','12586','phuong','42'),
                                                                                 ('Đào Duy Tư','Phường Đào Duy Tư','Phường Đào Duy Tư, Tỉnh Thanh Hóa','12842','phuong','42'),
                                                                                 ('Trúc Lâm','Phường Trúc Lâm','Phường Trúc Lâm, Tỉnh Thanh Hóa','13098','phuong','42'),
@@ -3298,7 +3298,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hà Long','Xã Hà Long','Xã Hà Long, Tỉnh Thanh Hóa','14378','xa','42'),
                                                                                 ('Lĩnh Toại','Xã Lĩnh Toại','Xã Lĩnh Toại, Tỉnh Thanh Hóa','14634','xa','42'),
                                                                                 ('Triệu Lộc','Xã Triệu Lộc','Xã Triệu Lộc, Tỉnh Thanh Hóa','14890','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Thành','Xã Đông Thành','Xã Đông Thành, Tỉnh Thanh Hóa','15146','xa','42'),
                                                                                 ('Hậu Lộc','Xã Hậu Lộc','Xã Hậu Lộc, Tỉnh Thanh Hóa','15402','xa','42'),
                                                                                 ('Hoa Lộc','Xã Hoa Lộc','Xã Hoa Lộc, Tỉnh Thanh Hóa','15658','xa','42'),
@@ -3309,7 +3309,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ba Đình','Xã Ba Đình','Xã Ba Đình, Tỉnh Thanh Hóa','17194','xa','42'),
                                                                                 ('Hoằng Hóa','Xã Hoằng Hóa','Xã Hoằng Hóa, Tỉnh Thanh Hóa','17450','xa','42'),
                                                                                 ('Hoằng Tiến','Xã Hoằng Tiến','Xã Hoằng Tiến, Tỉnh Thanh Hóa','17706','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hoằng Thanh','Xã Hoằng Thanh','Xã Hoằng Thanh, Tỉnh Thanh Hóa','17962','xa','42'),
                                                                                 ('Hoằng Lộc','Xã Hoằng Lộc','Xã Hoằng Lộc, Tỉnh Thanh Hóa','18218','xa','42'),
                                                                                 ('Hoằng Châu','Xã Hoằng Châu','Xã Hoằng Châu, Tỉnh Thanh Hóa','18474','xa','42'),
@@ -3320,7 +3320,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quảng Yên','Xã Quảng Yên','Xã Quảng Yên, Tỉnh Thanh Hóa','19754','xa','42'),
                                                                                 ('Quảng Ngọc','Xã Quảng Ngọc','Xã Quảng Ngọc, Tỉnh Thanh Hóa','20010','xa','42'),
                                                                                 ('Quảng Ninh','Xã Quảng Ninh','Xã Quảng Ninh, Tỉnh Thanh Hóa','20266','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Quảng Bình','Xã Quảng Bình','Xã Quảng Bình, Tỉnh Thanh Hóa','20522','xa','42'),
                                                                                 ('Tiên Trang','Xã Tiên Trang','Xã Tiên Trang, Tỉnh Thanh Hóa','20778','xa','42'),
                                                                                 ('Quảng Chính','Xã Quảng Chính','Xã Quảng Chính, Tỉnh Thanh Hóa','21034','xa','42'),
@@ -3331,7 +3331,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thăng Bình','Xã Thăng Bình','Xã Thăng Bình, Tỉnh Thanh Hóa','22314','xa','42'),
                                                                                 ('Tượng Lĩnh','Xã Tượng Lĩnh','Xã Tượng Lĩnh, Tỉnh Thanh Hóa','22570','xa','42'),
                                                                                 ('Thiệu Tiến','Xã Thiệu Tiến','Xã Thiệu Tiến, Tỉnh Thanh Hóa','22826','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thiệu Toán','Xã Thiệu Toán','Xã Thiệu Toán, Tỉnh Thanh Hóa','23082','xa','42'),
                                                                                 ('Yên Định','Xã Yên Định','Xã Yên Định, Tỉnh Thanh Hóa','23338','xa','42'),
                                                                                 ('Yên Trường','Xã Yên Trường','Xã Yên Trường, Tỉnh Thanh Hóa','23594','xa','42'),
@@ -3342,7 +3342,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thọ Xuân','Xã Thọ Xuân','Xã Thọ Xuân, Tỉnh Thanh Hóa','24874','xa','42'),
                                                                                 ('Thọ Long','Xã Thọ Long','Xã Thọ Long, Tỉnh Thanh Hóa','25130','xa','42'),
                                                                                 ('Xuân Hòa','Xã Xuân Hòa','Xã Xuân Hòa, Tỉnh Thanh Hóa','25386','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sao Vàng','Xã Sao Vàng','Xã Sao Vàng, Tỉnh Thanh Hóa','25642','xa','42'),
                                                                                 ('Lam Sơn','Xã Lam Sơn','Xã Lam Sơn, Tỉnh Thanh Hóa','25898','xa','42'),
                                                                                 ('Thọ Lập','Xã Thọ Lập','Xã Thọ Lập, Tỉnh Thanh Hóa','26154','xa','42'),
@@ -3353,7 +3353,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Biện Thượng','Xã Biện Thượng','Xã Biện Thượng, Tỉnh Thanh Hóa','27434','xa','42'),
                                                                                 ('Triệu Sơn','Xã Triệu Sơn','Xã Triệu Sơn, Tỉnh Thanh Hóa','27690','xa','42'),
                                                                                 ('Thọ Bình','Xã Thọ Bình','Xã Thọ Bình, Tỉnh Thanh Hóa','27946','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thọ Ngọc','Xã Thọ Ngọc','Xã Thọ Ngọc, Tỉnh Thanh Hóa','28202','xa','42'),
                                                                                 ('Hợp Tiến','Xã Hợp Tiến','Xã Hợp Tiến, Tỉnh Thanh Hóa','28458','xa','42'),
                                                                                 ('An Nông','Xã An Nông','Xã An Nông, Tỉnh Thanh Hóa','28714','xa','42'),
@@ -3364,7 +3364,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiên Phủ','Xã Thiên Phủ','Xã Thiên Phủ, Tỉnh Thanh Hóa','29994','xa','42'),
                                                                                 ('Hiền Kiệt','Xã Hiền Kiệt','Xã Hiền Kiệt, Tỉnh Thanh Hóa','30250','xa','42'),
                                                                                 ('Phú Lệ','Xã Phú Lệ','Xã Phú Lệ, Tỉnh Thanh Hóa','30506','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trung Thành','Xã Trung Thành','Xã Trung Thành, Tỉnh Thanh Hóa','30762','xa','42'),
                                                                                 ('Trung Hạ','Xã Trung Hạ','Xã Trung Hạ, Tỉnh Thanh Hóa','31018','xa','42'),
                                                                                 ('Linh Sơn','Xã Linh Sơn','Xã Linh Sơn, Tỉnh Thanh Hóa','31274','xa','42'),
@@ -3375,7 +3375,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thiết Ống','Xã Thiết Ống','Xã Thiết Ống, Tỉnh Thanh Hóa','32554','xa','42'),
                                                                                 ('Văn Nho','Xã Văn Nho','Xã Văn Nho, Tỉnh Thanh Hóa','32810','xa','42'),
                                                                                 ('Điền Quang','Xã Điền Quang','Xã Điền Quang, Tỉnh Thanh Hóa','33066','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Điền Lư','Xã Điền Lư','Xã Điền Lư, Tỉnh Thanh Hóa','33322','xa','42'),
                                                                                 ('Quý Lương','Xã Quý Lương','Xã Quý Lương, Tỉnh Thanh Hóa','33578','xa','42'),
                                                                                 ('Cổ Lũng','Xã Cổ Lũng','Xã Cổ Lũng, Tỉnh Thanh Hóa','33834','xa','42'),
@@ -3386,7 +3386,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Minh Sơn','Xã Minh Sơn','Xã Minh Sơn, Tỉnh Thanh Hóa','35114','xa','42'),
                                                                                 ('Nguyệt Ấn','Xã Nguyệt Ấn','Xã Nguyệt Ấn, Tỉnh Thanh Hóa','35370','xa','42'),
                                                                                 ('Kiên Thọ','Xã Kiên Thọ','Xã Kiên Thọ, Tỉnh Thanh Hóa','35626','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Cẩm Thạch','Xã Cẩm Thạch','Xã Cẩm Thạch, Tỉnh Thanh Hóa','35882','xa','42'),
                                                                                 ('Cẩm Thủy','Xã Cẩm Thủy','Xã Cẩm Thủy, Tỉnh Thanh Hóa','36138','xa','42'),
                                                                                 ('Cẩm Tú','Xã Cẩm Tú','Xã Cẩm Tú, Tỉnh Thanh Hóa','36394','xa','42'),
@@ -3397,7 +3397,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ngọc Trạo','Xã Ngọc Trạo','Xã Ngọc Trạo, Tỉnh Thanh Hóa','37674','xa','42'),
                                                                                 ('Thạch Bình','Xã Thạch Bình','Xã Thạch Bình, Tỉnh Thanh Hóa','37930','xa','42'),
                                                                                 ('Thành Vinh','Xã Thành Vinh','Xã Thành Vinh, Tỉnh Thanh Hóa','38186','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạch Quảng','Xã Thạch Quảng','Xã Thạch Quảng, Tỉnh Thanh Hóa','38442','xa','42'),
                                                                                 ('Như Xuân','Xã Như Xuân','Xã Như Xuân, Tỉnh Thanh Hóa','38698','xa','42'),
                                                                                 ('Thượng Ninh','Xã Thượng Ninh','Xã Thượng Ninh, Tỉnh Thanh Hóa','38954','xa','42'),
@@ -3408,7 +3408,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Xuân Du','Xã Xuân Du','Xã Xuân Du, Tỉnh Thanh Hóa','40234','xa','42'),
                                                                                 ('Mậu Lâm','Xã Mậu Lâm','Xã Mậu Lâm, Tỉnh Thanh Hóa','40490','xa','42'),
                                                                                 ('Thường Xuân','Xã Thường Xuân','Xã Thường Xuân, Tỉnh Thanh Hóa','40746','xa','42');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thắng Lộc','Xã Thắng Lộc','Xã Thắng Lộc, Tỉnh Thanh Hóa','41002','xa','42'),
                                                                                 ('Xuân Chinh','Xã Xuân Chinh','Xã Xuân Chinh, Tỉnh Thanh Hóa','41258','xa','42'),
                                                                                 ('Hạc Thành','Phường Hạc Thành','Phường Hạc Thành, Tỉnh Thanh Hóa','41514','phuong','42'),
@@ -3419,7 +3419,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Ngọc Long','Xã Ngọc Long','Xã Ngọc Long, Tỉnh Tuyên Quang','299','xa','43'),
                                                                                 ('Đồng Văn','Xã Đồng Văn','Xã Đồng Văn, Tỉnh Tuyên Quang','555','xa','43'),
                                                                                 ('Minh Sơn','Xã Minh Sơn','Xã Minh Sơn, Tỉnh Tuyên Quang','811','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Giáp Trung','Xã Giáp Trung','Xã Giáp Trung, Tỉnh Tuyên Quang','1067','xa','43'),
                                                                                 ('Hà Giang 2','Phường Hà Giang 2','Phường Hà Giang 2, Tỉnh Tuyên Quang','1323','phuong','43'),
                                                                                 ('Ngọc Đường','Xã Ngọc Đường','Xã Ngọc Đường, Tỉnh Tuyên Quang','1579','xa','43'),
@@ -3430,7 +3430,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thuận Hòa','Xã Thuận Hòa','Xã Thuận Hòa, Tỉnh Tuyên Quang','2859','xa','43'),
                                                                                 ('Thượng Sơn','Xã Thượng Sơn','Xã Thượng Sơn, Tỉnh Tuyên Quang','3115','xa','43'),
                                                                                 ('Tùng Bá','Xã Tùng Bá','Xã Tùng Bá, Tỉnh Tuyên Quang','3371','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Việt Lâm','Xã Việt Lâm','Xã Việt Lâm, Tỉnh Tuyên Quang','3627','xa','43'),
                                                                                 ('Quảng Nguyên','Xã Quảng Nguyên','Xã Quảng Nguyên, Tỉnh Tuyên Quang','3883','xa','43'),
                                                                                 ('Minh Ngọc','Xã Minh Ngọc','Xã Minh Ngọc, Tỉnh Tuyên Quang','4139','xa','43'),
@@ -3441,7 +3441,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Trung Hà','Xã Trung Hà','Xã Trung Hà, Tỉnh Tuyên Quang','5419','xa','43'),
                                                                                 ('Hùng Đức','Xã Hùng Đức','Xã Hùng Đức, Tỉnh Tuyên Quang','5675','xa','43'),
                                                                                 ('Kiến Thiết','Xã Kiến Thiết','Xã Kiến Thiết, Tỉnh Tuyên Quang','5931','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Mỹ Lâm','Phường Mỹ Lâm','Phường Mỹ Lâm, Tỉnh Tuyên Quang','6187','phuong','43'),
                                                                                 ('Tân Tiến','Xã Tân Tiến','Xã Tân Tiến, Tỉnh Tuyên Quang','6443','xa','43'),
                                                                                 ('Hoàng Su Phì','Xã Hoàng Su Phì','Xã Hoàng Su Phì, Tỉnh Tuyên Quang','6699','xa','43'),
@@ -3452,7 +3452,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Pà Vầy Sủ','Xã Pà Vầy Sủ','Xã Pà Vầy Sủ, Tỉnh Tuyên Quang','7979','xa','43'),
                                                                                 ('Nấm Dẩn','Xã Nấm Dẩn','Xã Nấm Dẩn, Tỉnh Tuyên Quang','8235','xa','43'),
                                                                                 ('Trung Thịnh','Xã Trung Thịnh','Xã Trung Thịnh, Tỉnh Tuyên Quang','8491','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Khuôn Lùng','Xã Khuôn Lùng','Xã Khuôn Lùng, Tỉnh Tuyên Quang','8747','xa','43'),
                                                                                 ('Lũng Cú','Xã Lũng Cú','Xã Lũng Cú, Tỉnh Tuyên Quang','9003','xa','43'),
                                                                                 ('Sà Phìn','Xã Sà Phìn','Xã Sà Phìn, Tỉnh Tuyên Quang','9259','xa','43'),
@@ -3463,7 +3463,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Khâu Vai','Xã Khâu Vai','Xã Khâu Vai, Tỉnh Tuyên Quang','10539','xa','43'),
                                                                                 ('Niêm Sơn','Xã Niêm Sơn','Xã Niêm Sơn, Tỉnh Tuyên Quang','10795','xa','43'),
                                                                                 ('Tát Ngà','Xã Tát Ngà','Xã Tát Ngà, Tỉnh Tuyên Quang','11051','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thắng Mố','Xã Thắng Mố','Xã Thắng Mố, Tỉnh Tuyên Quang','11307','xa','43'),
                                                                                 ('Bạch Đích','Xã Bạch Đích','Xã Bạch Đích, Tỉnh Tuyên Quang','11563','xa','43'),
                                                                                 ('Yên Minh','Xã Yên Minh','Xã Yên Minh, Tỉnh Tuyên Quang','11819','xa','43'),
@@ -3474,7 +3474,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Cán Tỷ','Xã Cán Tỷ','Xã Cán Tỷ, Tỉnh Tuyên Quang','13099','xa','43'),
                                                                                 ('Nghĩa Thuận','Xã Nghĩa Thuận','Xã Nghĩa Thuận, Tỉnh Tuyên Quang','13355','xa','43'),
                                                                                 ('Quản Bạ','Xã Quản Bạ','Xã Quản Bạ, Tỉnh Tuyên Quang','13611','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tùng Vài','Xã Tùng Vài','Xã Tùng Vài, Tỉnh Tuyên Quang','13867','xa','43'),
                                                                                 ('Yên Cường','Xã Yên Cường','Xã Yên Cường, Tỉnh Tuyên Quang','14123','xa','43'),
                                                                                 ('Đường Hồng','Xã Đường Hồng','Xã Đường Hồng, Tỉnh Tuyên Quang','14379','xa','43'),
@@ -3485,7 +3485,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Linh Hồ','Xã Linh Hồ','Xã Linh Hồ, Tỉnh Tuyên Quang','15659','xa','43'),
                                                                                 ('Bạch Ngọc','Xã Bạch Ngọc','Xã Bạch Ngọc, Tỉnh Tuyên Quang','15915','xa','43'),
                                                                                 ('Tân Quang','Xã Tân Quang','Xã Tân Quang, Tỉnh Tuyên Quang','16171','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đồng Tâm','Xã Đồng Tâm','Xã Đồng Tâm, Tỉnh Tuyên Quang','16427','xa','43'),
                                                                                 ('Liên Hiệp','Xã Liên Hiệp','Xã Liên Hiệp, Tỉnh Tuyên Quang','16683','xa','43'),
                                                                                 ('Bằng Hành','Xã Bằng Hành','Xã Bằng Hành, Tỉnh Tuyên Quang','16939','xa','43'),
@@ -3496,7 +3496,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tiên Yên','Xã Tiên Yên','Xã Tiên Yên, Tỉnh Tuyên Quang','18219','xa','43'),
                                                                                 ('Xuân Giang','Xã Xuân Giang','Xã Xuân Giang, Tỉnh Tuyên Quang','18475','xa','43'),
                                                                                 ('Bằng Lang','Xã Bằng Lang','Xã Bằng Lang, Tỉnh Tuyên Quang','18731','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Yên Thành','Xã Yên Thành','Xã Yên Thành, Tỉnh Tuyên Quang','18987','xa','43'),
                                                                                 ('Quang Bình','Xã Quang Bình','Xã Quang Bình, Tỉnh Tuyên Quang','19243','xa','43'),
                                                                                 ('Tân Trịnh','Xã Tân Trịnh','Xã Tân Trịnh, Tỉnh Tuyên Quang','19499','xa','43'),
@@ -3507,7 +3507,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Thượng Lâm','Xã Thượng Lâm','Xã Thượng Lâm, Tỉnh Tuyên Quang','20779','xa','43'),
                                                                                 ('Lâm Bình','Xã Lâm Bình','Xã Lâm Bình, Tỉnh Tuyên Quang','21035','xa','43'),
                                                                                 ('Minh Quang','Xã Minh Quang','Xã Minh Quang, Tỉnh Tuyên Quang','21291','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình An','Xã Bình An','Xã Bình An, Tỉnh Tuyên Quang','21547','xa','43'),
                                                                                 ('Côn Lôn','Xã Côn Lôn','Xã Côn Lôn, Tỉnh Tuyên Quang','21803','xa','43'),
                                                                                 ('Yên Hoa','Xã Yên Hoa','Xã Yên Hoa, Tỉnh Tuyên Quang','22059','xa','43'),
@@ -3518,7 +3518,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Lập','Xã Yên Lập','Xã Yên Lập, Tỉnh Tuyên Quang','23339','xa','43'),
                                                                                 ('Tân An','Xã Tân An','Xã Tân An, Tỉnh Tuyên Quang','23595','xa','43'),
                                                                                 ('Chiêm Hoá','Xã Chiêm Hoá','Xã Chiêm Hoá, Tỉnh Tuyên Quang','23851','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hoà An','Xã Hoà An','Xã Hoà An, Tỉnh Tuyên Quang','24107','xa','43'),
                                                                                 ('Kiên Đài','Xã Kiên Đài','Xã Kiên Đài, Tỉnh Tuyên Quang','24363','xa','43'),
                                                                                 ('Tri Phú','Xã Tri Phú','Xã Tri Phú, Tỉnh Tuyên Quang','24619','xa','43'),
@@ -3529,7 +3529,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Phù Lưu','Xã Phù Lưu','Xã Phù Lưu, Tỉnh Tuyên Quang','25899','xa','43'),
                                                                                 ('Hàm Yên','Xã Hàm Yên','Xã Hàm Yên, Tỉnh Tuyên Quang','26155','xa','43'),
                                                                                 ('Bình Xa','Xã Bình Xa','Xã Bình Xa, Tỉnh Tuyên Quang','26411','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thái Sơn','Xã Thái Sơn','Xã Thái Sơn, Tỉnh Tuyên Quang','26667','xa','43'),
                                                                                 ('Thái Hoà','Xã Thái Hoà','Xã Thái Hoà, Tỉnh Tuyên Quang','26923','xa','43'),
                                                                                 ('Hùng Lợi','Xã Hùng Lợi','Xã Hùng Lợi, Tỉnh Tuyên Quang','27179','xa','43'),
@@ -3540,7 +3540,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Yên Sơn','Xã Yên Sơn','Xã Yên Sơn, Tỉnh Tuyên Quang','28459','xa','43'),
                                                                                 ('Nhữ Khê','Xã Nhữ Khê','Xã Nhữ Khê, Tỉnh Tuyên Quang','28715','xa','43'),
                                                                                 ('Tân Trào','Xã Tân Trào','Xã Tân Trào, Tỉnh Tuyên Quang','28971','xa','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Minh Thanh','Xã Minh Thanh','Xã Minh Thanh, Tỉnh Tuyên Quang','29227','xa','43'),
                                                                                 ('Sơn Dương','Xã Sơn Dương','Xã Sơn Dương, Tỉnh Tuyên Quang','29483','xa','43'),
                                                                                 ('Bình Ca','Xã Bình Ca','Xã Bình Ca, Tỉnh Tuyên Quang','29739','xa','43'),
@@ -3551,7 +3551,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hồng Sơn','Xã Hồng Sơn','Xã Hồng Sơn, Tỉnh Tuyên Quang','31019','xa','43'),
                                                                                 ('Đông Thọ','Xã Đông Thọ','Xã Đông Thọ, Tỉnh Tuyên Quang','31275','xa','43'),
                                                                                 ('An Tường','Phường An Tường','Phường An Tường, Tỉnh Tuyên Quang','31531','phuong','43');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Thuận','Phường Bình Thuận','Phường Bình Thuận, Tỉnh Tuyên Quang','31787','phuong','43'),
                                                                                 ('Hòa Minh','Xã Hòa Minh','Xã Hòa Minh, Tỉnh Vĩnh Long','300','xa','44'),
                                                                                 ('Long Hòa','Xã Long Hòa','Xã Long Hòa, Tỉnh Vĩnh Long','556','xa','44'),
@@ -3562,7 +3562,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Bình Minh','Phường Bình Minh','Phường Bình Minh, Tỉnh Vĩnh Long','1836','phuong','44'),
                                                                                 ('Tam Bình','Xã Tam Bình','Xã Tam Bình, Tỉnh Vĩnh Long','2092','xa','44'),
                                                                                 ('Ngãi Tứ','Xã Ngãi Tứ','Xã Ngãi Tứ, Tỉnh Vĩnh Long','2348','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Trà Ôn','Xã Trà Ôn','Xã Trà Ôn, Tỉnh Vĩnh Long','2604','xa','44'),
                                                                                 ('Trà Côn','Xã Trà Côn','Xã Trà Côn, Tỉnh Vĩnh Long','2860','xa','44'),
                                                                                 ('Cái Nhum','Xã Cái Nhum','Xã Cái Nhum, Tỉnh Vĩnh Long','3116','xa','44'),
@@ -3573,7 +3573,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Long Hồ','Xã Long Hồ','Xã Long Hồ, Tỉnh Vĩnh Long','4396','xa','44'),
                                                                                 ('Phú Quới','Xã Phú Quới','Xã Phú Quới, Tỉnh Vĩnh Long','4652','xa','44'),
                                                                                 ('Thanh Đức','Phường Thanh Đức','Phường Thanh Đức, Tỉnh Vĩnh Long','4908','phuong','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Châu','Phường Long Châu','Phường Long Châu, Tỉnh Vĩnh Long','5164','phuong','44'),
                                                                                 ('Phước Hậu','Phường Phước Hậu','Phường Phước Hậu, Tỉnh Vĩnh Long','5420','phuong','44'),
                                                                                 ('Tân Hạnh','Phường Tân Hạnh','Phường Tân Hạnh, Tỉnh Vĩnh Long','5676','phuong','44'),
@@ -3584,7 +3584,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Quới An','Xã Quới An','Xã Quới An, Tỉnh Vĩnh Long','6956','xa','44'),
                                                                                 ('Trung Hiệp','Xã Trung Hiệp','Xã Trung Hiệp, Tỉnh Vĩnh Long','7212','xa','44'),
                                                                                 ('Hiếu Phụng','Xã Hiếu Phụng','Xã Hiếu Phụng, Tỉnh Vĩnh Long','7468','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Hiếu Thành','Xã Hiếu Thành','Xã Hiếu Thành, Tỉnh Vĩnh Long','7724','xa','44'),
                                                                                 ('Lục Sỹ Thành','Xã Lục Sỹ Thành','Xã Lục Sỹ Thành, Tỉnh Vĩnh Long','7980','xa','44'),
                                                                                 ('Vĩnh Xuân','Xã Vĩnh Xuân','Xã Vĩnh Xuân, Tỉnh Vĩnh Long','8236','xa','44'),
@@ -3595,7 +3595,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Quới','Xã Tân Quới','Xã Tân Quới, Tỉnh Vĩnh Long','9516','xa','44'),
                                                                                 ('Tân Lược','Xã Tân Lược','Xã Tân Lược, Tỉnh Vĩnh Long','9772','xa','44'),
                                                                                 ('Mỹ Thuận','Xã Mỹ Thuận','Xã Mỹ Thuận, Tỉnh Vĩnh Long','10028','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Đông Thành','Phường Đông Thành','Phường Đông Thành, Tỉnh Vĩnh Long','10284','phuong','44'),
                                                                                 ('Trà Vinh','Phường Trà Vinh','Phường Trà Vinh, Tỉnh Vĩnh Long','10540','phuong','44'),
                                                                                 ('Long Đức','Phường Long Đức','Phường Long Đức, Tỉnh Vĩnh Long','10796','phuong','44'),
@@ -3606,7 +3606,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân An','Xã Tân An','Xã Tân An, Tỉnh Vĩnh Long','12076','xa','44'),
                                                                                 ('Nhị Long','Xã Nhị Long','Xã Nhị Long, Tỉnh Vĩnh Long','12332','xa','44'),
                                                                                 ('Bình Phú','Xã Bình Phú','Xã Bình Phú, Tỉnh Vĩnh Long','12588','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Châu Thành','Xã Châu Thành','Xã Châu Thành, Tỉnh Vĩnh Long','12844','xa','44'),
                                                                                 ('Song Lộc','Xã Song Lộc','Xã Song Lộc, Tỉnh Vĩnh Long','13100','xa','44'),
                                                                                 ('Hưng Mỹ','Xã Hưng Mỹ','Xã Hưng Mỹ, Tỉnh Vĩnh Long','13356','xa','44'),
@@ -3617,7 +3617,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tiểu Cần','Xã Tiểu Cần','Xã Tiểu Cần, Tỉnh Vĩnh Long','14636','xa','44'),
                                                                                 ('Tân Hòa','Xã Tân Hòa','Xã Tân Hòa, Tỉnh Vĩnh Long','14892','xa','44'),
                                                                                 ('Hùng Hòa','Xã Hùng Hòa','Xã Hùng Hòa, Tỉnh Vĩnh Long','15148','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Tập Ngãi','Xã Tập Ngãi','Xã Tập Ngãi, Tỉnh Vĩnh Long','15404','xa','44'),
                                                                                 ('Cầu Ngang','Xã Cầu Ngang','Xã Cầu Ngang, Tỉnh Vĩnh Long','15660','xa','44'),
                                                                                 ('Mỹ Long','Xã Mỹ Long','Xã Mỹ Long, Tỉnh Vĩnh Long','15916','xa','44'),
@@ -3628,7 +3628,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Đại An','Xã Đại An','Xã Đại An, Tỉnh Vĩnh Long','17196','xa','44'),
                                                                                 ('Lưu Nghiệp Anh','Xã Lưu Nghiệp Anh','Xã Lưu Nghiệp Anh, Tỉnh Vĩnh Long','17452','xa','44'),
                                                                                 ('Hàm Giang','Xã Hàm Giang','Xã Hàm Giang, Tỉnh Vĩnh Long','17708','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Long Hiệp','Xã Long Hiệp','Xã Long Hiệp, Tỉnh Vĩnh Long','17964','xa','44'),
                                                                                 ('Tập Sơn','Xã Tập Sơn','Xã Tập Sơn, Tỉnh Vĩnh Long','18220','xa','44'),
                                                                                 ('Duyên Hải','Phường Duyên Hải','Phường Duyên Hải, Tỉnh Vĩnh Long','18476','phuong','44'),
@@ -3639,7 +3639,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('An Hội','Phường An Hội','Phường An Hội, Tỉnh Vĩnh Long','19756','phuong','44'),
                                                                                 ('Phú Khương','Phường Phú Khương','Phường Phú Khương, Tỉnh Vĩnh Long','20012','phuong','44'),
                                                                                 ('Bến Tre','Phường Bến Tre','Phường Bến Tre, Tỉnh Vĩnh Long','20268','phuong','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Sơn Đông','Phường Sơn Đông','Phường Sơn Đông, Tỉnh Vĩnh Long','20524','phuong','44'),
                                                                                 ('Phú Tân','Phường Phú Tân','Phường Phú Tân, Tỉnh Vĩnh Long','20780','phuong','44'),
                                                                                 ('Phú Túc','Xã Phú Túc','Xã Phú Túc, Tỉnh Vĩnh Long','21036','xa','44'),
@@ -3650,7 +3650,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Chợ Lách','Xã Chợ Lách','Xã Chợ Lách, Tỉnh Vĩnh Long','22316','xa','44'),
                                                                                 ('Vĩnh Thành','Xã Vĩnh Thành','Xã Vĩnh Thành, Tỉnh Vĩnh Long','22572','xa','44'),
                                                                                 ('Hưng Khánh Trung','Xã Hưng Khánh Trung','Xã Hưng Khánh Trung, Tỉnh Vĩnh Long','22828','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Phước Mỹ Trung','Xã Phước Mỹ Trung','Xã Phước Mỹ Trung, Tỉnh Vĩnh Long','23084','xa','44'),
                                                                                 ('Tân Thành Bình','Xã Tân Thành Bình','Xã Tân Thành Bình, Tỉnh Vĩnh Long','23340','xa','44'),
                                                                                 ('Nhuận Phú Tân','Xã Nhuận Phú Tân','Xã Nhuận Phú Tân, Tỉnh Vĩnh Long','23596','xa','44'),
@@ -3661,7 +3661,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Hương Mỹ','Xã Hương Mỹ','Xã Hương Mỹ, Tỉnh Vĩnh Long','24876','xa','44'),
                                                                                 ('Đại Điền','Xã Đại Điền','Xã Đại Điền, Tỉnh Vĩnh Long','25132','xa','44'),
                                                                                 ('Quới Điền','Xã Quới Điền','Xã Quới Điền, Tỉnh Vĩnh Long','25388','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Thạnh Phú','Xã Thạnh Phú','Xã Thạnh Phú, Tỉnh Vĩnh Long','25644','xa','44'),
                                                                                 ('An Qui','Xã An Qui','Xã An Qui, Tỉnh Vĩnh Long','25900','xa','44'),
                                                                                 ('Thạnh Hải','Xã Thạnh Hải','Xã Thạnh Hải, Tỉnh Vĩnh Long','26156','xa','44'),
@@ -3672,7 +3672,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Tân Xuân','Xã Tân Xuân','Xã Tân Xuân, Tỉnh Vĩnh Long','27436','xa','44'),
                                                                                 ('Mỹ Chánh Hòa','Xã Mỹ Chánh Hòa','Xã Mỹ Chánh Hòa, Tỉnh Vĩnh Long','27692','xa','44'),
                                                                                 ('An Ngãi Trung','Xã An Ngãi Trung','Xã An Ngãi Trung, Tỉnh Vĩnh Long','27948','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('An Hiệp','Xã An Hiệp','Xã An Hiệp, Tỉnh Vĩnh Long','28204','xa','44'),
                                                                                 ('Hưng Nhượng','Xã Hưng Nhượng','Xã Hưng Nhượng, Tỉnh Vĩnh Long','28460','xa','44'),
                                                                                 ('Giồng Trôm','Xã Giồng Trôm','Xã Giồng Trôm, Tỉnh Vĩnh Long','28716','xa','44'),
@@ -3683,7 +3683,7 @@ INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALU
                                                                                 ('Lương Hòa','Xã Lương Hòa','Xã Lương Hòa, Tỉnh Vĩnh Long','29996','xa','44'),
                                                                                 ('Thới Thuận','Xã Thới Thuận','Xã Thới Thuận, Tỉnh Vĩnh Long','30252','xa','44'),
                                                                                 ('Thạnh Phước','Xã Thạnh Phước','Xã Thạnh Phước, Tỉnh Vĩnh Long','30508','xa','44');
-INSERT INTO vn_locations (name,full_name,full_path,code,"type",parent_code) VALUES
+INSERT INTO vn_locations (name,full_name,full_path,code,group,parent_code) VALUES
                                                                                 ('Bình Đại','Xã Bình Đại','Xã Bình Đại, Tỉnh Vĩnh Long','30764','xa','44'),
                                                                                 ('Thạnh Trị','Xã Thạnh Trị','Xã Thạnh Trị, Tỉnh Vĩnh Long','31020','xa','44'),
                                                                                 ('Lộc Thuận','Xã Lộc Thuận','Xã Lộc Thuận, Tỉnh Vĩnh Long','31276','xa','44'),
