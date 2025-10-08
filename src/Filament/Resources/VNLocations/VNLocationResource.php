@@ -10,7 +10,7 @@ use Filament\Support\Icons\Heroicon;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Contracts\Support\Htmlable;
-use Ngankt2\VNLocation\Enums\VNLocationGroup;
+use Ngankt2\VNLocation\Enums\VNLocationLevel;
 use Ngankt2\VNLocation\Enums\VNLocationType;
 use Ngankt2\VNLocation\Filament\Resources\VNLocations\Pages\ManageVNLocations;
 use Ngankt2\VNLocation\Models\VNLocation;
@@ -72,8 +72,8 @@ class VNLocationResource extends Resource
                 // Loại địa điểm (tỉnh, huyện, xã,...)
                 Forms\Components\TextInput::make('group')
                     ->label(__('Loại'))
-                    ->formatStateUsing(fn($state)=>  VNLocationGroup::tryFrom($state)?->getLabel() ?? __('Không xác định'))
-                    ->prefixIcon(fn($state)=>  VNLocationGroup::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
+                    ->formatStateUsing(fn($state)=>  VNLocationLevel::tryFrom($state)?->getLabel() ?? __('Không xác định'))
+                    ->prefixIcon(fn($state)=>  VNLocationLevel::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
                     ->nullable()->inlineLabel()
                     ->maxLength(50),
 
@@ -120,9 +120,9 @@ class VNLocationResource extends Resource
                 Tables\Columns\TextColumn::make('group')
                     ->label(__('Loại')) // Label: "Loại"
                     ->badge()
-                    ->formatStateUsing(fn($state) => VNLocationGroup::tryFrom($state)?->getLabel() ?? __('Không xác định'))
-                    ->color(fn($state) => VNLocationGroup::tryFrom($state)?->getColor() ?? VNLocationGroup::XA->getColor())
-                    ->icon(fn($state) => VNLocationGroup::tryFrom($state)?->getIcon() ?? VNLocationGroup::XA->getIcon())
+                    ->formatStateUsing(fn($state) => VNLocationLevel::tryFrom($state)?->getLabel() ?? __('Không xác định'))
+                    ->color(fn($state) => VNLocationLevel::tryFrom($state)?->getColor() ?? VNLocationLevel::XA->getColor())
+                    ->icon(fn($state) => VNLocationLevel::tryFrom($state)?->getIcon() ?? VNLocationLevel::XA->getIcon())
                     ->searchable(), // Cho phép tìm kiếm theo loại
 
 
@@ -139,7 +139,7 @@ class VNLocationResource extends Resource
 
                 Tables\Filters\SelectFilter::make('group')
                     ->label(__('Loại'))
-                    ->options(VNLocationGroup::class)
+                    ->options(VNLocationLevel::class)
 
             ])
             ->recordActions([
