@@ -40,4 +40,13 @@ class VNLocation extends Model
     {
         return $this->hasMany(VnLocation::class, 'parent_code', 'code');
     }
+
+    public static function getProvince()
+    {
+        return self::query()->whereNull('parent_code')->get();
+    }
+    public static function getDistrictByProvinceCode($code)
+    {
+        return self::query()->where('parent_code',$code)->get();
+    }
 }

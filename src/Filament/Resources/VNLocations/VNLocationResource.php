@@ -70,7 +70,7 @@ class VNLocationResource extends Resource
                     ->maxLength(20),
 
                 // Loại địa điểm (tỉnh, huyện, xã,...)
-                Forms\Components\TextInput::make('group')
+                Forms\Components\TextInput::make('level')
                     ->label(__('Loại'))
                     ->formatStateUsing(fn($state)=>  VNLocationLevel::tryFrom($state)?->getLabel() ?? __('Không xác định'))
                     ->prefixIcon(fn($state)=>  VNLocationLevel::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
@@ -95,7 +95,7 @@ class VNLocationResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->defaultSort('group')
+            ->defaultSort('level')
             ->paginationPageOptions([10, 25, 50, 100])
             ->columns([
                 // Mã địa điểm
@@ -117,7 +117,7 @@ class VNLocationResource extends Resource
 
 
                 // Loại (tỉnh, huyện, xã,...)
-                Tables\Columns\TextColumn::make('group')
+                Tables\Columns\TextColumn::make('level')
                     ->label(__('Loại')) // Label: "Loại"
                     ->badge()
                     ->formatStateUsing(fn($state) => VNLocationLevel::tryFrom($state)?->getLabel() ?? __('Không xác định'))
