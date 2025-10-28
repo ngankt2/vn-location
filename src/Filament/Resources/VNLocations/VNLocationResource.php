@@ -73,7 +73,7 @@ class VNLocationResource extends Resource
                 Forms\Components\TextInput::make('level')
                     ->label(__('Loại'))
                     ->formatStateUsing(fn($state)=>  VNLocationLevel::tryFrom($state)?->getLabel() ?? __('Không xác định'))
-                    ->prefixIcon(fn($state)=>  VNLocationLevel::tryFrom($state)?->getIcon() ?? VNLocationType::XA->getIcon())
+                    ->prefixIcon(fn($state)=>  VNLocationLevel::tryFrom($state)?->getIcon() ?? VNLocationLevel::XA->getIcon())
                     ->nullable()->inlineLabel()
                     ->maxLength(50),
 
