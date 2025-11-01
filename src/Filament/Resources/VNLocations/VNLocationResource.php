@@ -1,6 +1,7 @@
 <?php
 namespace Ngankt2\VNLocation\Filament\Resources\VNLocations;
 
+use App\Filament\Admin\Clusters\Setting\SettingCluster;
 use BackedEnum;
 use Filament\Actions\ViewAction;
 use Filament\Forms;
@@ -21,15 +22,20 @@ class VNLocationResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
+    protected static bool $hasTitleCaseModelLabel = false;
+
     public static function getNavigationIcon(): string|BackedEnum|Htmlable|null
     {
         return filament('filament-vn-location-plugins')->getShowNavigationIcon() ? Heroicon::OutlinedMapPin : null;
     }
-    protected static bool $hasTitleCaseModelLabel = false;
+    public static function getCluster(): ?string
+    {
+        return config('vnlocation.resource.cluster', null);
+    }
 
     public static function getNavigationGroup(): ?string
     {
-        return __('nav.system');
+        return config('vnlocation.resource.navigation_group', __('nav.system'));
     }
 
     // 2. Thêm label để hiển thị tên thân thiện
