@@ -28,6 +28,12 @@ class VNLocationResource extends Resource
     {
         return filament('filament-vn-location-plugins')->getShowNavigationIcon() ? Heroicon::OutlinedMapPin : null;
     }
+
+    public static function getNavigationSort(): ?int
+    {
+        return config('vnlocation.resource.sort', 10);
+    }
+
     public static function getCluster(): ?string
     {
         return config('vnlocation.resource.cluster', null);
