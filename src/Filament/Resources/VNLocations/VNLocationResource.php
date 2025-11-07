@@ -20,6 +20,8 @@ class VNLocationResource extends Resource
 {
     protected static ?string $model = VNLocation::class;
 
+    protected static ?string $slug = 'dia-gioi-hanh-chinh-viet-nam';
+
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static bool $hasTitleCaseModelLabel = false;
