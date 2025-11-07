@@ -24,6 +24,9 @@ class VNLocationResource extends Resource
 
     protected static bool $hasTitleCaseModelLabel = false;
 
+
+    protected static bool $isScopedToTenant = false;
+
     public static function getNavigationIcon(): string|BackedEnum|Htmlable|null
     {
         return filament('filament-vn-location-plugins')->getShowNavigationIcon() ? Heroicon::OutlinedMapPin : null;
