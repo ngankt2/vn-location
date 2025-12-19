@@ -17,7 +17,7 @@ The data is sourced from official announcements by the Vietnamese government, in
   - `name`: Official name of the province/city (e.g., Hà Nội).
   - `full_name`: Full name with diacritics (e.g., Thành phố Hà Nội).
   - `code`: Official two-digit code (e.g., 01 for Hà Nội).
-  - `type`: Type of administrative unit (e.g., province, city).
+  - `level`: Type of administrative unit (e.g., province, city).
   - `parent_code`: Not applicable for provinces (set to NULL).
 
 ### Communes
@@ -27,7 +27,7 @@ The data is sourced from official announcements by the Vietnamese government, in
   - `name`: Name of the commune/ward (e.g., Trung Yên).
   - `full_name`: Full name with diacritics (e.g., Xã Trung Yên).
   - `code`: Unique code for the commune/ward.
-  - `type`: Type of unit (commune, ward, special_zone).
+  - `level`: Type of unit (commune, ward, special_zone).
   - `parent_code`: Code of the parent province/city.
 
 ## Files Included

@@ -4,6 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Str;
 
 return new class extends Migration
 {
@@ -16,6 +17,7 @@ return new class extends Migration
         Schema::create('vn_locations', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100);
+            $table->string('slug')->nullable()->index();
             $table->string('full_name', 255)->nullable();
             $table->string('full_path', 100)->nullable();
             $table->string('code', 20)->unique();
@@ -30,6 +32,14 @@ return new class extends Migration
             DB::table('vn_locations')
                 ->whereNull('full_path')
                 ->update(['full_path' => DB::raw('full_name')]);
+
+            DB::table('vn_locations')->orderBy('id')->chunk(500, function ($locations) {
+                foreach ($locations as $location) {
+                    DB::table('vn_locations')
+                        ->where('id', $location->id)
+                        ->update(['slug' => Str::slug($location->full_path)]);
+                }
+            });
         }
     }
 
