@@ -30,11 +30,6 @@ The data is sourced from official announcements by the Vietnamese government, in
   - `level`: Type of unit (commune, ward, special_zone).
   - `parent_code`: Code of the parent province/city.
 
-## Files Included
-- `vn_locations.sql`: SQL script to create the `vn_locations` table and insert data.
-- `vn_locations.csv`: CSV file containing the same data for easy import.
-- `vn_locations.json`: JSON file with structured data for programmatic use.
-
 ## Usage
 **COMPOSER**: 
      ```
@@ -47,12 +42,6 @@ The data is sourced from official announcements by the Vietnamese government, in
      ```bash
      mysql -u username -p database_name < vn_locations.sql
      ```
-**CSV**:
-   - Import `vn_locations.csv` into your database or spreadsheet software.
-   - Ensure the database table structure matches the fields described above.
-**JSON**:
-   - Use `vn_locations.json` for applications requiring JSON data.
-
 
 **Filament Panel**
 
