@@ -25,7 +25,16 @@ return new class extends Migration
             $table->string('parent_code', 20)->nullable();
         });
 
-        $sqlFile = __DIR__ . '/vn_locations.sql';
+        // Xác định file SQL dựa trên loại database
+        $driver = DB::connection()->getDriverName();
+        
+        if ($driver === 'mysql') {
+            $sqlFile = __DIR__ . '/vn_locations_mysql.sql';
+        } else {
+            // PostgreSQL, SQLite, và các driver khác sử dụng cú pháp chuẩn
+            $sqlFile = __DIR__ . '/vn_locations.sql';
+        }
+        
         if (file_exists($sqlFile)) {
             DB::unprepared(file_get_contents($sqlFile));
         }
