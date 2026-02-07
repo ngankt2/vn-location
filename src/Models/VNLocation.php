@@ -1,7 +1,12 @@
 <?php
+
 namespace Ngankt2\VNLocation\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
 /**
  * Class VnLocation
  *
@@ -19,34 +24,59 @@ class VNLocation extends Model
 {
 
     protected $table = 'vn_locations';
+
     protected $primaryKey = 'code';
+
     protected $keyType = 'string';
 
 
     /**
-     * Get the parent location of this location.
-     *
+     * Parent location.
      */
-    public function parent(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    public function parent(): BelongsTo
     {
-        return $this->belongsTo(VnLocation::class, 'parent_code', 'code');
+        return $this->belongsTo(self::class, 'parent_code', 'code');
     }
 
     /**
-     * Get the child locations of this location.
-     *
+     * Child locations.
      */
-    public function children(): \Illuminate\Database\Eloquent\Relations\HasMany
+    public function children(): HasMany
     {
-        return $this->hasMany(VnLocation::class, 'parent_code', 'code');
+        return $this->hasMany(self::class, 'parent_code', 'code');
+    }
+
+    /**
+     * Alias: children of a province (wards/communes).
+     */
+    public function wards(): HasMany
+    {
+        return $this->children();
+    }
+
+    /**
+     * Provinces / cities (root).
+     */
+    public function scopeProvinces(Builder $query): Builder
+    {
+        return $query->whereNull('parent_code');
+    }
+
+    /**
+     * Wards/communes (non-root).
+     */
+    public function scopeWards(Builder $query): Builder
+    {
+        return $query->whereNotNull('parent_code');
     }
 
     public static function getProvince()
     {
-        return self::query()->whereNull('parent_code')->get();
+        return self::query()->provinces()->get();
     }
-    public static function getDistrictByProvinceCode($code)
+
+    public static function getWardsByProvinceCode(string $code)
     {
-        return self::query()->where('parent_code',$code)->get();
+        return self::query()->wards()->where('parent_code', $code)->get();
     }
 }
