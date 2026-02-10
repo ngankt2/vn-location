@@ -160,7 +160,7 @@ class VNLocationResource extends Resource
                     ->searchable()
                     ->options(VNLocation::query()->whereNull('parent_code')->pluck('full_name', 'code')),
 
-                Tables\Filters\SelectFilter::make('group')
+                Tables\Filters\SelectFilter::make('level')
                     ->label(__('Loại'))
                     ->options(VNLocationLevel::class)
 
